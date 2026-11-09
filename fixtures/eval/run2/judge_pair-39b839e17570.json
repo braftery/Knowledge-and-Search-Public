@@ -1,0 +1,37 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:53-05:00",
+  "input_sha256": "39b839e17570208b3b65ae975dff809caf9d3a0cb7500e1e9f6989966a6db52e",
+  "input_ref": "duplicates:P02",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "The price I quote is an estimate",
+        "b": "Prices on this page are estimates"
+      },
+      {
+        "a": "based on the plan records I can see today",
+        "b": "based on the plan information we have today"
+      },
+      {
+        "a": "Your actual cost can change",
+        "b": "The amount you pay may differ"
+      },
+      {
+        "a": "This estimate is not a guarantee of payment",
+        "b": "An estimate is not a guarantee of payment"
+      }
+    ],
+    "reason": "Both state the same 30-day supply, preferred retail pharmacy, the same factors that can change cost, and the same no-guarantee disclaimer, differing only in voice (spoken agent quote vs. web page) and wording.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2SECLES1etWm9PNpWU",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 845,
+    "output_tokens": 238
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,12 @@
+case_id,question,role,known_fact,notes
+G01,How much is the shipping fee for a refrigerated specialty package?,Pharmacy advocate,,"The SOP points to the specialty rate card, which is not in the corpus."
+G02,What dollar amount sends a specialty case to the pharmacy director?,Pharmacy advocate,,The SOP points to the specialty rate card.
+G03,How many days does a prescriber have to schedule a peer-to-peer review after a denial?,Pharmacy advocate,,The FAQ points to the clinical operations memo.
+G04,Is there a fee to file an appeal?,Member,,The FAQ points to the member's plan document.
+G05,How long does a member usually wait for a callback?,Insurance advocate,,The policy points to the monthly operations pack.
+G06,How long does an expedited prior authorization decision take?,Pharmacy advocate,,Only the standard clock is in the corpus.
+G07,Which plans include a nurse callback?,Insurance advocate,,The policy points to the plan benefit grid.
+G08,When will the call summary show in the member portal?,Pharmacy advocate,"You may add, in your own words, that a summary of this call will appear in the member portal within two business days.",Source is the Rx script. The callback policy says two days; the draft must not mix them.
+G09,How long do I have to send the specialty intake packet?,Pharmacy advocate,Send the finished intake packet to Harbor Specialty Pharmacy before the end of the same business day.,Source is the specialty SOP.
+G10,Can a caregiver who is not authorized set up a callback?,Pharmacy advocate,A caregiver who is not listed as an authorized caller may set a callback time only.,Source is the specialty SOP.
+G11,What hours can we schedule a callback?,Insurance advocate,Schedule member callbacks on weekdays between 8:00 a.m. and 6:00 p.m. Eastern.,Source is the callback policy. Hours are illustrative.

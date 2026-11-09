@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:14-05:00",
+  "input_sha256": "0b7113bdab954de5d6126fce391470a87f0c0c6a481499d397e1f9d55d006c7e",
+  "input_ref": "drift:DR10",
+  "output": {
+    "change": "material",
+    "summary": "The callback condition changed. The old source required calling only the number the member confirmed during this conversation; the new source directs the callback to the phone number on file. This changes which number is used and removes the 'only' restriction and the in-conversation confirmation requirement.",
+    "proposed_text": "Place the callback to the phone number on file."
+  },
+  "response_id": "msg_011Cgm2Tk1Ep5J9ftz7SiR5z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 469,
+    "output_tokens": 113
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

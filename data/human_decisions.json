@@ -1,0 +1,534 @@
+{
+  "knowledge_bases": {
+    "U-RX-EDU-001-01": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-02": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-03": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-04": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-05": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-06": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-07": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-08": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-09": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-10": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-11": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-12": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-13": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-14": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-15": [
+      "shared-legal"
+    ],
+    "U-RX-EDU-001-16": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-001-17": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-01": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-02": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-03": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-04": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-05": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-06": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-07": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-08": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-09": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-10": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-11": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-12": [
+      "shared-legal"
+    ],
+    "U-RX-EDU-002-13": [
+      "pharmacy"
+    ],
+    "U-RX-EDU-002-14": [
+      "pharmacy"
+    ],
+    "U-WEB-FAQ-01": [
+      "pharmacy"
+    ],
+    "U-WEB-FAQ-02": [
+      "pharmacy"
+    ],
+    "U-WEB-FAQ-03": [
+      "pharmacy"
+    ],
+    "U-WEB-FAQ-04": [
+      "pharmacy"
+    ],
+    "U-WEB-FAQ-05": [
+      "pharmacy"
+    ],
+    "U-WEB-FAQ-06": [
+      "pharmacy"
+    ],
+    "U-BEN-COST-001-01": [
+      "benefits"
+    ],
+    "U-BEN-COST-001-02": [
+      "benefits"
+    ],
+    "U-BEN-COST-001-03": [
+      "benefits"
+    ],
+    "U-BEN-COST-001-04": [
+      "benefits"
+    ],
+    "U-BEN-COST-001-05": [
+      "benefits"
+    ],
+    "U-BEN-COST-001-06": [
+      "benefits"
+    ],
+    "U-BEN-COST-001-07": [
+      "benefits"
+    ],
+    "U-BEN-COST-001-08": [
+      "benefits"
+    ],
+    "U-BEN-COST-001-09": [
+      "benefits"
+    ]
+  },
+  "audience_overrides": {
+    "U-RX-EDU-001-09": {
+      "audience": "advocate",
+      "ai_audience": "member",
+      "channels": ["advocate_guidance", "member_chat", "voice_bot", "website"],
+      "log": "Knowledge Ops author corrected audience: member to advocate (AI suggested member)",
+      "note": "Member wording for chat, the website, and the phone is under member_texts. The channel list keeps advocate guidance, member chat, the voice bot, and the website. The website sentence stays on the merge record."
+    },
+    "U-RX-EDU-001-15": {
+      "audience": "advocate",
+      "ai_audience": "member",
+      "log": "Knowledge Ops author corrected audience: member to advocate (AI suggested member)"
+    }
+  },
+  "canonical_choices": {
+    "pricing_disclaimer": "U-RX-EDU-001-09",
+    "pairs": [
+      {
+        "kept": "U-RX-EDU-001-05",
+        "superseded": "U-RX-EDU-002-04",
+        "reason": "Legal keeps the signed script v1 wording."
+      },
+      {
+        "kept": "U-RX-EDU-001-08",
+        "superseded": "U-RX-EDU-002-06",
+        "reason": "Legal keeps the signed script v1 wording."
+      },
+      {
+        "kept": "U-RX-EDU-001-09",
+        "superseded": "U-RX-EDU-002-07",
+        "reason": "Legal keeps the signed script v1 wording."
+      },
+      {
+        "kept": "U-RX-EDU-001-16",
+        "superseded": "U-RX-EDU-002-13",
+        "reason": "Legal keeps the signed script v1 wording."
+      }
+    ]
+  },
+  "merges": [
+    {
+      "action": "Merge these three units into the member-facing text of the pricing disclaimer",
+      "unit_ids": [
+        "U-WEB-FAQ-01",
+        "U-WEB-FAQ-02",
+        "U-WEB-FAQ-03"
+      ],
+      "into_unit_id": "U-RX-EDU-001-09",
+      "member_text": "Prices on this page are estimates for a 30-day supply at a preferred retail pharmacy, based on the plan information we have today. The amount you pay may differ if the pharmacy, the days' supply, or your stage of coverage is different. An estimate is not a guarantee of payment."
+    }
+  ],
+  "watched_pairs": [
+    {
+      "label": "Pricing disclaimer",
+      "a": "U-RX-EDU-001-09",
+      "b": "U-RX-EDU-002-07"
+    },
+    {
+      "label": "Closing",
+      "a": "U-RX-EDU-001-15",
+      "b": "U-RX-EDU-002-12"
+    },
+    {
+      "label": "Specialty rule",
+      "a": "U-RX-EDU-001-13",
+      "b": "U-RX-EDU-002-11"
+    },
+    {
+      "label": "Mail-order rule",
+      "a": "U-RX-EDU-001-12",
+      "b": "U-RX-EDU-002-09"
+    },
+    {
+      "label": "Mail-order rule",
+      "a": "U-RX-EDU-001-12",
+      "b": "U-RX-EDU-002-10"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "greeting",
+      "label": "Greeting",
+      "chosen_unit_id": "U-RX-EDU-001-02",
+      "retire_unit_ids": [
+        "U-RX-EDU-002-01"
+      ],
+      "reason": "Legal keeps the signed script. The signed wording says this call may be monitored or recorded. The desk copy says to say the call may be monitored, and it does not include the word recorded.",
+      "resolve_in_demo": false
+    },
+    {
+      "id": "verification",
+      "label": "Verification",
+      "chosen_unit_id": "U-RX-EDU-001-04",
+      "retire_unit_ids": [
+        "U-RX-EDU-002-03"
+      ],
+      "reason": "Legal keeps the signed script. Any two of member ID, date of birth, or the address on file are enough. Version 2 makes the member ID mandatory.",
+      "resolve_in_demo": false
+    },
+    {
+      "id": "mail-order",
+      "label": "Mail-order rule",
+      "chosen_unit_id": "U-RX-EDU-001-12",
+      "retire_unit_ids": [
+        "U-RX-EDU-002-09",
+        "U-RX-EDU-002-10"
+      ],
+      "reason": "Legal keeps the signed script. A maintenance drug is offered as a 90-day mail order only after two retail fills in the current calendar year. The desk copy that offers mail order on the first fill is retired.",
+      "resolve_in_demo": true
+    }
+  ],
+  "channels_revision": {
+    "unit_id": "U-RX-EDU-001-09",
+    "find": "based on the plan records I can see today",
+    "replace": "based on the plan records available on this call",
+    "member_find": "based on the plan information we have today",
+    "member_replace": "based on the plan information available today",
+    "note": "Legal revises the advocate wording and the member wording together. The member wording stays usable in chat, on the website, and on the phone. Illustrative."
+  },
+  "drift_edits": {
+    "unit_id": "U-RX-EDU-001-09",
+    "material": {
+      "find": "30-day supply",
+      "replace": "31-day supply"
+    },
+    "cosmetic": {
+      "find": "supply at",
+      "replace": "supply, at"
+    }
+  },
+  "member_texts": {
+    "U-RX-EDU-001-09": {
+      "audience": "advocate",
+      "member_text": "These prices are estimates for a 30-day supply at a preferred retail pharmacy, based on the plan information we have today. The amount you pay may differ if the pharmacy, the days' supply, or your stage of coverage is different. An estimate is not a guarantee of payment.",
+      "note": "Channel-neutral member wording for chat, the website, and the phone. The website merge record keeps the sentence that says on this page. Illustrative."
+    },
+    "U-RX-EDU-001-05": {
+      "audience": "both",
+      "moved_from": "U-RX-EDU-002-04",
+      "member_text": "A caregiver needs an authorization on the account before we share the drug or the price.",
+      "note": "Moved off U-RX-EDU-002-04, which the canonical choice supersedes, onto the live script v1 unit. Wording works in chat, on the website, and on the phone."
+    },
+    "U-RX-EDU-001-12": {
+      "audience": "both",
+      "moved_from": "U-RX-EDU-002-10",
+      "member_text": "For a maintenance drug, a 90-day mail order is available after that drug has been filled at a retail pharmacy two times in the current calendar year.",
+      "note": "Moved off U-RX-EDU-002-10, which Legal retires, onto the live mail-order unit. The member wording follows the signed script, which requires two retail fills."
+    },
+    "U-RX-EDU-001-13": {
+      "audience": "both",
+      "moved_from": "U-RX-EDU-002-11",
+      "member_text": "Specialty drugs stay at Harbor Specialty Pharmacy. They are not moved to mail order.",
+      "note": "Moved off U-RX-EDU-002-11, which is not the live specialty unit, onto U-RX-EDU-001-13. Wording works in chat, on the website, and on the phone."
+    },
+    "U-RX-EDU-001-16": {
+      "audience": "both",
+      "moved_from": "U-RX-EDU-002-13",
+      "member_text": "A summary is available in the member portal within two business days.",
+      "note": "Moved off U-RX-EDU-002-13, which the canonical choice supersedes, onto the live script v1 unit. Wording works in chat, on the website, and on the phone."
+    },
+    "U-BEN-COST-001-02": {
+      "audience": "both",
+      "member_text": "This cost is an estimate for a covered in-network medical visit, based on the plan records available today. What you pay can change if the provider is out of network, if a referral is missing, or if your deductible status is different. This estimate is not a guarantee of payment.",
+      "note": "Human-approved member wording of the medical cost disclaimer. The model marked this unit audience both. Illustrative."
+    },
+    "U-BEN-COST-001-05": {
+      "audience": "both",
+      "member_text": "A specialist visit on a Harbor Medicare Advantage HMO needs a referral from your primary care doctor before the visit.",
+      "note": "Human-approved member wording. The model marked this unit audience both."
+    }
+  },
+  "held_out_questions": {
+    "written_before_model_run": true,
+    "file": "data/golden_set.csv",
+    "heldout": "yes",
+    "questions": [
+      "Does a specialist visit on a Harbor Medicare Advantage HMO need a referral?",
+      "Can I talk about the drug and the price when a caregiver has no authorization on the account?",
+      "How many days does a tiering exception decision take?"
+    ],
+    "note": "Expected answers were chosen from the source documents before any model call on these questions. They were not changed after the model ran. Illustrative."
+  },
+  "harder_dedup_variants": {
+    "written_before_model_run": true,
+    "file": "data/dedup_variants.csv",
+    "count": 5,
+    "note": "Five rows were appended before the model judged them. Labels were set from the wording: a reordered sentence and a single can-to-may change stay duplicates; any retail pharmacy and a weakened guarantee are meaningfully different; thirty-day is the same amount as 30-day. Labels were not changed after the model ran. Illustrative."
+  },
+  "applicability": {
+    "U-RX-EDU-001-01": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-02": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-03": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-04": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-05": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-06": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-07": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-08": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-09": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-10": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-11": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-12": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-13": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-14": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-15": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-16": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-001-17": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-01": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-02": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-03": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-04": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-05": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-06": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-07": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-08": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-09": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-10": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-11": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-12": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-13": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-RX-EDU-002-14": "Harbor Medicare Advantage HMO, pharmacy education calls",
+    "U-WEB-FAQ-01": "Harbor Medicare Advantage, member website",
+    "U-WEB-FAQ-02": "Harbor Medicare Advantage, member website",
+    "U-WEB-FAQ-03": "Harbor Medicare Advantage, member website",
+    "U-WEB-FAQ-04": "Harbor Medicare Advantage, member website",
+    "U-WEB-FAQ-05": "Harbor Medicare Advantage, member website",
+    "U-WEB-FAQ-06": "Harbor Medicare Advantage, member website",
+    "U-BEN-COST-001-01": "Harbor Medicare Advantage HMO, medical cost calls",
+    "U-BEN-COST-001-02": "Harbor Medicare Advantage HMO, medical cost calls",
+    "U-BEN-COST-001-03": "Harbor Medicare Advantage HMO, medical cost calls",
+    "U-BEN-COST-001-04": "Harbor Medicare Advantage HMO, medical cost calls",
+    "U-BEN-COST-001-05": "Harbor Medicare Advantage HMO, medical cost calls",
+    "U-BEN-COST-001-06": "Harbor Medicare Advantage HMO, medical cost calls",
+    "U-BEN-COST-001-07": "Harbor Medicare Advantage HMO, medical cost calls",
+    "U-BEN-COST-001-08": "Harbor Medicare Advantage HMO, medical cost calls",
+    "U-BEN-COST-001-09": "Harbor Medicare Advantage HMO, medical cost calls"
+  },
+  "review_by": {
+    "U-RX-EDU-001-01": "2027-11-06",
+    "U-RX-EDU-001-02": "2027-11-06",
+    "U-RX-EDU-001-03": "2027-11-06",
+    "U-RX-EDU-001-04": "2027-11-06",
+    "U-RX-EDU-001-05": "2027-11-06",
+    "U-RX-EDU-001-06": "2027-11-06",
+    "U-RX-EDU-001-07": "2027-11-06",
+    "U-RX-EDU-001-08": "2027-11-06",
+    "U-RX-EDU-001-09": "2027-11-06",
+    "U-RX-EDU-001-10": "2027-11-06",
+    "U-RX-EDU-001-11": "2027-11-06",
+    "U-RX-EDU-001-12": "2027-11-06",
+    "U-RX-EDU-001-13": "2026-09-30",
+    "U-RX-EDU-001-14": "2027-11-06",
+    "U-RX-EDU-001-15": "2027-11-06",
+    "U-RX-EDU-001-16": "2027-11-06",
+    "U-RX-EDU-001-17": "2027-11-06",
+    "U-RX-EDU-002-01": "2027-11-06",
+    "U-RX-EDU-002-02": "2027-11-06",
+    "U-RX-EDU-002-03": "2027-11-06",
+    "U-RX-EDU-002-04": "2027-11-06",
+    "U-RX-EDU-002-05": "2027-11-06",
+    "U-RX-EDU-002-06": "2027-11-06",
+    "U-RX-EDU-002-07": "2027-11-06",
+    "U-RX-EDU-002-08": "2027-11-06",
+    "U-RX-EDU-002-09": "2027-11-06",
+    "U-RX-EDU-002-10": "2027-11-06",
+    "U-RX-EDU-002-11": "2027-11-06",
+    "U-RX-EDU-002-12": "2027-11-06",
+    "U-RX-EDU-002-13": "2027-11-06",
+    "U-RX-EDU-002-14": "2027-11-06",
+    "U-WEB-FAQ-01": "2027-11-06",
+    "U-WEB-FAQ-02": "2027-11-06",
+    "U-WEB-FAQ-03": "2027-11-06",
+    "U-WEB-FAQ-04": "2027-11-06",
+    "U-WEB-FAQ-05": "2027-11-06",
+    "U-WEB-FAQ-06": "2027-11-06",
+    "U-BEN-COST-001-01": "2027-11-06",
+    "U-BEN-COST-001-02": "2027-11-06",
+    "U-BEN-COST-001-03": "2027-11-06",
+    "U-BEN-COST-001-04": "2027-11-06",
+    "U-BEN-COST-001-05": "2027-11-06",
+    "U-BEN-COST-001-06": "2027-11-06",
+    "U-BEN-COST-001-07": "2027-11-06",
+    "U-BEN-COST-001-08": "2027-11-06",
+    "U-BEN-COST-001-09": "2027-11-06"
+  },
+  "review_by_note": {
+    "expired_unit_id": "U-RX-EDU-001-13",
+    "expired_review_by": "2026-09-30",
+    "note": "One approved unit, the specialty pharmacy rule, has a review date before 2026-11-06 so the demo can show an expiry flag. It is not the pricing disclaimer, the unverified-caller rule, or the benefits cost disclaimer. Other units review on 2027-11-06. Illustrative."
+  },
+  "cost_or_clinical_units": [
+    "U-BEN-COST-001-01",
+    "U-BEN-COST-001-03",
+    "U-BEN-COST-001-04",
+    "U-BEN-COST-001-06",
+    "U-BEN-COST-001-08",
+    "U-RX-EDU-001-08",
+    "U-RX-EDU-001-10",
+    "U-RX-EDU-001-11",
+    "U-RX-EDU-002-06",
+    "U-RX-EDU-002-08",
+    "U-WEB-FAQ-04",
+    "U-WEB-FAQ-05"
+  ],
+  "cost_or_clinical_note": "Procedure and faq units that tell an advocate what to say about a price, a copay, or a charge. Verbatim and policy units are gated by type. Illustrative human classification.",
+  "explore_pending": {
+    "legal": ["U-RX-EDU-001-08", "U-RX-EDU-001-17", "U-BEN-COST-001-07"],
+    "author": ["U-RX-EDU-001-01", "U-RX-EDU-001-03"],
+    "note": "Explore leaves these five waiting. They are not the pricing disclaimer, the unverified-caller rule, the benefits cost disclaimer, the specialty rule, the closing, the caregiver check, or the referral rule. The three conflicts stay open. Illustrative."
+  },
+  "expected_units_v1": {
+    "file": "data/expected_units_v1.csv",
+    "written_after_first_model_run": true,
+    "note": "Hand labels for script v1 spans and types. Written after the first extraction run, because that output had already been seen. The labels were not used to change a prompt. Illustrative."
+  },
+  "explore_feedback": {
+    "label": "Illustrative",
+    "note": "Illustrative, made-up feedback from advocates and the member channel. The Explore sandbox loads these eight records.",
+    "records": [
+      {
+        "source": "advocate",
+        "role": "Pharmacy advocate",
+        "kind": "couldnt_find",
+        "question": "where is the prior authorization turnaround time",
+        "unit_id": "",
+        "note": "Searched pharmacy and shared-legal and found no unit. Illustrative.",
+        "signals": null
+      },
+      {
+        "source": "channel",
+        "role": "Member",
+        "kind": "confusing_wording",
+        "question": "does the price include my deductible",
+        "unit_id": "U-RX-EDU-001-09",
+        "note": "The member asked what deductible means in the disclaimer. Illustrative.",
+        "signals": {"searches_in_call": 1, "seconds_to_answer": 40}
+      },
+      {
+        "source": "advocate",
+        "role": "Pharmacy advocate",
+        "kind": "wrong_or_outdated",
+        "question": "is mail order still a 90 day supply",
+        "unit_id": "U-RX-EDU-001-12",
+        "note": "The advocate said the days supply looks old. Illustrative.",
+        "signals": null
+      },
+      {
+        "source": "channel",
+        "role": "Member",
+        "kind": "couldnt_find",
+        "question": "member asked whether the 90-day mail price includes shipping",
+        "unit_id": "",
+        "note": "Member chat had no approved answer about shipping on a 90-day mail fill. Illustrative.",
+        "signals": {"searches_in_call": 1, "seconds_to_answer": 8}
+      },
+      {
+        "source": "advocate",
+        "role": "Insurance advocate",
+        "kind": "not_helpful",
+        "question": "the pricing disclaimer did not help this caller",
+        "unit_id": "U-RX-EDU-001-09",
+        "note": "The advocate still needed a plain example. Illustrative.",
+        "signals": null
+      },
+      {
+        "source": "advocate",
+        "role": "Insurance advocate",
+        "kind": "hard_to_find",
+        "question": "what do I say before I quote a medical cost",
+        "unit_id": "U-BEN-COST-001-05",
+        "note": "The unit exists. It took three searches. Illustrative.",
+        "signals": {"searches_in_call": 3, "seconds_to_answer": 95}
+      },
+      {
+        "source": "channel",
+        "role": "Member",
+        "kind": "rephrased",
+        "question": "is this the price I will pay at the pharmacy",
+        "unit_id": "U-RX-EDU-001-09",
+        "note": "Member chat rephrased the pricing question. Illustrative.",
+        "signals": {"searches_in_call": 2, "seconds_to_answer": 50}
+      },
+      {
+        "source": "advocate",
+        "role": "Pharmacy advocate",
+        "kind": "slow",
+        "question": "how long does a specialty pharmacy fill take",
+        "unit_id": "U-RX-EDU-001-13",
+        "note": "The advocate waited on the answer. Illustrative.",
+        "signals": {"searches_in_call": 1, "seconds_to_answer": 180}
+      }
+    ]
+  }
+}

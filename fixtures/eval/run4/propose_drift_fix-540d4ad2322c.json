@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:32-05:00",
+  "input_sha256": "540d4ad2322c23d26ad5f0cecf22f71f089e2482a5423e8c5d10ab14f01f5519",
+  "input_ref": "drift:DR09",
+  "output": {
+    "change": "material",
+    "summary": "The source changed 'cannot' to the contraction 'can't'. The meaning is the same, but this is a change to the exact wording, not spacing, punctuation, or a typo. Because the unit reproduces this disclaimer word for word, the approved text no longer matches the source. I've classed it as material so the unit is updated and reviewed. It could be downgraded to cosmetic if exact-wording fidelity isn't required for this unit.",
+    "proposed_text": "I can't tell you whether this medicine is right for you."
+  },
+  "response_id": "msg_011Cgm2dnYJyhshZN489bJKR",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 463,
+    "output_tokens": 446
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

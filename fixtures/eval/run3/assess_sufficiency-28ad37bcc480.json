@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:38-05:00",
+  "input_sha256": "28ad37bcc48028b79b6eaa7c73b2259245accf3351e098151f58c503ecbd8440",
+  "input_ref": "search:Q05",
+  "output": {
+    "answer_unit_id": "E-SOP-09",
+    "reason": "The question asks what to read before quoting a specialty cost. E-SOP-09 is the specialty-specific estimate wording itself, so it answers that on its own. E-SOP-08 only says to read the wording word for word and does not give it. The 30-day retail disclaimers (U-RX-EDU-001-09, U-RX-EDU-002-07, E-SOP-10) do not cover specialty supply. Note that more than the stated maximum of three units were provided."
+  },
+  "response_id": "msg_011Cgm2VNCrwnnhGLaJKsSip",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2110,
+    "output_tokens": 462
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

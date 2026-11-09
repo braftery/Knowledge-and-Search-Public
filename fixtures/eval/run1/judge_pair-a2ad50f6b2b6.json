@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:56-05:00",
+  "input_sha256": "a2ad50f6b2b6eb21706b876a54a502c3b6124d49de8fd3c02367445809842721",
+  "input_ref": "duplicates:P27",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [
+      {
+        "a": "A summary of the prior authorization decision",
+        "b": "a summary of this call"
+      },
+      {
+        "a": "within 3 business days",
+        "b": "within two business days"
+      }
+    ],
+    "reason": "Statement A covers when a prior authorization decision summary is posted, while Statement B covers when a call summary is posted, so the different timeframes apply to different documents rather than contradicting each other.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2N1QmZGZWkCVrRuseE",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 720,
+    "output_tokens": 286
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

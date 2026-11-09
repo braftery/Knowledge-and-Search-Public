@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:47-05:00",
+  "input_sha256": "28ad37bcc48028b79b6eaa7c73b2259245accf3351e098151f58c503ecbd8440",
+  "input_ref": "search:Q05",
+  "output": {
+    "answer_unit_id": "E-SOP-09",
+    "reason": "E-SOP-09 gives the specialty cost estimate wording, which is what the advocate reads before quoting a specialty cost. E-SOP-08 only says to read that wording word for word, without supplying it. U-RX-EDU-001-09, U-RX-EDU-002-07 and E-SOP-10 cover 30-day retail pricing, not specialty pricing. Note: this request included about 20 units, more than the expected maximum of three."
+  },
+  "response_id": "msg_011Cgm2aPEGT4V5Piqee6o1d",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2110,
+    "output_tokens": 575
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

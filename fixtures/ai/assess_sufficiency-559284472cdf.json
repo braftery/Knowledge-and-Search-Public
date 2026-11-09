@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:17:01-05:00",
+  "input_sha256": "559284472cdf9a613cd079c0d43940511c4a362fb176ff1cabd39980067d2a39",
+  "input_ref": "Insurance advocate: rx price disclamer",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks for a prescription (Rx) price disclaimer. U-BEN-COST-001-02 is limited to covered in-network medical visits and does not mention prescriptions. The other two units cover a missing referral and how to open a visit cost answer. None of the approved units addresses prescription pricing."
+  }
+}

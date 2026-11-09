@@ -1,0 +1,13 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:08-05:00",
+  "input_sha256": "cf25fa940cf295cfdcfff645f1234811ea349d4b10eb3079f3e4086a5899de15",
+  "input_ref": "dedup_variants.csv row 1",
+  "output": {
+    "relation": "exact",
+    "differing_phrases": [],
+    "reason": "The two statements have identical text word for word; only the titles differ.",
+    "confidence": "high"
+  }
+}

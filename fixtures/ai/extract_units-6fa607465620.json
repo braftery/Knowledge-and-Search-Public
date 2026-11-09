@@ -1,0 +1,93 @@
+{
+  "task": "extract_units",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:13:36-05:00",
+  "input_sha256": "6fa607465620ca2f42e707c84579b0a0dd393ce43b5eb00a0c242715d40be98a",
+  "input_ref": "data/website_faq_excerpt.md",
+  "output": {
+    "units": [
+      {
+        "title": "Pharmacy price estimates basis",
+        "type": "policy",
+        "text": "Prices on this page are estimates for a 30-day supply at a preferred retail pharmacy, based on the plan information we have today.",
+        "source_span": "Prices on this page are estimates for a 30-day supply at a preferred retail pharmacy, based on the plan information we have today.",
+        "tags": [
+          "drug prices",
+          "estimates",
+          "30-day supply",
+          "preferred retail pharmacy"
+        ],
+        "domain": "pharmacy",
+        "audience": "member"
+      },
+      {
+        "title": "Factors that change the amount you pay",
+        "type": "policy",
+        "text": "The amount you pay may differ if the pharmacy, the days' supply, or your stage of coverage is different.",
+        "source_span": "The amount you pay may differ if the pharmacy, the days' supply, or your stage of coverage is different.",
+        "tags": [
+          "drug prices",
+          "days' supply",
+          "coverage stage",
+          "pharmacy"
+        ],
+        "domain": "pharmacy",
+        "audience": "member"
+      },
+      {
+        "title": "Estimate is not a guarantee of payment",
+        "type": "policy",
+        "text": "An estimate is not a guarantee of payment.",
+        "source_span": "An estimate is not a guarantee of payment.",
+        "tags": [
+          "drug prices",
+          "estimates",
+          "disclaimer"
+        ],
+        "domain": "pharmacy",
+        "audience": "member"
+      },
+      {
+        "title": "Why the pharmacy charged a different amount",
+        "type": "faq",
+        "text": "Q: Why did the pharmacy charge a different amount? A: The pharmacy may have used a different days' supply, or your coverage stage may have changed since you looked at this page.",
+        "source_span": "The pharmacy may have used a different days' supply, or your coverage stage may have changed since you looked at this page.",
+        "tags": [
+          "drug prices",
+          "price difference",
+          "days' supply",
+          "coverage stage"
+        ],
+        "domain": "pharmacy",
+        "audience": "member"
+      },
+      {
+        "title": "Getting the current price estimate",
+        "type": "procedure",
+        "text": "Call the number on your member ID card and an advocate can read the current estimate.",
+        "source_span": "Call the number on your member ID card and an advocate can read the current estimate.",
+        "tags": [
+          "drug prices",
+          "estimates",
+          "member services",
+          "contact"
+        ],
+        "domain": "pharmacy",
+        "audience": "member"
+      },
+      {
+        "title": "Who to call about drug prices",
+        "type": "faq",
+        "text": "Q: Who do I call? A: Call Harbor Health Member Services at the number on your ID card and ask for the pharmacy education team.",
+        "source_span": "Call Harbor Health Member Services at the number on your ID card and ask for the pharmacy education team.",
+        "tags": [
+          "contact",
+          "member services",
+          "pharmacy education team"
+        ],
+        "domain": "pharmacy",
+        "audience": "member"
+      }
+    ]
+  }
+}

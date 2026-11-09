@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:37-05:00",
+  "input_sha256": "38589d3c09544f77da7e6db168d6ef1e99080551896fb9a733843e521fdb82bc",
+  "input_ref": "search:Q11",
+  "output": {
+    "answer_unit_id": "E-CB-04",
+    "reason": "E-CB-04 directly says what goes in the desk note: the callback reason and the promised window, written before the conversation ends."
+  },
+  "response_id": "msg_011Cgm2VaACz9Yswh12ZSKum",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1812,
+    "output_tokens": 64
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

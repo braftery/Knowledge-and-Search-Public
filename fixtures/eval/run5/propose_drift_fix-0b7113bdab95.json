@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:39-05:00",
+  "input_sha256": "0b7113bdab954de5d6126fce391470a87f0c0c6a481499d397e1f9d55d006c7e",
+  "input_ref": "drift:DR10",
+  "output": {
+    "change": "material",
+    "summary": "The callback destination changed from the phone number the member confirmed during this conversation to the phone number on file, and the restrictive word 'only' was removed. This alters the verification condition for where the callback is placed.",
+    "proposed_text": "Place the callback to the phone number on file."
+  },
+  "response_id": "msg_011Cgm2ixWV6NtniC9Va6sRa",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 469,
+    "output_tokens": 98
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

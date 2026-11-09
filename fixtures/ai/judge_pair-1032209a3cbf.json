@@ -1,0 +1,18 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:32-05:00",
+  "input_sha256": "1032209a3cbfe55c70186f9d23abc2da04137302d6570ad52825dd8ffbbb3384",
+  "input_ref": "dedup_variants.csv row 9",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "30-day supply",
+        "b": "90-day supply"
+      }
+    ],
+    "reason": "Both statements are the same pricing disclaimer, but they specify different days' supply for the quoted estimate, so they cannot both be the canonical script.",
+    "confidence": "high"
+  }
+}

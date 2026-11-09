@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:55-05:00",
+  "input_sha256": "46e5517a1adf583cb6cc93008a32eee7caae69e9695a627de19e98d889642770",
+  "input_ref": "duplicates:T05",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "that drug has been filled at a retail pharmacy",
+        "b": "the member has filled that same drug at a retail pharmacy"
+      }
+    ],
+    "reason": "Both permit a 90-day mail-order supply of a maintenance drug only after two retail fills in the current calendar year; B simply names the member as the one who filled it, which A implies through its passive wording.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011CgkzuoSMECaNYKW9fZMRd",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 767,
+    "output_tokens": 299
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

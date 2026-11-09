@@ -1,0 +1,18 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:13-05:00",
+  "input_sha256": "57da1b6bb862455efc174d0ace1273f7041ff0af5b4b6696dfa78f3f7326526c",
+  "input_ref": "dedup_variants.csv row 3",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "is an estimate",
+        "b": "is actually just an estimate"
+      }
+    ],
+    "reason": "Statement B only adds the filler words \"actually just\"; the days' supply, pharmacy type, conditions for cost changes, and no-guarantee language are all the same.",
+    "confidence": "high"
+  }
+}

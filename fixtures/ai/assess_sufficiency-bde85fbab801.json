@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:13:55-05:00",
+  "input_sha256": "bde85fbab801cdc2bd6ff9060f5c43df37c95a622f0faf8e65f30e725b88f5d5",
+  "input_ref": "explore | Member: How long does a prior authorization take?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units addresses prior authorization timelines. They cover a cost estimate disclaimer, HMO specialist referral requirements, and pharmacy price differences."
+  },
+  "response_id": "msg_011CggvSjRGMfUQR6AyaGmrc",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 683,
+    "output_tokens": 75
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

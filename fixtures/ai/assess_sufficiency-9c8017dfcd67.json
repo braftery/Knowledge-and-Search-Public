@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-06T10:16:57-05:00",
+  "input_sha256": "9c8017dfcd671f20663924a6fafec72c4b4e5a384a2960631675e578c42925c1",
+  "input_ref": "explore-surface",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No approved unit states a price for Eliquis. U-RX-EDU-001-09 is only the disclaimer read with a quoted estimate, not the price itself. The other units cover verification, coverage restrictions, copay wording, closings, and FAQ routing, and none gives a dollar amount. The price would have to come from the member's plan record after verification. Note: twelve units were supplied, more than the expected three, but none answers the question."
+  },
+  "response_id": "msg_011CgmtvMrZB2P6h7eCuEWp3",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1319,
+    "output_tokens": 265
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:01-05:00",
+  "input_sha256": "89e7e569ce5a96698fdc15926149257c1bc4a24e8ccbadb304a1bae34d881133",
+  "input_ref": "search:Q17",
+  "output": {
+    "answer_unit_id": "E-SOP-06",
+    "reason": "The question asks what to record on the specialty intake form. E-SOP-06 answers this directly: record the prescriber name, the medicine name, and the diagnosis code before saving."
+  },
+  "response_id": "msg_011Cgm2g8rFLT6iX6rrdSm3B",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1812,
+    "output_tokens": 82
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:04-05:00",
+  "input_sha256": "a1fb0bce1bd4a52c720726c6768eb6a80d2df68bb02979c9305972727ce32300",
+  "input_ref": "search:Q24",
+  "output": {
+    "answer_unit_id": "U-WEB-FAQ-04",
+    "reason": "This unit answers the member's question directly. It gives the reasons a pharmacy may charge a different amount: a different days' supply, or a change in coverage stage."
+  },
+  "response_id": "msg_011Cgm2gLaSybi2AfnCGyzFx",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2075,
+    "output_tokens": 81
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

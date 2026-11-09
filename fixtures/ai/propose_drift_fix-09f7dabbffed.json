@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T16:34:41-05:00",
+  "input_sha256": "09f7dabbffedfdf3bbd263896d9c79585e10aae161d770115810b4e3830a9860",
+  "input_ref": "revised-before-cosmetic | cosmetic drift",
+  "output": {
+    "change": "cosmetic",
+    "summary": "The only difference is a comma added after \"30-day supply.\" The meaning, amounts, conditions, and required wording are unchanged, so the approved unit text stays as is.",
+    "proposed_text": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records available on this call. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment."
+  },
+  "response_id": "msg_011CggiJNb1W5i16EU8ExhhZ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 681,
+    "output_tokens": 171
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

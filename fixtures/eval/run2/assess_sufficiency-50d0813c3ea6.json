@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:33-05:00",
+  "input_sha256": "50d0813c3ea6f641b041d23ecfee96e01d0bee6c162d2f510ee537f0ea9a2303",
+  "input_ref": "search:Q16",
+  "output": {
+    "answer_unit_id": "E-PA-04",
+    "reason": "E-PA-04 directly answers the question. It says yes, a member can ask about the status of a prior authorization, and it explains how: call the number on the member ID card and ask the advocate to read the status on the request."
+  },
+  "response_id": "msg_011Cgm2Qox3DwtZVDNgH3MRD",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2071,
+    "output_tokens": 90
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

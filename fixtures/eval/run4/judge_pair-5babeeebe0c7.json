@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:24-05:00",
+  "input_sha256": "5babeeebe0c7576b0bf811f341f5a3c4669f93058dcbd7071d770b123aa17cdb",
+  "input_ref": "duplicates:P29",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Statement A covers caregivers who are not authorized callers and limits them to setting a callback time, while Statement B covers the member and authorized caregivers, so they apply to different callers and do not contradict each other.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2dF7wyzR4HNPX5fQjR",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 713,
+    "output_tokens": 263
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

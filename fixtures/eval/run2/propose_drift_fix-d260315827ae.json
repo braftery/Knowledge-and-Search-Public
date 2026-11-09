@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:11-05:00",
+  "input_sha256": "d260315827aef39b1bfc43513356419605efe8f9aea0955a10c226556f6dd998",
+  "input_ref": "drift:DR06",
+  "output": {
+    "change": "material",
+    "summary": "The submission deadline changed from the end of the same business day to the end of the next business day. That changes the timing condition, so the change is material.",
+    "proposed_text": "Send the finished intake packet to Harbor Specialty Pharmacy before the end of the next business day."
+  },
+  "response_id": "msg_011Cgm2Td5X7MeppcbougRgH",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 509,
+    "output_tokens": 95
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

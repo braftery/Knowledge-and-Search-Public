@@ -1,0 +1,49 @@
+{
+  "knowledge_bases": ["pharmacy", "benefits", "shared-legal"],
+  "roles": [
+    {
+      "role": "Knowledge Ops author",
+      "can_do": [
+        "Ingest documents",
+        "Edit proposed units",
+        "Write units from gaps"
+      ],
+      "knowledge_bases": ["pharmacy", "benefits", "shared-legal"],
+      "access": "read_write"
+    },
+    {
+      "role": "Legal / Compliance approver",
+      "can_do": [
+        "Approve, reject or retire legal and clinical units",
+        "Resolve conflicts of authority"
+      ],
+      "knowledge_bases": ["pharmacy", "benefits", "shared-legal"],
+      "access": "read"
+    },
+    {
+      "role": "Pharmacy advocate",
+      "can_do": ["Search and ask"],
+      "knowledge_bases": ["pharmacy", "shared-legal"],
+      "access": "read"
+    },
+    {
+      "role": "Insurance advocate",
+      "can_do": ["Search and ask"],
+      "knowledge_bases": ["benefits", "shared-legal"],
+      "access": "read"
+    },
+    {
+      "role": "Member chat",
+      "can_do": ["Ask"],
+      "knowledge_bases": ["pharmacy", "benefits"],
+      "audience": "member",
+      "access": "read"
+    },
+    {
+      "role": "Knowledge owner",
+      "can_do": ["View gaps and search analytics"],
+      "knowledge_bases": [],
+      "access": "all_analytics"
+    }
+  ]
+}

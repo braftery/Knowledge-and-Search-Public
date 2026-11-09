@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:15-05:00",
+  "input_sha256": "540d4ad2322c23d26ad5f0cecf22f71f089e2482a5423e8c5d10ab14f01f5519",
+  "input_ref": "drift:DR09",
+  "output": {
+    "change": "material",
+    "summary": "The source now uses the contraction \"can't\" instead of \"cannot\". The meaning is the same, but this unit reads like verbatim disclaimer wording, and a word-level change does not fit the cosmetic categories (spacing, punctuation, or typo). It is flagged as material so the unit keeps matching the source exactly. A reviewer can downgrade it to cosmetic if exact wording is not required here.",
+    "proposed_text": "I can't tell you whether this medicine is right for you."
+  },
+  "response_id": "msg_011Cgm2TjnanxBCt5Q2JryG9",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 463,
+    "output_tokens": 372
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

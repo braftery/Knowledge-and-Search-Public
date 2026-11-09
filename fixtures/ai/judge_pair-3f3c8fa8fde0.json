@@ -1,0 +1,22 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:55-05:00",
+  "input_sha256": "3f3c8fa8fde0941ba2ae02489d4cdb382442756259e5ad3e8145baed202b61c2",
+  "input_ref": "dedup_variants.csv row 15",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "an estimate for a 30-day supply at a preferred retail pharmacy",
+        "b": "an estimate for a 30-day supply of a tier 1 generic at a preferred retail pharmacy"
+      },
+      {
+        "a": "based on the plan records I can see today",
+        "b": "it applies only when the drug costs less than $10"
+      }
+    ],
+    "reason": "Statement B narrows the disclaimer to tier 1 generics costing under $10, adding eligibility conditions that contradict A's general applicability to any quoted price, and it drops A's basis in today's plan records.",
+    "confidence": "high"
+  }
+}

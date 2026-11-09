@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:46-05:00",
+  "input_sha256": "b94f8d67fbb19f000a0baecedc23e8e5a9f28ef5ad9d514a72d4489b017e7119",
+  "input_ref": "search:T15",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units states a fee for filing a prior authorization appeal. They cover who may appeal (E-PA-12), how to record an appeal (E-PA-11) and the deadline for filing (E-PA-10), but none mentions a fee, or says there is no fee."
+  },
+  "response_id": "msg_011CgkzuHs7SSBi1eozLWKHe",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1850,
+    "output_tokens": 107
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:24-05:00",
+  "input_sha256": "e4c0b803608979f5eaf7464742b98248551dd9221790bdaa7db93c9d077caa31",
+  "input_ref": "Insurance advocate: When can I offer 90-day mail order for a maintenance drug?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units cover 90-day mail order for maintenance drugs. They only address visit cost answers, the cost estimate disclaimer, and what to do when no referral is on file."
+  }
+}

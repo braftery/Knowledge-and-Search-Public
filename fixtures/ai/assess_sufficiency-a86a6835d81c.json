@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:36:29-05:00",
+  "input_sha256": "a86a6835d81c214e3d357a847f41201ed07f15a5fb706b24818420fb416dda87",
+  "input_ref": "explore-surface",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units says whether Lipitor is covered. U-RX-EDU-001-09 and U-WEB-FAQ-04 only cover pricing disclaimers and price differences. U-WEB-FAQ-05 and U-WEB-FAQ-06 only say who to call. The cost and referral units are about medical visits. No unit names Lipitor or states formulary coverage for it. Note also that six units were provided, more than the expected maximum of three."
+  },
+  "response_id": "msg_011CgkyWP77mJEECfGzwFTib",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 959,
+    "output_tokens": 169
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

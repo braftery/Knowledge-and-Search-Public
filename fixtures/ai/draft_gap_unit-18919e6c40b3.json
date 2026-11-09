@@ -1,0 +1,29 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:17:44-05:00",
+  "input_sha256": "18919e6c40b3f36ff3f1a0fa6c39c7e3f645e781db7c0750ddc4b192efe54b44",
+  "input_ref": "c2",
+  "output": {
+    "title": "When to offer 90-day mail order on a maintenance drug",
+    "type": "policy",
+    "draft_text": "For a maintenance drug, you can offer the member a 90-day mail-order supply [timing rule: on the first fill OR only after the member has filled the same drug at a retail pharmacy [number of retail fills] times in [time period]]. [Retail fill requirement: state whether any retail fills are required before the member can use 90-day mail order, and if so, how many.] To confirm the drug qualifies as a maintenance drug, [how to confirm maintenance drug status]. This applies to [plans or member groups this rule applies to].",
+    "placeholders": [
+      "[timing rule: on the first fill OR only after the member has filled the same drug at a retail pharmacy [number of retail fills] times in [time period]]",
+      "[number of retail fills]",
+      "[time period]",
+      "[Retail fill requirement: state whether any retail fills are required before the member can use 90-day mail order, and if so, how many.]",
+      "[how to confirm maintenance drug status]",
+      "[plans or member groups this rule applies to]"
+    ],
+    "author_checklist": [
+      "Resolve the conflict among approved units: U-RX-EDU-002-09 and U-RX-EDU-002-10 say 90-day mail order can be offered on the first fill with no retail fills required, while U-RX-EDU-001-12 says it can be offered only after two retail fills of the same drug in the current calendar year. Confirm which rule is current and correct.",
+      "Once the correct rule is confirmed, retire or update the conflicting approved unit(s) so advocates do not get contradictory answers.",
+      "If a retail fill requirement applies, confirm the number of fills and whether the count resets each calendar year or uses another period.",
+      "Confirm how advocates verify that a drug counts as a maintenance drug.",
+      "Confirm which plans or member groups the rule applies to, and whether any exceptions exist.",
+      "Remove any placeholder sentences that do not apply after confirmation."
+    ],
+    "suggested_kb": "pharmacy"
+  }
+}

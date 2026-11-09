@@ -1,0 +1,35 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:46-05:00",
+  "input_sha256": "d4fa6745b8981f18cdb9b56e41e1e14c0b46be236d9d357214a4df622eb0c8b9",
+  "input_ref": "gaps:G11",
+  "output": {
+    "title": "Member callback scheduling hours",
+    "type": "faq",
+    "draft_text": "Q: What hours can we schedule a callback?\n\nA: Schedule member callbacks on weekdays between 8:00 a.m. and 6:00 p.m. Eastern. (Source: approved unit U-KNOWN-FACT.)\n\nIf the member is outside the Eastern time zone, convert the requested time to Eastern before scheduling so it falls within the window.\n\nHolidays: [whether callbacks can be scheduled on company holidays, and which holidays apply].\n\nIf the member asks for a callback outside these hours: [what the advocate should offer or do instead].\n\nLatest available start time for a callback: [latest slot that can be booked before 6:00 p.m. Eastern].",
+    "placeholders": [
+      "[whether callbacks can be scheduled on company holidays, and which holidays apply]",
+      "[what the advocate should offer or do instead]",
+      "[latest slot that can be booked before 6:00 p.m. Eastern]"
+    ],
+    "author_checklist": [
+      "Confirm U-KNOWN-FACT is still current and is the authoritative source for callback hours.",
+      "Decide whether this question should be answered by linking to or surfacing U-KNOWN-FACT instead of creating a separate unit, since U-KNOWN-FACT already states the hours.",
+      "Confirm whether the weekday 8:00 a.m. to 6:00 p.m. Eastern window applies to insurance advocates and all member types, or only some teams.",
+      "Confirm the holiday rules for callback scheduling.",
+      "Confirm the process when a member requests a time outside the window.",
+      "Confirm whether a callback must start or must finish by 6:00 p.m. Eastern, and the latest bookable slot.",
+      "Confirm the time-zone conversion guidance is accurate and acceptable to include.",
+      "Confirm the correct knowledge base for insurance advocate content (suggested: benefits)."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2ZqWYF8BUXmgERLd8j",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 664,
+    "output_tokens": 835
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

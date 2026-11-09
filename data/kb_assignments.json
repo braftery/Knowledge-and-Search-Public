@@ -1,0 +1,77 @@
+{
+  "note": "Made-up knowledge base and audience assignments for the prototype. Unit ids are placeholders to reconcile after extraction. All of this data is illustrative.",
+  "units": [
+    {
+      "unit_id": "U-RX-PRICING-DISCLAIMER",
+      "title": "Rx pricing disclaimer",
+      "kb_scope": ["pharmacy"],
+      "audience": ["advocate", "member"],
+      "type": "verbatim",
+      "merged_from": ["website FAQ disclaimer"],
+      "channels": ["advocate_guidance", "member_chat", "website"]
+    },
+    {
+      "unit_id": "U-RX-VERIFY-PROCEDURE",
+      "title": "How to verify the caller",
+      "kb_scope": ["pharmacy"],
+      "audience": ["advocate"],
+      "type": "procedure",
+      "note": "One half of the mixed verification paragraph."
+    },
+    {
+      "unit_id": "U-RX-VERIFY-BEFORE-QUOTE",
+      "title": "Verify before quoting a price, tier, or formulary status",
+      "kb_scope": ["pharmacy"],
+      "audience": ["advocate"],
+      "type": "policy",
+      "note": "The other half of the mixed verification paragraph."
+    },
+    {
+      "unit_id": "U-RX-MAIL-ORDER-TWO-RETAIL-FILLS",
+      "title": "Mail order after two retail fills",
+      "kb_scope": ["pharmacy"],
+      "audience": ["advocate"],
+      "type": "policy"
+    },
+    {
+      "unit_id": "U-RX-SPECIALTY-PHARMACY",
+      "title": "Specialty drugs stay at the specialty pharmacy",
+      "kb_scope": ["pharmacy"],
+      "audience": ["advocate"],
+      "type": "policy"
+    },
+    {
+      "unit_id": "U-RX-GREETING",
+      "title": "Rx education greeting",
+      "kb_scope": ["pharmacy"],
+      "audience": ["advocate"],
+      "type": "procedure",
+      "note": "Extracted on the ingest screen. Included so that card has a knowledge base."
+    },
+    {
+      "unit_id": "U-RX-CLOSING",
+      "title": "Call closing",
+      "kb_scope": ["shared-legal"],
+      "audience": ["advocate"],
+      "type": "verbatim",
+      "channels": ["advocate_guidance"]
+    },
+    {
+      "unit_id": "U-BEN-COST-DISCLAIMER",
+      "title": "Medical cost-estimate disclaimer",
+      "kb_scope": ["benefits"],
+      "audience": ["advocate"],
+      "type": "verbatim",
+      "source": "benefits_cost_guide.md",
+      "channels": ["advocate_guidance"]
+    },
+    {
+      "unit_id": "U-BEN-SPECIALIST-REFERRAL",
+      "title": "Specialist visit needs a referral",
+      "kb_scope": ["benefits"],
+      "audience": ["advocate"],
+      "type": "policy",
+      "source": "benefits_cost_guide.md"
+    }
+  ]
+}

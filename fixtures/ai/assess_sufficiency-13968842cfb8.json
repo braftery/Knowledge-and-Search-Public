@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:13:45-05:00",
+  "input_sha256": "13968842cfb82743c22130724cee40a097253915277f8817446b941b5f6fb14e",
+  "input_ref": "explore member | Member: Do specialty drugs go through mail order?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "Neither approved unit covers specialty drugs or mail-order pharmacy. One unit is a cost estimate disclaimer and the other covers specialist visit referrals, so neither answers the question."
+  },
+  "response_id": "msg_011CggvRbL5S11BPYxFmANt3",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 580,
+    "output_tokens": 83
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

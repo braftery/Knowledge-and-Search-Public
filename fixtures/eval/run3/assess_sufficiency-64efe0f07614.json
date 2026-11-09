@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:55-05:00",
+  "input_sha256": "64efe0f076144b8d1cb1548e6ac12ec1a266923a7d96d7a28a3f16ad53b647c0",
+  "input_ref": "search:Q46",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No approved unit says when to offer a callback for a grievance. The callback units cover failed caller verification, scheduling, scripts and follow-up attempts, not grievances. None of them answers the question."
+  },
+  "response_id": "msg_011Cgm2Wp58yaT2CiySZUDon",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1736,
+    "output_tokens": 136
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

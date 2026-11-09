@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:44-05:00",
+  "input_sha256": "9711c6acb85f51e2a83755920f414d44b807d3a7dddaac8650b9c6afef477f55",
+  "input_ref": "search:Q08",
+  "output": {
+    "answer_unit_id": "E-PA-06",
+    "reason": "E-PA-06 directly answers the question. It says a standard prior authorization decision is due 7 calendar days after Harbor receives a complete request, and it notes that this figure is illustrative."
+  },
+  "response_id": "msg_011Cgm2aT2iNrKfxL2EmyL4V",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1778,
+    "output_tokens": 86
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

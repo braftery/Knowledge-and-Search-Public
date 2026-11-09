@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:12-05:00",
+  "input_sha256": "f095966e76749e528dcefba0a229ccb57aa53f9d3196c19046369ce74adc8547",
+  "input_ref": "drift:DR07",
+  "output": {
+    "change": "material",
+    "summary": "The retention period changed from 10 years to 7 years from the date of the intake.",
+    "proposed_text": "Keep the intake form and the call note for 7 years from the date of the intake."
+  },
+  "response_id": "msg_011Cgm2ThrVw1MyJfZCaV5C8",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 482,
+    "output_tokens": 70
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

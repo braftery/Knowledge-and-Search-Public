@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:23-05:00",
+  "input_sha256": "1ab73ca6fc39458de5af2c7390e9183318f104aa741217e12dcd096b165d0c50",
+  "input_ref": "Insurance advocate: What is the MOOP for this MA plan?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks for the plan's MOOP (maximum out-of-pocket) amount. None of the approved units states a MOOP. They only cover how to open a visit cost answer, the legal estimate disclaimer, and how to handle the 'is that all I pay?' follow-up."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:18:07-05:00",
+  "input_sha256": "457f640a5b6f7e1fba62d7a562a7d4b17a35ba6d3141e80cf049cc0175636f61",
+  "input_ref": "c4",
+  "output": {
+    "title": "Where to find the member website wording for a drug price estimate",
+    "type": "faq",
+    "draft_text": "Q: Where is the member website wording for the drug price estimate?\n\nA: The wording members see with a drug price estimate on the member website is located at [website page or section name, e.g. menu path to the drug price estimate tool]. The approved text for advocates is kept in [knowledge base or document location of the approved wording], owned by [owning team].\n\nWhen a member asks about a drug price estimate shown on the member website:\n1. Open [tool or screen advocates use to view the member's drug price estimate].\n2. If the wording must be read to the member, read it [word for word / in summary] as written in [location of the approved wording]: \"[approved drug price estimate wording]\".\n3. Do not use the medical visit cost disclaimer (U-BEN-COST-001-02) for drug prices. That disclaimer covers covered in-network medical visits only.\n4. If you cannot find the wording or the member sees different wording on the website, [escalation step or team to contact].",
+    "placeholders": [
+      "[website page or section name, e.g. menu path to the drug price estimate tool]",
+      "[knowledge base or document location of the approved wording]",
+      "[owning team]",
+      "[tool or screen advocates use to view the member's drug price estimate]",
+      "[word for word / in summary]",
+      "[location of the approved wording]",
+      "[approved drug price estimate wording]",
+      "[escalation step or team to contact]"
+    ],
+    "author_checklist": [
+      "Confirm that approved member website wording for drug price estimates exists, and get its exact current text from the owning team.",
+      "Confirm where the drug price estimate appears on the member website, including the page name or navigation path.",
+      "Confirm whether Legal requires the wording to be read verbatim. If so, create or link a separate Legal verbatim unit, which may belong in shared-legal, rather than embedding the text here.",
+      "Confirm which tool or screen advocates use to see a member's drug price estimate.",
+      "Confirm that the medical visit disclaimer U-BEN-COST-001-02 must not be used for drug prices, or name the correct alternative.",
+      "Confirm the escalation path when the wording is missing or does not match what the member sees.",
+      "Confirm the owning team and the review cadence so the unit stays in sync with website changes.",
+      "Confirm the correct knowledge base: pharmacy, or shared-legal if the content is mainly Legal wording."
+    ],
+    "suggested_kb": "pharmacy"
+  }
+}

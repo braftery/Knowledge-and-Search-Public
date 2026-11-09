@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:35-05:00",
+  "input_sha256": "e1992c2ed69650f4cd9eebb5d9cdaa815b057970aa35d45bd4a05e66f491c0c0",
+  "input_ref": "search:Q36",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks two things. E-SOP-06 covers what to record on the intake form. None of the approved units states a refrigerated shipping fee. Units can't be combined, so no single unit fully answers the question."
+  },
+  "response_id": "msg_011Cgm2LZ2jDw431SisbKNjx",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1863,
+    "output_tokens": 85
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

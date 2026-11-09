@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:59-05:00",
+  "input_sha256": "3f307c67e58f686abc7d4a672286ca321e0f87aba72cb75e67d211098a634add",
+  "input_ref": "Pharmacy advocate: when can i offer 90 day mail order on a maintenance drug",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The approved units conflict. U-RX-EDU-002-09 and U-RX-EDU-002-10 say 90-day mail order can be offered on the first fill with no retail fills needed. U-RX-EDU-001-12 says it can be offered only after two retail fills of the same drug in the current calendar year. No unit can be chosen as the answer until this conflict is resolved."
+  }
+}

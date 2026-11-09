@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:11-05:00",
+  "input_sha256": "aad427f1e4e044fb47105df208c84a9a3f051687b45d8c3dde3ba42a1b8db261",
+  "input_ref": "Pharmacy advocate: formulary tier, can I quote a price before I verify the member?",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-07",
+    "reason": "U-RX-EDU-001-07 answers the question directly. It says not to quote a copay, tier, or coverage limit to an unverified caller, and not to say whether a drug is on the formulary. So the advocate cannot quote a price before verifying the member."
+  }
+}

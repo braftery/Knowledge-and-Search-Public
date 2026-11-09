@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:43-05:00",
+  "input_sha256": "9c12ea36befdc898e0d804d5b59155d1f11b1ca7b773eceb0741f63a5ffcb7b6",
+  "input_ref": "search:Q31",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No approved unit settles whether a PCP referral is needed. E-SOP-05 only requires a specialty referral from the prescriber to be posted before intake. It does not say that referral must come from the PCP, so using it would misstate the requirement."
+  },
+  "response_id": "msg_011Cgm2RPRRsp1z6XSfgazAm",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1838,
+    "output_tokens": 396
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

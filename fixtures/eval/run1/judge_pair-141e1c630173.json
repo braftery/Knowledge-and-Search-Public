@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:52-05:00",
+  "input_sha256": "141e1c63017352e29f6c345bf1e8306170a89abf4e81c6e2cb7c1831443bc542",
+  "input_ref": "duplicates:P18",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "if the supply, the pharmacy, or your coverage stage is different",
+        "b": "if the supply or the pharmacy is different"
+      }
+    ],
+    "reason": "Both disclaimers cover the same specialty cost estimate, but A says a different coverage stage can change the member's cost while B leaves that condition out, so B implies the quote holds regardless of coverage stage.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2MdyRaLmW9W9oRb5zH",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 807,
+    "output_tokens": 349
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,22 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:30-05:00",
+  "input_sha256": "57715b034113d47ba2cc16127d3f1e464e0e48455fcc54616b79bd34f58e087a",
+  "input_ref": "dedup_variants.csv row 8",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy",
+        "b": "For a 30-day supply at a preferred retail pharmacy, the price I quote is an estimate"
+      },
+      {
+        "a": "Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different.",
+        "b": "If the pharmacy, the days' supply, or your stage of coverage is different, your actual cost can change."
+      }
+    ],
+    "reason": "Both statements keep the same 30-day supply, preferred retail pharmacy, change conditions, and no-guarantee language, and only reorder their clauses.",
+    "confidence": "high"
+  }
+}

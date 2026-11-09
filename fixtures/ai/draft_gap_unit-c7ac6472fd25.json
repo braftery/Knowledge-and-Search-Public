@@ -1,0 +1,39 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:18:57-05:00",
+  "input_sha256": "c7ac6472fd253822689ff331835993b19dcec9537c4b92f88425e00a11cf0863",
+  "input_ref": "c7",
+  "output": {
+    "title": "Insulin copay cap on a Prescription Drug Plan (PDP)",
+    "type": "faq",
+    "draft_text": "Question: What is the insulin copay cap on a PDP?\n\nBefore you answer: Verify the caller first. Do not quote a copay, a tier, or a coverage limit to an unverified caller, and do not say whether a drug is on the formulary (see U-RX-EDU-001-07).\n\nAnswer for a verified caller:\nOn the member's PDP, the cost-sharing cap for a covered insulin is [cap amount] per [supply period, e.g., one-month supply]. The cap applies to insulins that are [coverage condition, e.g., on the plan formulary] and dispensed at [eligible pharmacy types]. The cap applies [whether the cap applies before the deductible is met] and in [coverage phases where the cap applies].\n\nFor supplies longer than [supply period], the cap is [cap amount for extended supplies].\n\nInsulin given through [delivery method excluded or covered differently, e.g., insulin pump] is covered under [benefit that applies] and the cap [whether the cap applies to that delivery method].\n\nSuggested wording for the advocate: \"For your covered insulin, your plan limits what you pay to [cap amount] for a [supply period].\"\n\nIf the member asks \"is that my copay?\": You may say the estimate reflects the copay or coinsurance on the plan record (see U-RX-EDU-001-10).\n\nDo not promise that the pharmacy will charge that amount (see U-RX-EDU-001-11). If the member is charged more than the cap at the pharmacy, [escalation or next step for overcharge].",
+    "placeholders": [
+      "[cap amount]",
+      "[supply period, e.g., one-month supply]",
+      "[coverage condition, e.g., on the plan formulary]",
+      "[eligible pharmacy types]",
+      "[whether the cap applies before the deductible is met]",
+      "[coverage phases where the cap applies]",
+      "[cap amount for extended supplies]",
+      "[delivery method excluded or covered differently, e.g., insulin pump]",
+      "[benefit that applies]",
+      "[whether the cap applies to that delivery method]",
+      "[escalation or next step for overcharge]"
+    ],
+    "author_checklist": [
+      "Confirm the exact insulin cost-sharing cap amount for PDP members and its source document.",
+      "Confirm the supply period the cap applies to and the cap for 60- or 90-day supplies.",
+      "Confirm which insulins the cap covers, including whether they must be on the formulary.",
+      "Confirm whether the cap applies before the deductible and in every coverage phase.",
+      "Confirm which pharmacy types the cap applies to (retail, mail order, in-network only, etc.).",
+      "Confirm how insulin used with a pump or other device is covered and whether the cap applies.",
+      "Confirm whether the cap differs by plan, plan year, or member subsidy status.",
+      "Confirm the escalation path when a member is charged more than the cap.",
+      "Confirm the identity verification requirement is consistent with U-RX-EDU-001-07.",
+      "Confirm the wording does not promise a pharmacy charge, per U-RX-EDU-001-11.",
+      "Confirm the effective date and review date for this unit."
+    ],
+    "suggested_kb": "pharmacy"
+  }
+}

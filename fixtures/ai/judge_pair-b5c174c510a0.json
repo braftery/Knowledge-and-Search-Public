@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:58:36-05:00",
+  "input_sha256": "b5c174c510a079b577df499f154f2649ec4366b809ff2222e8e61f2a274a9561",
+  "input_ref": "U-RX-EDU-001-05 vs U-RX-EDU-002-04",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "If a caregiver is on the line, check the authorization on the account",
+        "b": "Caregivers need an authorization on the account"
+      },
+      {
+        "a": "before you talk about the drug or the price",
+        "b": "before any drug or price talk"
+      }
+    ],
+    "reason": "Both statements say a caregiver must have an authorization on the account before the drug or price is discussed; only the wording differs.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CggWQ5kFzgC9vrpTut3bT",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 728,
+    "output_tokens": 148
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

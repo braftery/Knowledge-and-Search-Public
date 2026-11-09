@@ -1,0 +1,139 @@
+{
+  "task": "extract_units",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:13:55-05:00",
+  "input_sha256": "3bb60d17fc01c90ac9113267c8064ed4b92e208bfa61242d0ff5f525a9384fb4",
+  "input_ref": "data/benefits_cost_guide.md",
+  "output": {
+    "units": [
+      {
+        "title": "Opening a visit cost answer",
+        "type": "procedure",
+        "text": "When a member asks what a visit will cost, say you are looking at today's plan record and keep it short. Then read the Legal verbatim block word for word before giving any dollar amount.",
+        "source_span": "Say you are looking at today's plan record. Keep it short. Then read the next block word for word, before any dollar amount.",
+        "tags": [
+          "cost-estimate",
+          "visit-cost",
+          "call-flow",
+          "verbatim-required"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "advocate"
+      },
+      {
+        "title": "Cost estimate disclaimer (Legal verbatim)",
+        "type": "verbatim",
+        "text": "The cost I quote is an estimate for a covered in-network medical visit, based on the plan records I can see today. What you pay can change if the provider is out of network, if a referral is missing, or if your deductible status is different. This estimate is not a guarantee of payment.",
+        "source_span": "The cost I quote is an estimate for a covered in-network medical visit, based on the plan records I can see today. What you pay can change if the provider is out of network, if a referral is missing, or if your deductible status is different. This estimate is not a guarantee of payment.",
+        "tags": [
+          "cost-estimate",
+          "disclaimer",
+          "legal-verbatim",
+          "legal-signed-2025-10-14"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "both"
+      },
+      {
+        "title": "Handling 'is that all I pay?' follow-up",
+        "type": "procedure",
+        "text": "When members ask \"so is that all I pay?\", stop after the verbatim line. You may point at the copay or the deductible status on the record.",
+        "source_span": "Members ask \"so is that all I pay?\" Stop after the verbatim line. You may point at the copay or the deductible status on the record.",
+        "tags": [
+          "advocate-note",
+          "cost-estimate",
+          "coaching",
+          "added-2026-02-02-not-legal-resigned"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "advocate"
+      },
+      {
+        "title": "Do not promise clinic billing amount",
+        "type": "procedure",
+        "text": "You may not promise the clinic will bill the quoted amount.",
+        "source_span": "You may not promise the clinic will bill that amount.",
+        "tags": [
+          "advocate-note",
+          "cost-estimate",
+          "no-guarantee",
+          "added-2026-02-02-not-legal-resigned"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "advocate"
+      },
+      {
+        "title": "HMO specialist visits require a referral",
+        "type": "policy",
+        "text": "A specialist visit on a Harbor Medicare Advantage HMO needs a referral from the primary care doctor on file before the visit.",
+        "source_span": "A specialist visit on a Harbor Medicare Advantage HMO needs a referral from the primary care doctor on file before the visit.",
+        "tags": [
+          "referral",
+          "specialist",
+          "HMO",
+          "Harbor Medicare Advantage"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "both"
+      },
+      {
+        "title": "Check referral before quoting specialist cost",
+        "type": "procedure",
+        "text": "Check the account for the specialist referral, and quote a cost only when the referral is there.",
+        "source_span": "Check the account for that referral, and quote a cost only when the referral is there.",
+        "tags": [
+          "referral",
+          "specialist",
+          "cost-estimate",
+          "account-check"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "advocate"
+      },
+      {
+        "title": "Illustrative $35 specialist copay (training example)",
+        "type": "policy",
+        "text": "The training example uses an in-network specialist copay of $35. That $35 figure is illustrative.",
+        "source_span": "The training example uses an in-network specialist copay of $35. That $35 figure is illustrative.",
+        "tags": [
+          "copay",
+          "specialist",
+          "in-network",
+          "illustrative-figure",
+          "training-example"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "advocate"
+      },
+      {
+        "title": "No referral on file: offer request, no price",
+        "type": "procedure",
+        "text": "If the member has no referral on file, offer to send the request to the primary care office and do not invent a price.",
+        "source_span": "If the member has no referral on file, offer to send the request to the primary care office and do not invent a price.",
+        "tags": [
+          "referral",
+          "specialist",
+          "primary-care",
+          "no-referral"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "advocate"
+      },
+      {
+        "title": "Referral required before quoting specialist copay (restatement)",
+        "type": "policy",
+        "text": "The referral has to be on the account before you quote the specialist copay, and the illustrative training copay stays $35 only for that in-network example.",
+        "source_span": "The referral has to be on the account before you quote the specialist copay, and the illustrative training copay stays $35 only for that in-network example.",
+        "tags": [
+          "referral",
+          "specialist",
+          "copay",
+          "illustrative-figure",
+          "restates-earlier-unit"
+        ],
+        "domain": "Medicare Advantage benefits cost",
+        "audience": "advocate"
+      }
+    ]
+  }
+}

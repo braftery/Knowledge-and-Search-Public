@@ -1,0 +1,38 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:28-05:00",
+  "input_sha256": "f46ff4fc5b6c3d4c6dc30b11fee2b139f85bbd323283131915da8eb8d7c1ea2c",
+  "input_ref": "gaps:G10",
+  "output": {
+    "title": "Can a caregiver who is not an authorized caller set up a callback?",
+    "type": "faq",
+    "draft_text": "Question: Can a caregiver who is not authorized set up a callback?\n\nAnswer: Yes, but only the callback time. A caregiver who is not listed as an authorized caller on the member's account may set a callback time only (source: U-KNOWN-FACT).\n\nWhat to do:\n1. Confirm whether the caller is listed as an authorized caller by [how to check authorized caller status, e.g., system and screen].\n2. If the caregiver is not listed, set the callback time they request. Record it in [system or field where callback times are recorded].\n3. Collect only the details needed to schedule the callback: [information to collect from the caregiver, e.g., callback phone number, preferred time window, time zone].\n4. Do not take any other action on the member's behalf. Explain to the caregiver that you can schedule the callback time only.\n5. If the caregiver asks how to become an authorized caller, explain [process for adding an authorized caller, including required form or member consent].\n\nSuggested wording: \"I'm able to set up a callback time for you. Because you're not listed as an authorized caller on this account, that's the only thing I can help with today. [Optional: how the member can add you as an authorized caller.]\"",
+    "placeholders": [
+      "[how to check authorized caller status, e.g., system and screen]",
+      "[system or field where callback times are recorded]",
+      "[information to collect from the caregiver, e.g., callback phone number, preferred time window, time zone]",
+      "[process for adding an authorized caller, including required form or member consent]",
+      "[Optional: how the member can add you as an authorized caller.]"
+    ],
+    "author_checklist": [
+      "Confirm that U-KNOWN-FACT is still current and approved, and that 'set a callback time only' is the complete scope allowed for an unauthorized caregiver.",
+      "Confirm how advocates verify whether a caller is listed as an authorized caller.",
+      "Confirm where and how the callback time is recorded.",
+      "Confirm exactly what information an advocate may collect from an unauthorized caregiver to schedule the callback, and whether collecting a phone number or other details is allowed.",
+      "Confirm whether the callback is placed to the member, the caregiver, or either, and what the advocate may disclose during the callback.",
+      "Confirm the process for a member to add a caregiver as an authorized caller, or remove that step if advocates should not describe it.",
+      "Confirm whether advocates may tell the caregiver anything about the reason for the callback or the member's account. The draft currently says they may not.",
+      "Review the suggested wording for compliance with privacy requirements.",
+      "Confirm that this unit belongs in the pharmacy KB and not shared-legal."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2PkuhYu5v7fpXyriuK",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 666,
+    "output_tokens": 1083
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

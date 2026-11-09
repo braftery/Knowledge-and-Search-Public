@@ -1,0 +1,42 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:38-05:00",
+  "input_sha256": "31802bbe597bad67202e072f366e30645e68238000e798211a4f333208d69650",
+  "input_ref": "gaps:G01",
+  "output": {
+    "title": "Shipping Fee for Refrigerated Specialty Medication Packages",
+    "type": "faq",
+    "draft_text": "Q: How much is the shipping fee for a refrigerated specialty package?\n\nA: Refrigerated (cold-chain) specialty medications are shipped in temperature-controlled packaging. The shipping fee for a refrigerated specialty package is [shipping fee amount] for [standard/overnight/other shipping method]. [State whether the fee is waived, covered by the plan, or charged to the member, and any conditions that apply, e.g., plan type or benefit design.]\n\nAdditional details to share with the member:\n- Expedited or special delivery options: [available options and associated fees, if any].\n- Whether the shipping fee is applied to the member's cost share (copay/coinsurance/deductible): [yes/no and how].\n- When the fee is charged: [at time of order / billed separately / other].\n- Exceptions or waivers (for example, replacement shipments for damaged or temperature-compromised packages): [exception policy].\n\nIf the member has questions about a specific charge on their order, [escalation or referral step, e.g., transfer to specialty pharmacy team at contact number].",
+    "placeholders": [
+      "[shipping fee amount]",
+      "[standard/overnight/other shipping method]",
+      "[State whether the fee is waived, covered by the plan, or charged to the member, and any conditions that apply, e.g., plan type or benefit design.]",
+      "[available options and associated fees, if any]",
+      "[yes/no and how]",
+      "[at time of order / billed separately / other]",
+      "[exception policy]",
+      "[escalation or referral step, e.g., transfer to specialty pharmacy team at contact number]"
+    ],
+    "author_checklist": [
+      "Confirm the actual shipping fee (if any) for refrigerated specialty packages and the effective date.",
+      "Confirm whether the fee differs by plan, benefit design, client, or shipping method.",
+      "Confirm whether standard refrigerated shipping is included at no cost to the member.",
+      "Confirm available expedited/special delivery options and any added charges.",
+      "Confirm whether shipping fees count toward member cost share or deductible.",
+      "Confirm how and when the fee is billed to the member.",
+      "Confirm the policy for reshipping damaged or temperature-compromised packages and whether a fee applies.",
+      "Confirm the correct escalation path or contact for disputed shipping charges.",
+      "Remove any sections or placeholders that do not apply once facts are confirmed.",
+      "Have the specialty pharmacy operations owner review and approve before publishing."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2dxHSzfbW3FnJLtk1e",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 630,
+    "output_tokens": 848
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

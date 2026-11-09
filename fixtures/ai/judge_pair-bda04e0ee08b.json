@@ -1,0 +1,13 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:10-05:00",
+  "input_sha256": "bda04e0ee08b34d22a5df4aad27a94faf1c1787170d8a1f200a45ba330bc29c8",
+  "input_ref": "dedup_variants.csv row 2",
+  "output": {
+    "relation": "exact",
+    "differing_phrases": [],
+    "reason": "The texts use identical words; they differ only in a hyphen ('30-day' vs '30 day') and a comma after 'pharmacy', which are punctuation differences.",
+    "confidence": "high"
+  }
+}

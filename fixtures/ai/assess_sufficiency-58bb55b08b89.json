@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:39-05:00",
+  "input_sha256": "58bb55b08b89001dfb46236947c418933ecb10b429947c9a060d7a755ee7174d",
+  "input_ref": "Insurance advocate: What closing line do I read at the end of an Rx education call?",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-15",
+    "reason": "Two approved Rx education units give the same closing line word for word. I chose U-RX-EDU-001-15 because it is marked Legal, which suits a line read word for word. The visit cost unit is about a different topic."
+  }
+}

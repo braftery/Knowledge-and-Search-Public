@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:00:35-05:00",
+  "input_sha256": "857634ea6d95c6b32360660d7b42422619f1a792efc80c6a1caee6f80318071b",
+  "input_ref": "U-RX-EDU-002-07 vs U-WEB-FAQ-06",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Statement A is a disclaimer about price estimates, while Statement B gives contact instructions for drug price questions, so they address different subjects.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CggWYtSs8xvNHZ2LhK61d",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 807,
+    "output_tokens": 79
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

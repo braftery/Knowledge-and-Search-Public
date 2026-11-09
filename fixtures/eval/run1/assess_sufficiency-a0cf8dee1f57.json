@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:53:58-05:00",
+  "input_sha256": "a0cf8dee1f57a1a83e31d9956fef1e83f193341fd0a3ec89064c33d3ef072067",
+  "input_ref": "search:T12",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units states a shipping fee for refrigerated specialty packages. The units cover intake copays, cost-quote wording, referrals, transfers, and callbacks, but say nothing about shipping or refrigeration charges."
+  },
+  "response_id": "msg_011CgkzqmTfvMohDEjcM35cX",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1843,
+    "output_tokens": 94
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-04T15:45:26-05:00",
+  "input_sha256": "a4439091fd08a89c6fd3cbb45d48a2b3a9367b6ef4923b2f05fa8848d549ea7d",
+  "input_ref": "explore-fresh | Member: Do I need a referral to see a specialist?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "U-BEN-COST-001-05 says a referral is needed only for Harbor Medicare Advantage HMO plans. The question doesn't say which plan the member has, and no unit covers referral rules for other plan types, so none fully answers it. The plan type should be confirmed first. The other two units, a cost estimate disclaimer and a caregiver authorization check, don't answer the question."
+  },
+  "response_id": "msg_011CgiYMKvxLbrrNpkitTTXy",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 642,
+    "output_tokens": 404
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:07-05:00",
+  "input_sha256": "94579f8992496dda2658db8718bc81eaf611b2716c1d813b5aec2b5ba347f31b",
+  "input_ref": "search:Q52",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units gives an out-of-network specialist copay. The copay units (E-CB-07 at $45, U-BEN-COST-001-07 and -09 at $35) cover only illustrative in-network examples, and they conflict with each other. The disclaimer (U-BEN-COST-001-02) only says costs can change when a provider is out of network, without giving an amount."
+  },
+  "response_id": "msg_011Cgm2cAdYEWasuX1vp4w43",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1891,
+    "output_tokens": 141
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

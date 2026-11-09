@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:41-05:00",
+  "input_sha256": "964355211bf0cdc8bf906cf60196687a3385a71a73f8ecefb4bb2d46d86655c1",
+  "input_ref": "drift:DR02",
+  "output": {
+    "change": "cosmetic",
+    "summary": "The new source drops the possessive apostrophes ('prescriber's' becomes 'prescribers', 'member's' becomes 'members'). This is a punctuation error with no change to meaning, amounts, conditions or required actions. The approved unit text should stay as is, keeping the correct apostrophes.",
+    "proposed_text": "Attach the prescriber's clinical notes and the member's current medicine list before you submit the request."
+  },
+  "response_id": "msg_011Cgm2iibKvwnWEXPNRTygz",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 498,
+    "output_tokens": 257
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:01-05:00",
+  "input_sha256": "7ad51e58a7f1a253d4ac27e94b82e9e3ae00e006a3f717e84ff838e4473cc3a3",
+  "input_ref": "search:Q38",
+  "output": {
+    "answer_unit_id": "E-CB-06",
+    "reason": "E-CB-06 answers both parts. Callbacks are scheduled on weekdays from 8:00 a.m. to 6:00 p.m. Eastern, which means weekends are not covered. Note that the unit marks these hours as illustrative, so the advocate should not treat them as confirmed live hours. No other unit addresses callback hours."
+  },
+  "response_id": "msg_011Cgm2bdLrskkH2ubVaJyzh",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1814,
+    "output_tokens": 251
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

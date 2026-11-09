@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:45:43-05:00",
+  "input_sha256": "e125b9899e02644a0750df47144447c5c4af5a590d7246bec61d4fdb0d36c810",
+  "input_ref": "jump | Pharmacy advocate: What do I say before I quote a drug price?",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-09",
+    "reason": "U-RX-EDU-001-09 is the legal pricing estimate disclaimer. It gives the exact words to say when quoting a drug price, which directly answers the question. The other two units are related checks: caregiver authorization and not giving coverage details to unverified callers. Neither one gives the statement to make before a price quote."
+  },
+  "response_id": "msg_011CggZzVAiazPabqxwcDw7J",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 667,
+    "output_tokens": 134
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:13:49-05:00",
+  "input_sha256": "e3d5e3a76011de9f449b04077b6d611bb5a834341862174974d96eaaca751a7a",
+  "input_ref": "explore member | Member: Where do I get a specialty drug?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "Neither unit says where to get a specialty drug. One is a cost estimate disclaimer and the other covers HMO specialist visit referrals, so no approved unit answers the question."
+  },
+  "response_id": "msg_011CggvSGhgQjSQ8ArnRPgKg",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 578,
+    "output_tokens": 77
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

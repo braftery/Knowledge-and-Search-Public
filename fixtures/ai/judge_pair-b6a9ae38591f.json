@@ -1,0 +1,33 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:59:11-05:00",
+  "input_sha256": "b6a9ae38591ffaf559c3743630622f95c0620402230a36fc4fac7370ed317024",
+  "input_ref": "U-RX-EDU-001-09 vs U-WEB-FAQ-03",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [
+      {
+        "a": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records I can see today.",
+        "b": ""
+      },
+      {
+        "a": "Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different.",
+        "b": ""
+      },
+      {
+        "a": "This estimate is not a guarantee of payment.",
+        "b": "An estimate is not a guarantee of payment."
+      }
+    ],
+    "reason": "B repeats only A's no-guarantee clause and drops A's 30-day supply, preferred retail pharmacy, and cost-change conditions, so the two do not carry the same obligations, though they do not contradict each other.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011CggWS9R5PPMUFnpYCc2gL",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 793,
+    "output_tokens": 458
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

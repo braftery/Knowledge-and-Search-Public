@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T16:14:19-05:00",
+  "input_sha256": "462cf0d495608ea6e06787f35da6b4f3564e993eaf4d7fe5546b4c44c65847f5",
+  "input_ref": "jump-revised | material drift after revision",
+  "output": {
+    "change": "material",
+    "summary": "The supply period in the estimate changed from a 30-day supply to a 31-day supply. This changes the quantity basis of the price quote, so the change is material.",
+    "proposed_text": "The price I quote is an estimate for a 31-day supply at a preferred retail pharmacy, based on the plan records available on this call. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment."
+  },
+  "response_id": "msg_011CgggkGiXuoXQXoXM9bKWU",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 680,
+    "output_tokens": 161
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

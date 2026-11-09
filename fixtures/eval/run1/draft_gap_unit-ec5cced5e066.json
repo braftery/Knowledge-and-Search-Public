@@ -1,0 +1,45 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:16-05:00",
+  "input_sha256": "ec5cced5e06608be62c2da2754faa524bbc08f7b81572c3f902a8f726110e840",
+  "input_ref": "gaps:G02",
+  "output": {
+    "title": "Dollar threshold for escalating a specialty pharmacy case to the pharmacy director",
+    "type": "policy",
+    "draft_text": "Specialty pharmacy cases are escalated to the pharmacy director when the [cost measure, e.g., per-fill cost, monthly cost, or annual projected cost] of the specialty medication meets or exceeds [dollar threshold amount].\n\nWhat counts toward the threshold: [describe how the dollar amount is calculated, e.g., plan-paid amount, total allowed amount, or ingredient cost; and whether it applies per claim, per month, or per year].\n\nWhen a case meets the threshold:\n1. Confirm the medication is classified as specialty under [specialty drug list or classification source].\n2. Verify the dollar amount using [system or report used to verify cost].\n3. Route the case to the pharmacy director through [escalation channel, queue, or form].\n4. Include [required case documentation, e.g., member ID, drug name, NDC, prescriber, cost details, prior authorization status].\n5. Let the member know the case is under review and that the expected review time is [review turnaround time].\n\nCases below the threshold are handled by [team or role that handles below-threshold specialty cases].\n\nExceptions: [any exceptions, e.g., urgent or expedited cases, specific drug classes, or plan types that follow a different threshold or path].\n\nIf you are unsure whether a case meets the threshold, contact [escalation contact or supervisor role].",
+    "placeholders": [
+      "[cost measure, e.g., per-fill cost, monthly cost, or annual projected cost]",
+      "[dollar threshold amount]",
+      "[describe how the dollar amount is calculated, e.g., plan-paid amount, total allowed amount, or ingredient cost; and whether it applies per claim, per month, or per year]",
+      "[specialty drug list or classification source]",
+      "[system or report used to verify cost]",
+      "[escalation channel, queue, or form]",
+      "[required case documentation, e.g., member ID, drug name, NDC, prescriber, cost details, prior authorization status]",
+      "[review turnaround time]",
+      "[team or role that handles below-threshold specialty cases]",
+      "[any exceptions, e.g., urgent or expedited cases, specific drug classes, or plan types that follow a different threshold or path]",
+      "[escalation contact or supervisor role]"
+    ],
+    "author_checklist": [
+      "Confirm the exact dollar threshold that triggers escalation to the pharmacy director and cite the source policy.",
+      "Confirm whether the threshold is measured per claim, per fill, per month, or annually, and which cost figure is used (plan-paid, allowed amount, ingredient cost, etc.).",
+      "Confirm whether the threshold differs by plan type, line of business, client, or drug class.",
+      "Confirm the definition or list used to classify a medication as specialty.",
+      "Confirm the escalation channel, required documentation, and turnaround time for pharmacy director review.",
+      "Confirm which team handles specialty cases below the threshold.",
+      "Confirm any exceptions, such as urgent or expedited requests.",
+      "Confirm the escalation contact for advocates who are unsure.",
+      "Verify that the pharmacy director role is the correct and current approver title.",
+      "Remove any steps or sections that do not apply once facts are confirmed."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2NotzqKDRNBkrkda22",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 1095
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

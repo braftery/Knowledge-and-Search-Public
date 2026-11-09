@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:49-05:00",
+  "input_sha256": "c6621a8744515a27aa01d2bbb7510ad0b33236ff2ae4ccc48ed61d44376ada83",
+  "input_ref": "search:Q32",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No approved unit gives a script for estimating an out-of-network visit cost. The Legal verbatim disclaimer (U-BEN-COST-001-02) covers estimates for in-network visits only, and it notes that out-of-network status can change what the member pays. The other units cover in-network quoting, referrals or callbacks, so none fully answers the question."
+  },
+  "response_id": "msg_011Cgm2WKcNYuv8a9Vsu4nC9",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1882,
+    "output_tokens": 217
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

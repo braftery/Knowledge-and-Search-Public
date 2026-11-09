@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:02-05:00",
+  "input_sha256": "881f73d42b3bc6c14a6fdeb05199dfdf39f04d7754ba96f1d22577b4342a014a",
+  "input_ref": "search:Q41",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No single unit answers both parts. E-CB-10 covers what we say when we call back: that Harbor Health is returning your call, with no medicine, diagnosis or claim details until you are verified. It does not cover the wait time. E-CB-09 only mentions the window we agreed and gives no length of time."
+  },
+  "response_id": "msg_011Cgm2bizggER1TSBQSkEEi",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2079,
+    "output_tokens": 218
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

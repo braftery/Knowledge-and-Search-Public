@@ -1,0 +1,45 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:42-05:00",
+  "input_sha256": "663fdcc6d373c99603a48384f86b1bfcbf5e4d01b347ebd131e8d7d6495ed047",
+  "input_ref": "gaps:G05",
+  "output": {
+    "title": "Typical wait time for a member callback",
+    "type": "faq",
+    "draft_text": "Q: How long does a member usually wait for a callback?\n\nA: When a member requests a callback, they can usually expect to hear back within [standard callback time frame, e.g., number of business hours or business days]. Callbacks are made during [callback hours of operation and time zone].\n\nWait times may be longer [conditions that extend wait times, e.g., peak enrollment periods, high call volume, or requests needing research by another department]. In those cases, the member can expect a callback within [extended callback time frame].\n\nIf the request is urgent [definition of an urgent request, e.g., a member at the pharmacy counter or an imminent procedure], [urgent request handling, e.g., warm transfer, priority queue, or escalation path] applies, and the member should be contacted within [urgent callback time frame].\n\nIf the member has not received a callback within the expected time frame, the advocate should [follow-up or escalation steps]. When setting expectations, tell the member [approved wording for setting callback expectations] and confirm the best phone number and time to reach them.\n\nIf a callback attempt is missed, [number of callback attempts] attempts are made, and [what happens after unsuccessful attempts, e.g., voicemail, secure message, or case closure].",
+    "placeholders": [
+      "[standard callback time frame, e.g., number of business hours or business days]",
+      "[callback hours of operation and time zone]",
+      "[conditions that extend wait times, e.g., peak enrollment periods, high call volume, or requests needing research by another department]",
+      "[extended callback time frame]",
+      "[definition of an urgent request, e.g., a member at the pharmacy counter or an imminent procedure]",
+      "[urgent request handling, e.g., warm transfer, priority queue, or escalation path]",
+      "[urgent callback time frame]",
+      "[follow-up or escalation steps]",
+      "[approved wording for setting callback expectations]",
+      "[number of callback attempts]",
+      "[what happens after unsuccessful attempts, e.g., voicemail, secure message, or case closure]"
+    ],
+    "author_checklist": [
+      "Confirm the official standard callback time frame and whether it is measured in business hours, business days, or calendar days.",
+      "Confirm whether the time frame is a contractual or regulatory commitment (for example, a service-level agreement or state or CMS requirement), or an internal target only.",
+      "Confirm whether callback times differ by plan type, line of business, client, or request type (for example, pharmacy, claims, or benefits questions).",
+      "Confirm callback hours of operation and the time zone used.",
+      "Confirm the definition of urgent requests and the approved priority or escalation process.",
+      "Confirm the escalation steps for members who have not received a callback within the expected window.",
+      "Confirm the number of callback attempts and what happens when attempts are unsuccessful.",
+      "Confirm the approved language advocates should use when setting expectations, and avoid promising exact times if they are not guaranteed.",
+      "Confirm the correct knowledge base and owner. Move this unit from benefits to pharmacy if callbacks are pharmacy-specific.",
+      "Verify that no existing policy or procedure conflicts with this content before approval."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2e7cnMSwcaiGSEngCP",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 614,
+    "output_tokens": 1045
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

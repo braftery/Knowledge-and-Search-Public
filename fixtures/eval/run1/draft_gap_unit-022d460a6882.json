@@ -1,0 +1,50 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:17-05:00",
+  "input_sha256": "022d460a68827f1667fa8c80beb2d8b5c16fe5bf61347f8e263c9fb984cc513c",
+  "input_ref": "gaps:G04",
+  "output": {
+    "title": "Is there a fee to file an appeal?",
+    "type": "faq",
+    "draft_text": "Question: Is there a fee to file an appeal?\n\nAnswer: [Yes/No], there [is/is not] a fee to file an appeal of a [denied claim/coverage decision/prior authorization decision] under [plan name or plan type].\n\n[If no fee:] You will not be charged to file a [first-level/internal] appeal. [Confirm whether this also applies to second-level and external review requests.]\n\n[If a fee applies:] The fee is [fee amount] for [appeal level or type]. It is paid by [payment method] to [payee]. [The fee can/cannot be waived if [waiver criteria]]. [The fee is/is not refunded if the appeal is decided in your favor.]\n\nTo file an appeal, submit your request by [submission method, e.g., mail, fax, portal, phone] to [appeals address or contact]. Appeals must be filed within [number of days] days of [triggering event, e.g., the date on the denial notice].\n\nIf you have questions about filing an appeal, contact [contact name or department] at [phone number] during [hours of operation].",
+    "placeholders": [
+      "[Yes/No]",
+      "[is/is not]",
+      "[denied claim/coverage decision/prior authorization decision]",
+      "[plan name or plan type]",
+      "[first-level/internal]",
+      "[fee amount]",
+      "[appeal level or type]",
+      "[payment method]",
+      "[payee]",
+      "[waiver criteria]",
+      "[submission method, e.g., mail, fax, portal, phone]",
+      "[appeals address or contact]",
+      "[number of days]",
+      "[triggering event, e.g., the date on the denial notice]",
+      "[contact name or department]",
+      "[phone number]",
+      "[hours of operation]"
+    ],
+    "author_checklist": [
+      "Confirm whether any fee applies to filing an appeal, and keep only the matching 'no fee' or 'fee applies' wording.",
+      "Confirm whether the answer differs by appeal level (internal, second-level, external review) and by plan or product type.",
+      "If a fee applies, confirm the amount, payment method, payee, waiver criteria, and refund policy.",
+      "Confirm which decision types this answer covers (claim denials, coverage decisions, prior authorization, pharmacy decisions).",
+      "Confirm the appeal submission methods and address or contact.",
+      "Confirm the filing deadline and the event that starts it.",
+      "Confirm the member contact number and hours for appeal questions.",
+      "Check for state- or plan-specific rules on appeal fees, and decide whether this unit belongs in benefits, pharmacy, or shared-legal.",
+      "Remove all bracketed placeholders and unused options before approval."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2Nx9M5YG9fWZJfRoks",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 607,
+    "output_tokens": 1063
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

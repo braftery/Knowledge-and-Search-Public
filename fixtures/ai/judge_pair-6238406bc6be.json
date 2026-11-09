@@ -1,0 +1,33 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:58:40-05:00",
+  "input_sha256": "6238406bc6be5cd8ddfde5f4300e12e1f6648a57350357370b5bc4c1594ce993",
+  "input_ref": "U-RX-EDU-001-08 vs U-RX-EDU-002-06",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "pricing disclaimer",
+        "b": "price disclaimer"
+      },
+      {
+        "a": "Before you say any dollar amount",
+        "b": "before giving any dollar figure"
+      },
+      {
+        "a": "Do not shorten it.",
+        "b": ""
+      }
+    ],
+    "reason": "Both require the disclaimer to be read word for word before any dollar amount is given, and 'word for word' already rules out shortening, so A's extra sentence adds no new obligation.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CggWQEzP8wda6gcbFVftS",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 744,
+    "output_tokens": 228
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,47 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:19:13-05:00",
+  "input_sha256": "7f11558408d83ba43fc5cf9128e332993d7a8bc29b71507c2989e96b7fc746c4",
+  "input_ref": "c8",
+  "output": {
+    "title": "How to start a tiering exception",
+    "type": "procedure",
+    "draft_text": "Use this when a member or their prescriber asks to have a drug covered at a lower cost-sharing tier than the one it is on.\n\n1. Confirm eligibility. Check that the drug is on the member's formulary and that the plan allows tiering exceptions for its current tier: [tiers eligible for a tiering exception]. If it is not eligible, tell the member: [what to tell the member when the drug or tier is not eligible].\n\n2. Confirm who can make the request. A tiering exception can be requested by [who may submit the request, e.g. member, prescriber, authorized representative].\n\n3. Collect the required information:\n- Member identifiers: [required member identifiers]\n- Drug name, strength and quantity: [required drug details]\n- Prescriber supporting statement: [whether a prescriber statement is required and what it must include]\n- Other documentation: [any other required documentation]\n\n4. Submit the request using [submission channel, e.g. system, form name, fax or portal]. Record it as [how to log or document the request, including case or reference number].\n\n5. Set expectations with the member:\n- Standard decision timeframe: [number of hours or days for a standard decision]\n- Expedited decision timeframe and criteria: [number of hours for an expedited decision] when [criteria for an expedited request]\n- How the member is notified: [notification method]\n- If approved, the drug is covered at [tier or cost-sharing level applied on approval] for [duration of approval].\n- If denied, the member can [appeal or next-step options and how to start them].\n\n6. Do not quote a final cost for the drug unless [approved rule or disclaimer for quoting pharmacy costs]. Do not promise approval.\n\nEscalate to [team or role for escalation] if [escalation triggers].",
+    "placeholders": [
+      "[tiers eligible for a tiering exception]",
+      "[what to tell the member when the drug or tier is not eligible]",
+      "[who may submit the request, e.g. member, prescriber, authorized representative]",
+      "[required member identifiers]",
+      "[required drug details]",
+      "[whether a prescriber statement is required and what it must include]",
+      "[any other required documentation]",
+      "[submission channel, e.g. system, form name, fax or portal]",
+      "[how to log or document the request, including case or reference number]",
+      "[number of hours or days for a standard decision]",
+      "[number of hours for an expedited decision]",
+      "[criteria for an expedited request]",
+      "[notification method]",
+      "[tier or cost-sharing level applied on approval]",
+      "[duration of approval]",
+      "[appeal or next-step options and how to start them]",
+      "[approved rule or disclaimer for quoting pharmacy costs]",
+      "[team or role for escalation]",
+      "[escalation triggers]"
+    ],
+    "author_checklist": [
+      "Confirm the definition of a tiering exception used by this plan and which formulary tiers are eligible or excluded (e.g. specialty tier).",
+      "Confirm who is permitted to submit the request and whether advocates can initiate it directly or only route it.",
+      "Confirm required documentation, including whether a prescriber supporting statement is mandatory.",
+      "Confirm the exact submission channel, form or system, and how advocates log the request and reference number.",
+      "Confirm standard and expedited decision timeframes and the criteria for expedited review, including any regulatory requirements by plan type (e.g. Medicare Part D, commercial).",
+      "Confirm how members are notified of the decision.",
+      "Confirm the cost-sharing applied after approval and how long an approval lasts (e.g. plan year, refills).",
+      "Confirm denial and appeal options and how advocates should describe them.",
+      "Confirm whether Legal requires a verbatim disclaimer for pharmacy cost discussions; the existing cost disclaimer U-BEN-COST-001-02 covers only in-network medical visits and should not be reused for drugs without Legal approval.",
+      "Confirm escalation path and triggers.",
+      "Confirm whether this unit belongs in the pharmacy KB or benefits KB and cross-link related formulary and prior authorization units if they exist."
+    ],
+    "suggested_kb": "pharmacy"
+  }
+}

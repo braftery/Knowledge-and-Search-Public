@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:45-05:00",
+  "input_sha256": "d68743343b7f759cdc4576f0a12f75f82718326601787be80c2d6dea73ca5222",
+  "input_ref": "search:Q09",
+  "output": {
+    "answer_unit_id": "E-PA-10",
+    "reason": "E-PA-10 answers the question directly: a member may file an appeal up to 60 calendar days after the date on the decision letter. The unit marks this figure as illustrative."
+  },
+  "response_id": "msg_011Cgm2aZ7qpYdo62dum2Kkq",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1878,
+    "output_tokens": 80
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

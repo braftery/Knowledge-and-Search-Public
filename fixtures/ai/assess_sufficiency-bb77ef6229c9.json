@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T15:35:06-05:00",
+  "input_sha256": "bb77ef6229c9ecb5767b9ac47b1b2732a357b1cc1c85fef53877404a903bf3ad",
+  "input_ref": "jump-revised | Pharmacy advocate: How many days does a tiering exception decision take?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No approved unit gives a timeframe for a tiering exception decision. U-RX-EDU-001-16 mentions two business days, but that is for the portal call summary, not exception decisions. The other two units cover pricing estimates and pharmacy charge differences."
+  },
+  "response_id": "msg_011CggdksJ4phLbSEqWfQZWa",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 681,
+    "output_tokens": 103
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:52-05:00",
+  "input_sha256": "355490849b44246875115d8eaa6f382dbca43b4a46672c12547f0705689839ee",
+  "input_ref": "duplicates:T04",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "Until the caller is verified, do not give",
+        "b": "Do not quote ... to an unverified caller"
+      }
+    ],
+    "reason": "Both statements bar sharing copays, tiers, coverage limits, and formulary status with a caller who has not been verified; only the wording differs.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgkzumwocz3oVpeLGiwKX",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 753,
+    "output_tokens": 120
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

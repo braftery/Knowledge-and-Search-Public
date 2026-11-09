@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:03-05:00",
+  "input_sha256": "e52c91d3ff2e61f8cf32da3822a6111e609b3b66630df26f4e7705cb6c8b6816",
+  "input_ref": "search:Q42",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No approved unit explains how to verify a caller on a specialty pharmacy intake call. E-CB-01 only says to offer a callback when the caller cannot be verified with two identifiers. It does not name the identifiers or give a verification procedure, and no unit covers specialty pharmacy intake."
+  },
+  "response_id": "msg_011Cgm2bn8wptB2r2Zm13E1D",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1840,
+    "output_tokens": 212
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

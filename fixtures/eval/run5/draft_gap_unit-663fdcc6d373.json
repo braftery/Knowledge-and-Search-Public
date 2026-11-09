@@ -1,0 +1,47 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:52-05:00",
+  "input_sha256": "663fdcc6d373c99603a48384f86b1bfcbf5e4d01b347ebd131e8d7d6495ed047",
+  "input_ref": "gaps:G05",
+  "output": {
+    "title": "Typical wait time for a member callback",
+    "type": "faq",
+    "draft_text": "Question: How long does a member usually wait for a callback?\n\nAnswer: After a callback is requested, a member can usually expect a call back within [standard callback timeframe, e.g., number of business hours or business days]. Callbacks are made during [callback hours of operation and time zone]. Wait times may be longer [conditions that extend wait times, e.g., peak enrollment periods, holidays, high call volume].\n\nIf the request is urgent, such as [examples of urgent situations that qualify for faster handling], the member can expect a callback within [urgent callback timeframe], or should [alternative contact method for urgent needs].\n\nWe will make [number of callback attempts] attempt(s) to reach the member. If we cannot reach them, we will [what happens after missed callback attempts, e.g., leave a voicemail, send a message, close the request].\n\nIf the member has not received a callback within [timeframe after which member should follow up], they can [follow-up steps, e.g., call the main line at [phone number], reference their request number].\n\nAdvocate tip: Set expectations by telling the member [script or key points advocates should communicate when scheduling a callback].",
+    "placeholders": [
+      "[standard callback timeframe, e.g., number of business hours or business days]",
+      "[callback hours of operation and time zone]",
+      "[conditions that extend wait times, e.g., peak enrollment periods, holidays, high call volume]",
+      "[examples of urgent situations that qualify for faster handling]",
+      "[urgent callback timeframe]",
+      "[alternative contact method for urgent needs]",
+      "[number of callback attempts]",
+      "[what happens after missed callback attempts, e.g., leave a voicemail, send a message, close the request]",
+      "[timeframe after which member should follow up]",
+      "[follow-up steps, e.g., call the main line at [phone number], reference their request number]",
+      "[phone number]",
+      "[script or key points advocates should communicate when scheduling a callback]"
+    ],
+    "author_checklist": [
+      "Confirm the standard callback timeframe and whether it is measured in business hours, business days, or calendar days.",
+      "Confirm whether the timeframe is a service-level commitment or a typical or average wait, and word the answer accordingly.",
+      "Confirm callback hours of operation and the time zone used.",
+      "Confirm whether callback times differ by request type, such as pharmacy, benefits, or claims, and whether separate units are needed.",
+      "Confirm whether an expedited or urgent callback process exists, what qualifies, and its timeframe.",
+      "Confirm the number of callback attempts and what happens when the member cannot be reached.",
+      "Confirm the escalation or follow-up path and the correct contact number if a callback is missed.",
+      "Confirm known periods of longer waits, such as open enrollment or holidays, and whether to mention them.",
+      "Check for contractual, regulatory, or client-specific callback requirements that override the general timeframe.",
+      "Identify the content owner and set a review date, since operational timeframes change.",
+      "Confirm the correct knowledge base for this unit."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2jF4t6j9JuWDE8vWFm",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 614,
+    "output_tokens": 1004
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

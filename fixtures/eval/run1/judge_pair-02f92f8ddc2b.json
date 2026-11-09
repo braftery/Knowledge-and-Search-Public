@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:54-05:00",
+  "input_sha256": "02f92f8ddc2bfc6b65a309e733d66fe301a38566d9ce2537ae79a3471a8cb063",
+  "input_ref": "duplicates:P22",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "Only the prescriber",
+        "b": "The member or the prescriber"
+      }
+    ],
+    "reason": "Statement A restricts opening a prior authorization request to the prescriber alone, while Statement B also allows the member to open one, so they cannot both be true.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2MkdXWkg1puGny7cuN",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 700,
+    "output_tokens": 109
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

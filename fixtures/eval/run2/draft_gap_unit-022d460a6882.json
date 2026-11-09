@@ -1,0 +1,47 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:22-05:00",
+  "input_sha256": "022d460a68827f1667fa8c80beb2d8b5c16fe5bf61347f8e263c9fb984cc513c",
+  "input_ref": "gaps:G04",
+  "output": {
+    "title": "Is there a fee to file an appeal?",
+    "type": "faq",
+    "draft_text": "Question: Is there a fee to file an appeal?\n\nAnswer: [Yes/No], there [is/is not] a fee to file an appeal. [If a fee applies: The fee is [fee amount], and it is paid by [payment method] at [point in the appeal process when payment is due]. [Fee waiver or refund conditions, if any].]\n\nThis applies to [types of appeals covered, e.g., internal appeals, external reviews, pharmacy coverage appeals]. [If different appeal levels have different fee rules, describe each level and its fee.]\n\nTo file an appeal, the member can [how to submit an appeal, e.g., phone, mail, online portal, fax] within [number of days] of [triggering event, e.g., the date on the denial notice]. [Any required documents or information.]\n\nIf you have questions about your appeal, contact [contact channel and hours].",
+    "placeholders": [
+      "[Yes/No]",
+      "[is/is not]",
+      "[fee amount]",
+      "[payment method]",
+      "[point in the appeal process when payment is due]",
+      "[Fee waiver or refund conditions, if any]",
+      "[types of appeals covered, e.g., internal appeals, external reviews, pharmacy coverage appeals]",
+      "[If different appeal levels have different fee rules, describe each level and its fee.]",
+      "[how to submit an appeal, e.g., phone, mail, online portal, fax]",
+      "[number of days]",
+      "[triggering event, e.g., the date on the denial notice]",
+      "[Any required documents or information.]",
+      "[contact channel and hours]"
+    ],
+    "author_checklist": [
+      "Confirm whether any fee is charged to file an appeal, citing the governing plan document or regulation.",
+      "If a fee exists, confirm the amount, payment method, timing, and any waiver or refund conditions.",
+      "Confirm whether the fee answer differs by appeal level (internal appeal vs. external review) or by plan type, line of business, or state.",
+      "Confirm which appeal types this unit covers (medical, pharmacy, eligibility, etc.) and whether separate units are needed.",
+      "Confirm the appeal filing deadline and the event that starts the clock.",
+      "Confirm the accepted submission channels and any required documents.",
+      "Confirm the correct contact channel and hours for appeal questions.",
+      "Have legal/compliance review the wording, since appeal rights may be governed by regulation.",
+      "Confirm the correct knowledge base for this unit (benefits vs. pharmacy vs. shared-legal).",
+      "Remove any bracketed conditional sections that do not apply before approval."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2TsQEVgsHHaZYdqQow",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 607,
+    "output_tokens": 970
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

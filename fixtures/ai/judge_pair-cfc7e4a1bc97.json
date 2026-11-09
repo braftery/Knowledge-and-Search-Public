@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:00:00-05:00",
+  "input_sha256": "cfc7e4a1bc978a4f8870487cb24d2de0bc5b3d22efad6b4486e5fd23fdb8b0b2",
+  "input_ref": "U-RX-EDU-001-16 vs U-RX-EDU-002-13",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "You may add, in your own words, that",
+        "b": ""
+      },
+      {
+        "a": "a summary of this call will appear",
+        "b": "A call summary shows"
+      }
+    ],
+    "reason": "Both state the same fact, that a call summary appears in the member portal within two business days, though A frames it as an optional point the agent may mention rather than a plain statement of fact.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011CggWW4kPzd169w6M2ypMB",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 720,
+    "output_tokens": 325
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

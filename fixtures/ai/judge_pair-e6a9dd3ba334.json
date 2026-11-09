@@ -1,0 +1,37 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:00:08-05:00",
+  "input_sha256": "e6a9dd3ba334e638dcdd2445fc5827bcd2522e2fec1a359d2bc0eaed3b4778d9",
+  "input_ref": "U-RX-EDU-002-07 vs U-WEB-FAQ-01",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "The price I quote is an estimate",
+        "b": "Prices on this page are estimates"
+      },
+      {
+        "a": "using the plan records I can see today",
+        "b": "based on the plan information we have today"
+      },
+      {
+        "a": "What you pay can change if the pharmacy, the days' supply, or your stage of coverage is different.",
+        "b": ""
+      },
+      {
+        "a": "This estimate is not a guarantee of payment.",
+        "b": ""
+      }
+    ],
+    "reason": "Both define estimates by the same 30-day supply, preferred retail pharmacy, and current plan data, but A adds that cost can vary and that the estimate is not a guarantee of payment, while B omits these points without contradicting them.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011CggWWSuQsJf5UK28hwPML",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 807,
+    "output_tokens": 544
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

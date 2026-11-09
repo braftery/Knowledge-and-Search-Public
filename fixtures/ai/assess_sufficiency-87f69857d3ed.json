@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:08-05:00",
+  "input_sha256": "87f69857d3ed93fede54290569e04179510ff155c4b6c9837609c774acb4fa20",
+  "input_ref": "Pharmacy advocate: whats the rx price disclamer for a 30 day preffered retail fill",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-09",
+    "reason": "U-RX-EDU-001-09 fully answers the question. It is the full legal disclaimer for a 30-day preferred retail estimate: it is based on today's plan records, cost can change with the pharmacy, days' supply or coverage stage, and it is not a guarantee of payment. U-RX-EDU-002-07 says nearly the same thing, but the Legal-labeled unit is the better source for disclaimer wording. U-WEB-FAQ-01 is web page text and leaves out the cost-change and no-guarantee language."
+  }
+}

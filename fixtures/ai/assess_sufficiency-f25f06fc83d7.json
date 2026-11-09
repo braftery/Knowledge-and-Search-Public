@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-06T10:16:59-05:00",
+  "input_sha256": "f25f06fc83d7fe2ab2afac873e690003093cb861032d952a0a45eb92465b0552",
+  "input_ref": "explore-surface",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units cover transportation or arranging rides to appointments. The units deal with callbacks, verification, drug pricing, and call closings, so none answers the question."
+  },
+  "response_id": "msg_011CgmtvfsmcPNrpUp4ATKh5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1411,
+    "output_tokens": 73
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

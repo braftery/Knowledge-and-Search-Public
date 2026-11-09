@@ -1,0 +1,40 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:19:06-05:00",
+  "input_sha256": "d4fa6745b8981f18cdb9b56e41e1e14c0b46be236d9d357214a4df622eb0c8b9",
+  "input_ref": "gaps:G11",
+  "output": {
+    "title": "What hours can we schedule a member callback?",
+    "type": "faq",
+    "draft_text": "Q: What hours can we schedule a callback?\n\nA: Schedule member callbacks on weekdays between 8:00 a.m. and 6:00 p.m. Eastern (source: U-KNOWN-FACT).\n\nWhen scheduling:\n- Callbacks may only be scheduled Monday through Friday, between 8:00 a.m. and 6:00 p.m. Eastern.\n- If the member is in a different time zone, convert their preferred time to Eastern before booking. [Confirm whether advocates should record the callback time in Eastern or the member's local time.]\n- Weekend callbacks: [state whether weekend callbacks are permitted under any circumstances, or confirm they are not available].\n- Holidays: [list observed holidays or link to the holiday schedule, and state whether callbacks can be scheduled on those days].\n- Latest bookable slot: [confirm whether a callback can be booked to start at 6:00 p.m. Eastern or whether the last slot is earlier, e.g., [latest start time]].\n- To schedule the callback, use [system or tool name and steps].\n- If the member requests a time outside these hours, [describe what the advocate should offer or do instead].",
+    "placeholders": [
+      "[Confirm whether advocates should record the callback time in Eastern or the member's local time.]",
+      "[state whether weekend callbacks are permitted under any circumstances, or confirm they are not available]",
+      "[list observed holidays or link to the holiday schedule, and state whether callbacks can be scheduled on those days]",
+      "[confirm whether a callback can be booked to start at 6:00 p.m. Eastern or whether the last slot is earlier]",
+      "[latest start time]",
+      "[system or tool name and steps]",
+      "[describe what the advocate should offer or do instead]"
+    ],
+    "author_checklist": [
+      "Check whether approved unit U-KNOWN-FACT already answers this question; if so, consider improving its search terms or linking to it instead of publishing a duplicate.",
+      "Confirm the hours (weekdays, 8:00 a.m.–6:00 p.m. Eastern) from U-KNOWN-FACT are still current.",
+      "Confirm whether the hours apply to all member callbacks or only certain lines of business or callback types.",
+      "Confirm weekend and holiday handling.",
+      "Confirm whether 6:00 p.m. Eastern is the latest start time or the time by which callbacks must end.",
+      "Confirm time zone recording and conversion guidance for members outside Eastern time.",
+      "Confirm the scheduling system and steps advocates use.",
+      "Confirm the guidance for members requesting times outside the allowed window.",
+      "Remove any placeholder lines that do not apply before approval."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2k5vVjkmiQfJxqLhXv",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 664,
+    "output_tokens": 1098
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

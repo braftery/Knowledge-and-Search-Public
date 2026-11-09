@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:03-05:00",
+  "input_sha256": "65fd12af7ac3bd6c0fed05f5f1995036cf5c27a05df938f70275acaa6798dd5e",
+  "input_ref": "Pharmacy advocate: What do I say before I quote a drug price?",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-09",
+    "reason": "U-RX-EDU-001-09 gives the disclaimer to read before quoting a drug price. U-RX-EDU-002-07 says the same thing with minor wording changes. I chose 001-09 because its title marks it as the Legal version, but the units give no clear indication of which one is current, so the duplicate should be reported for cleanup. The caregiver unit is related but does not say what to say before a price."
+  }
+}

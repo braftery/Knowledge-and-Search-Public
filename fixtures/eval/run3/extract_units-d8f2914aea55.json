@@ -1,0 +1,304 @@
+{
+  "task": "extract_units",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:55:13-05:00",
+  "input_sha256": "d8f2914aea55ebdd269a46f3e53dc07ca3d5c64b84755ffee71b3f1214528ca5",
+  "input_ref": "extraction:specialty_pharmacy_intake_sop",
+  "output": {
+    "units": [
+      {
+        "title": "Specialty intake SOP scope",
+        "type": "policy",
+        "text": "The SOP covers specialty medicines that Harbor Specialty Pharmacy ships for Harbor Medicare Advantage members, including injectables and high-touch oral products.",
+        "source_span": "The SOP covers specialty medicines that Harbor Specialty Pharmacy ships for Harbor Medicare Advantage members, including injectables and high-touch oral products.",
+        "tags": [
+          "scope",
+          "specialty pharmacy",
+          "injectables"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Topics outside this SOP",
+        "type": "policy",
+        "text": "Retail maintenance fills, medical visit estimates, and benefits appeals are covered in other guides. Infusion chair scheduling and home nursing visits are outside this SOP.",
+        "source_span": "Retail maintenance fills, medical visit estimates, and benefits appeals sit in other guides. Infusion chair scheduling and home nursing visits are outside this page.",
+        "tags": [
+          "scope",
+          "out of scope"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Only pharmacy advocate may quote specialty cost",
+        "type": "policy",
+        "text": "The Pharmacy advocate is the only role this SOP authorizes to quote a specialty cost on the intake call.",
+        "source_span": "The Pharmacy advocate is the only role this SOP authorizes to quote a specialty cost on the intake call.",
+        "tags": [
+          "roles",
+          "cost quote",
+          "authorization"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Definition: intake",
+        "type": "policy",
+        "text": "In this SOP, intake means the form that opens a specialty pharmacy case.",
+        "source_span": "In this SOP, intake means the form that opens a specialty pharmacy case.",
+        "tags": [
+          "definition",
+          "intake"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Definition: window",
+        "type": "policy",
+        "text": "In this SOP, a window means the return-call time already promised to the member.",
+        "source_span": "In this SOP, a window means the return-call time already promised to the member.",
+        "tags": [
+          "definition",
+          "callback",
+          "window"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Verify caller identity with two identifiers",
+        "type": "procedure",
+        "text": "Confirm the caller's identity with two identifiers chosen from the member ID, the date of birth, and the address on file.",
+        "source_span": "Confirm the caller's identity with two identifiers chosen from the member ID, the date of birth, and the address on file.",
+        "tags": [
+          "identity verification",
+          "authentication"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "No benefit details before verification",
+        "type": "policy",
+        "text": "Until the caller is verified, do not give a copay, a tier, or a coverage limit, and do not say whether a drug is on the formulary.",
+        "source_span": "Until the caller is verified, do not give a copay, a tier, or a coverage limit, and do not say whether a drug is on the formulary.",
+        "tags": [
+          "identity verification",
+          "copay",
+          "formulary",
+          "privacy"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Unlisted caregiver may only set a callback",
+        "type": "policy",
+        "text": "A caregiver who is not listed as an authorized caller may set a callback time only.",
+        "source_span": "A caregiver who is not listed as an authorized caller may set a callback time only.",
+        "tags": [
+          "caregiver",
+          "authorized caller",
+          "callback"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Check referral before opening intake",
+        "type": "procedure",
+        "text": "Check that a specialty referral from the prescriber is posted on the account before you open the intake form.",
+        "source_span": "Check that a specialty referral from the prescriber is posted on the account before you open the intake form.",
+        "tags": [
+          "referral",
+          "intake form",
+          "prescriber"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Required intake form fields",
+        "type": "procedure",
+        "text": "Record the prescriber name, the medicine name, and the diagnosis code on the intake form before you save it.",
+        "source_span": "Record the prescriber name, the medicine name, and the diagnosis code on the intake form before you save it.",
+        "tags": [
+          "intake form",
+          "diagnosis code",
+          "prescriber"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Send intake packet same business day",
+        "type": "procedure",
+        "text": "Send the finished intake packet to Harbor Specialty Pharmacy before the end of the same business day.",
+        "source_span": "Send the finished intake packet to Harbor Specialty Pharmacy before the end of the same business day.",
+        "tags": [
+          "handoff",
+          "intake packet",
+          "timeline"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Read cost wording before any dollar amount",
+        "type": "procedure",
+        "text": "Read the specialty cost wording word for word before you say any dollar amount.",
+        "source_span": "Read the specialty cost wording word for word before you say any dollar amount.",
+        "tags": [
+          "cost quote",
+          "disclaimer",
+          "verbatim"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Specialty cost estimate disclaimer",
+        "type": "verbatim",
+        "text": "The specialty cost I quote is an estimate for the supply and the pharmacy on the plan record today. Your cost can change if the supply, the pharmacy, or your coverage stage is different. This estimate is not a guarantee of payment.",
+        "source_span": "The specialty cost I quote is an estimate for the supply and the pharmacy on the plan record today. Your cost can change if the supply, the pharmacy, or your coverage stage is different. This estimate is not a guarantee of payment.",
+        "tags": [
+          "legal",
+          "cost estimate",
+          "disclaimer",
+          "specialty"
+        ],
+        "domain": "pharmacy",
+        "audience": "both"
+      },
+      {
+        "title": "Retail comparison cost wording",
+        "type": "policy",
+        "text": "The figure I give is an estimate for a 30-day supply at a preferred retail pharmacy, taken from the plan records I can see today. What the member pays can change if the pharmacy, the days' supply, or the stage of coverage is different. The estimate is not a guarantee of payment.",
+        "source_span": "The figure I give is an estimate for a 30-day supply at a preferred retail pharmacy, taken from the plan records I can see today. What the member pays can change if the pharmacy, the days' supply, or the stage of coverage is different. The estimate is not a guarantee of payment.",
+        "tags": [
+          "cost estimate",
+          "retail comparison",
+          "disclaimer"
+        ],
+        "domain": "pharmacy",
+        "audience": "both"
+      },
+      {
+        "title": "Specialty intake copay (illustrative)",
+        "type": "policy",
+        "text": "The illustrative specialty intake copay at a preferred network pharmacy is $55.",
+        "source_span": "The illustrative specialty intake copay at a preferred network pharmacy is $55.",
+        "tags": [
+          "copay",
+          "specialty",
+          "illustrative"
+        ],
+        "domain": "pharmacy",
+        "audience": "both"
+      },
+      {
+        "title": "Refrigerated shipping fee location",
+        "type": "policy",
+        "text": "The shipping fee for a refrigerated specialty package is on the specialty rate card. This SOP does not state that fee.",
+        "source_span": "The shipping fee for a refrigerated specialty package is on the specialty rate card. This SOP does not state that fee.",
+        "tags": [
+          "shipping fee",
+          "refrigerated",
+          "rate card"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "90-day mail-order eligibility",
+        "type": "policy",
+        "text": "Offer a 90-day mail-order supply for a maintenance drug only after that drug has been filled at a retail pharmacy two times in the current calendar year.",
+        "source_span": "Offer a 90-day mail-order supply for a maintenance drug only after that drug has been filled at a retail pharmacy two times in the current calendar year.",
+        "tags": [
+          "mail order",
+          "90-day supply",
+          "maintenance drug",
+          "transfer"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Decline specialty-to-retail transfer",
+        "type": "procedure",
+        "text": "If the member asks to move a specialty medicine to a retail pharmacy, decline the transfer and keep the fill at Harbor Specialty Pharmacy.",
+        "source_span": "If the member asks to move a specialty medicine to a retail pharmacy, decline the transfer and keep the fill at Harbor Specialty Pharmacy.",
+        "tags": [
+          "transfer",
+          "retail",
+          "specialty pharmacy"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Escalate missing prescriber signature",
+        "type": "procedure",
+        "text": "When the prescriber signature is missing, escalate the intake to the specialty supervisor on the same business day.",
+        "source_span": "When the prescriber signature is missing, escalate the intake to the specialty supervisor on the same business day.",
+        "tags": [
+          "escalation",
+          "prescriber signature",
+          "supervisor"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Missed callback window retry",
+        "type": "procedure",
+        "text": "If the advocate misses the window, make one more attempt within 2 days.",
+        "source_span": "If the advocate misses the window, make one more attempt within 2 days.",
+        "tags": [
+          "callback",
+          "window",
+          "escalation"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Pharmacy director threshold location",
+        "type": "policy",
+        "text": "The dollar amount that sends a specialty case to the pharmacy director is printed on the specialty rate card. This SOP does not state that amount.",
+        "source_span": "The dollar amount that sends a specialty case to the pharmacy director is printed on the specialty rate card. This SOP does not state that amount.",
+        "tags": [
+          "escalation",
+          "pharmacy director",
+          "rate card"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      },
+      {
+        "title": "Intake record retention",
+        "type": "policy",
+        "text": "Keep the intake form and the call note for 10 years from the date of the intake. This period is illustrative.",
+        "source_span": "Keep the intake form and the call note for 10 years from the date of the intake. This period is illustrative.",
+        "tags": [
+          "records",
+          "retention",
+          "intake form"
+        ],
+        "domain": "pharmacy",
+        "audience": "advocate"
+      }
+    ]
+  },
+  "response_id": "msg_011Cgkzu7THVNJf2xQS1bYAp",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2435,
+    "output_tokens": 3945
+  },
+  "prompt_sha256": "3320ede3ff9d2327c1071897f0136857465e3d642591266e1e337d3fc6ac2df5"
+}

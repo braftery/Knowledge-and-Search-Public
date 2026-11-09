@@ -1,0 +1,18 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:49-05:00",
+  "input_sha256": "a58fe1ad2113c8951ff5588e6397fcb1ff5cc89f78b2b9d39c9773bbeb662f99",
+  "input_ref": "dedup_variants.csv row 13",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "preferred retail pharmacy",
+        "b": "mail-order pharmacy"
+      }
+    ],
+    "reason": "Both disclaimers cover the same price-quote situation but name different pharmacy types as the basis for the estimate, so they cannot both be the canonical statement.",
+    "confidence": "high"
+  }
+}

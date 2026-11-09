@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:34-05:00",
+  "input_sha256": "687d995b7c4d3aa5d56ce2047b423db5f674683e10d09079405c0686a6a522ec",
+  "input_ref": "duplicates:P33",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Statement A limits which role may quote a specialty cost on the intake call, while Statement B sets a scripting rule for how the cost wording must be read; these are different requirements that can both apply.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2iZXc7b1SzczUNfpra",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 725,
+    "output_tokens": 174
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

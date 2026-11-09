@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:53-05:00",
+  "input_sha256": "f12cd8642f742722ecb1706ef4fa2669d80c799e3e08fc82a2c81c71c443a41e",
+  "input_ref": "Pharmacy advocate: verbatim price estimate for a 30 day fill at a preffered retail pharmacy",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-09",
+    "reason": "The question asks for the exact wording of the price-estimate disclaimer for a 30-day fill at a preferred retail pharmacy. U-RX-EDU-001-09 is the Legal-labeled version of that disclaimer, so it is the best source for verbatim script language. U-RX-EDU-002-07 covers the same content but uses slightly different wording ('using' vs 'based on', 'What you pay' vs 'Your actual cost'). Because the advocate needs exact wording, this difference should be flagged to content owners so only one approved version stays in use. The closing statement unit does not apply."
+  }
+}

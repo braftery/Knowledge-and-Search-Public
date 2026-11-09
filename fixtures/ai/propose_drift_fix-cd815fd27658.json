@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T16:34:50-05:00",
+  "input_sha256": "cd815fd2765825ba5b24ee7d0669ad289778df15381b520c1487396f8e563ce4",
+  "input_ref": "revised-material-before-cosmetic | cosmetic drift",
+  "output": {
+    "change": "cosmetic",
+    "summary": "The only change from the old to the new source span is an added comma after '31-day supply', which does not change meaning. However, there is a separate, pre-existing mismatch: the approved unit says '30-day supply', while both the old and new source spans say '31-day supply'. This came from before this source update, so the unit text is left unchanged here. It should be sent for separate review and correction.",
+    "proposed_text": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records available on this call. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment."
+  },
+  "response_id": "msg_011CggiJqXWHyTciqZTqmb5r",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 681,
+    "output_tokens": 359
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

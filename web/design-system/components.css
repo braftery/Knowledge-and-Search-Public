@@ -1,0 +1,154 @@
+/* Harbor Health component styles. Every value is a token from tokens.json. */
+.hh { font-family: var(--font-sans); color: var(--ink); font-size: 16px; line-height: 24px; }
+.hh *, .hh *::before, .hh *::after { box-sizing: border-box; }
+.hh-pad { padding: var(--space-4); background: var(--surface); }
+.hh-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4); }
+.hh-stack { display: flex; flex-direction: column; gap: var(--space-4); }
+.hh-meta { color: var(--ink-muted); }
+.hh-icon { width: 18px; height: 18px; flex: none; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Focus: one ring everywhere */
+.hh :focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+/* Buttons: primary, secondary, tertiary */
+.hh-btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); min-height: var(--size-target);
+  padding: 0 var(--space-4); border-radius: var(--radius-md); font: 600 16px/20px var(--font-sans); cursor: pointer;
+  border: 2px solid var(--action); transition: background-color 120ms ease-out, color 120ms ease-out; white-space: nowrap; }
+.hh-btn--primary { background: var(--action); color: var(--on-action); }
+.hh-btn--primary:hover { background: var(--action-hover); border-color: var(--action-hover); }
+.hh-btn--secondary { background: var(--surface-raised); color: var(--action); }
+.hh-btn--secondary:hover { background: var(--action-soft); }
+.hh-btn--tertiary { background: none; border-color: transparent; color: var(--action); text-decoration: underline; text-underline-offset: 3px; padding: 0 var(--space-2); }
+.hh-btn--tertiary:hover { color: var(--action-hover); }
+.hh-btn--compact { min-height: var(--size-target-compact); }
+.hh-btn[aria-busy="true"] { cursor: progress; }
+.hh-spinner { width: 16px; height: 16px; border-radius: 50%; border: 2px solid currentColor; border-right-color: transparent; animation: hh-spin 700ms linear infinite; }
+@keyframes hh-spin { to { transform: rotate(360deg); } }
+
+/* Fields */
+.hh-field { display: flex; flex-direction: column; gap: var(--space-1); max-width: 480px; }
+.hh-label { font: 600 16px/20px var(--font-sans); }
+.hh-label .hh-opt { font-weight: 400; color: var(--ink-muted); }
+.hh-hint { color: var(--ink-muted); }
+.hh-input { min-height: var(--size-target); padding: 0 var(--space-3); border: 1px solid var(--line-strong); border-radius: var(--radius-sm);
+  background: var(--surface-raised); color: var(--ink); font: 400 16px/24px var(--font-sans); width: 100%; }
+.hh-textarea { min-height: 96px; padding: var(--space-3); resize: vertical; }
+.hh-field--error .hh-input { border: 2px solid var(--blocked); background: var(--blocked-soft); }
+.hh-error { display: flex; gap: var(--space-1); align-items: flex-start; color: var(--blocked); font-weight: 600; }
+
+/* Status badges: colour + icon + word */
+.hh-badge { display: inline-flex; align-items: center; gap: var(--space-1); padding: 2px var(--space-3) 2px var(--space-2); border-radius: var(--radius-sm);
+  font: 600 16px/22px var(--font-sans); white-space: nowrap; }
+.hh-badge .hh-icon { width: 16px; height: 16px; }
+.hh-badge--approved { color: var(--approved); background: var(--approved-soft); }
+.hh-badge--review { color: var(--review); background: var(--review-soft); }
+.hh-badge--blocked { color: var(--blocked); background: var(--blocked-soft); }
+.hh-badge--stale { color: var(--stale); background: var(--stale-soft); }
+.hh-badge--neutral { color: var(--ink-muted); background: var(--surface-sunken); }
+
+/* Card */
+.hh-card { background: var(--surface-raised); border-radius: var(--radius-md); box-shadow: var(--shadow-1); padding: var(--space-4); }
+.hh-card__head { display: flex; justify-content: space-between; gap: var(--space-3); align-items: flex-start; margin-bottom: var(--space-2); }
+.hh-card__title { font: 600 18px/26px var(--font-sans); margin: 0; }
+
+/* Tabs */
+.hh-tabs { display: flex; gap: var(--space-6); border-bottom: 1px solid var(--line); }
+.hh-tab { display: inline-flex; align-items: center; gap: var(--space-2); min-height: var(--size-target); padding: 0 var(--space-1); border: 0; background: none;
+  font: 600 16px/20px var(--font-sans); color: var(--ink-muted); border-bottom: 3px solid transparent; margin-bottom: -1px; cursor: pointer; }
+.hh-tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--action); }
+.hh-count { min-width: 24px; padding: 0 var(--space-2); border-radius: var(--radius-sm); background: var(--surface-sunken); color: var(--ink); font: 600 14px/22px var(--font-sans); text-align: center; font-variant-numeric: tabular-nums; }
+
+/* Toast with Undo */
+.hh-toast { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-3) var(--space-4); background: var(--surface-raised);
+  border-radius: var(--radius-md); box-shadow: var(--shadow-2); max-width: 520px; }
+.hh-toast .hh-icon { color: var(--approved); }
+.hh-toast__text { flex: 1; }
+
+/* Diff */
+.hh-diff { font-size: 16px; line-height: 28px; max-width: var(--size-measure); }
+.hh-del { color: var(--diff-del-ink); background: var(--diff-del-bg); text-decoration: line-through; text-decoration-thickness: 2px; border-radius: 2px; padding: 0 2px; }
+.hh-add { color: var(--diff-add-ink); background: var(--diff-add-bg); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; border-radius: 2px; padding: 0 2px; }
+.hh-legend { display: flex; gap: var(--space-4); color: var(--ink-muted); }
+.hh-cols { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); }
+.hh-col__head { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-2); }
+
+/* Verbatim block */
+.hh-verbatim { border: 2px solid var(--ink); border-radius: var(--radius-md); background: var(--surface-raised); max-width: var(--size-measure); }
+.hh-verbatim__head { display: flex; align-items: center; gap: var(--space-2); padding: var(--space-2) var(--space-4); background: var(--ink); color: var(--ink-inverse); font: 600 16px/20px var(--font-sans); }
+.hh-verbatim__text { padding: var(--space-4); font-size: 18px; line-height: 28px; }
+
+/* Citation */
+.hh-cite { display: flex; align-items: flex-start; gap: var(--space-2); color: var(--ink-muted); }
+.hh-cite a { color: var(--action); text-underline-offset: 3px; }
+
+/* Answer card (agent panel) */
+.hh-answer { background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius-md); padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-3); }
+.hh-answer__q { color: var(--ink-muted); }
+.hh-answer__actions { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+
+/* Empty and no-answer */
+.hh-empty { padding: var(--space-6); border: 1px dashed var(--line-strong); border-radius: var(--radius-md); background: var(--surface-raised); max-width: 520px; }
+.hh-empty h3, .hh-empty__title { margin: 0 0 var(--space-1); font: 600 18px/26px var(--font-sans); }
+.hh-empty p { margin: 0 0 var(--space-4); color: var(--ink-muted); }
+.hh-empty ol { margin: 0 0 var(--space-4); padding-left: var(--space-6); }
+
+/* Skeleton */
+.hh-skel { background: var(--surface-sunken); border-radius: var(--radius-sm); height: 16px; animation: hh-pulse 1400ms ease-in-out infinite; }
+@keyframes hh-pulse { 50% { opacity: .55; } }
+@media (prefers-reduced-motion: reduce) { .hh-skel, .hh-spinner { animation: none; } }
+
+/* Table */
+.hh-table { width: 100%; border-collapse: collapse; background: var(--surface-raised); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-1); }
+.hh-table th { text-align: left; font: 600 16px/20px var(--font-sans); padding: var(--space-3); border-bottom: 1px solid var(--line-strong); }
+.hh-table td { padding: var(--space-3); border-bottom: 1px solid var(--line); vertical-align: top; }
+.hh-table td.num, .hh-table th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.hh-table tr[aria-selected="true"] td { background: var(--action-soft); }
+.hh-id { font: 400 15px/22px var(--font-mono); color: var(--ink-muted); }
+
+/* Metric tile and ranked bars */
+.hh-metric { background: var(--surface-raised); border-radius: var(--radius-md); box-shadow: var(--shadow-1); padding: var(--space-4); min-width: 200px; }
+.hh-metric__label { font: 600 16px/20px var(--font-sans); }
+.hh-metric__value { font: 600 32px/36px var(--font-sans); font-variant-numeric: tabular-nums; margin: var(--space-2) 0 var(--space-1); }
+.hh-rank { display: grid; grid-template-columns: minmax(0,1fr) 200px 48px; gap: var(--space-3); align-items: center; padding: var(--space-2) 0; border-bottom: 1px solid var(--line); }
+.hh-rank__track { height: 12px; background: var(--surface-sunken); border-radius: 2px; }
+.hh-rank__bar { height: 12px; background: var(--ink-muted); border-radius: 2px; }
+.hh-rank__n { text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* Presenter bar */
+.hh-presenter { display: flex; align-items: center; gap: var(--space-4); height: var(--size-presenter); padding: 0 var(--space-4); background: var(--surface-inverse); color: var(--ink-inverse); }
+.hh-presenter__step { color: var(--ink-inverse-muted); font-variant-numeric: tabular-nums; }
+.hh-presenter__title { font-weight: 600; flex: 1; }
+.hh-presenter .hh-btn { min-height: 36px; border-color: var(--ink-inverse); }
+.hh-presenter .hh-btn--primary { background: var(--ink-inverse); color: var(--surface-inverse); }
+.hh-presenter .hh-btn--secondary { background: transparent; color: var(--ink-inverse); }
+.hh-presenter .hh-btn--tertiary { color: var(--ink-inverse); border-color: transparent; }
+
+/* Member chat */
+.hh-m { font-family: var(--font-sans); color: var(--ink); font-size: 18px; line-height: 28px; background: var(--surface); }
+.hh-launcher { display: inline-flex; align-items: center; gap: var(--space-2); min-height: 56px; padding: 0 var(--space-6) 0 var(--space-4); border-radius: var(--radius-pill);
+  background: var(--action); color: var(--on-action); border: 0; font: 600 18px/24px var(--font-sans); box-shadow: var(--shadow-3); cursor: pointer; }
+.hh-launcher .hh-icon { width: 22px; height: 22px; }
+.hh-chat { width: var(--size-chat); background: var(--surface-raised); border-radius: var(--radius-member); box-shadow: var(--shadow-3); display: flex; flex-direction: column; overflow: hidden; }
+.hh-chat__head { display: flex; align-items: center; justify-content: space-between; padding: var(--space-4) var(--space-6); border-bottom: 1px solid var(--line); }
+.hh-chat__title { font: 600 22px/30px var(--font-serif); margin: 0; }
+.hh-chat__body { padding: var(--space-4) var(--space-6); display: flex; flex-direction: column; gap: var(--space-3); }
+.hh-bubble { max-width: 85%; padding: var(--space-3) var(--space-4); border-radius: 18px; }
+.hh-bubble--bot { background: var(--surface-sunken); border-bottom-left-radius: var(--radius-sm); align-self: flex-start; }
+.hh-bubble--me { background: var(--action-soft); border-bottom-right-radius: var(--radius-sm); align-self: flex-end; }
+.hh-bubble .hh-cite { font-size: 16px; line-height: 24px; margin-top: var(--space-2); }
+.hh-chips { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.hh-chip { min-height: 44px; padding: 0 var(--space-4); border-radius: var(--radius-pill); border: 2px solid var(--action); background: var(--surface-raised); color: var(--action); font: 600 16px/20px var(--font-sans); cursor: pointer; }
+.hh-chat__foot { display: flex; gap: var(--space-2); padding: var(--space-4) var(--space-6); border-top: 1px solid var(--line); }
+.hh-chat__foot .hh-input { border-radius: var(--radius-member); font-size: 18px; }
+.hh-chat__foot .hh-btn { border-radius: var(--radius-member); }
+[data-theme="member"] .hh-btn, [data-theme="member"] .hh-input { border-radius: var(--radius-member); }
+[data-theme="member"] .hh-btn--tertiary { border-radius: var(--radius-sm); }
+
+/* Decision marker: who decided, AI or a person */
+.hh-mark { display: inline-flex; align-items: center; gap: var(--space-1); font: 600 16px/22px var(--font-sans); }
+.hh-mark--ai { color: var(--ink-muted); padding: 1px var(--space-2); border: 1px dashed var(--line-strong); border-radius: var(--radius-sm); background: var(--surface-raised); }
+.hh-mark--human { color: var(--ink); }
+.hh-mark--human .hh-icon { color: var(--approved); }
+.hh-mark__who { font-weight: 400; color: var(--ink-muted); }
+.hh-mark--pending { color: var(--review); }
+.hh-chat__note { margin: 0; padding: 0 var(--space-6) var(--space-4); color: var(--ink-muted); font-size: 16px; line-height: 24px; }

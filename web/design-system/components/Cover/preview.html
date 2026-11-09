@@ -1,0 +1,55 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en" data-theme="tools">
+<head>
+<meta charset="utf-8">
+<title>Harbor Health</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--surface); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .tools { fill:var(--action); }
+  .deep { fill:var(--surface-inverse); }
+  .teal { fill:var(--action); }
+  .sand { fill:var(--surface-sunken); }
+  .ok { fill:var(--approved); }
+  .blk { rx:var(--radius-md); }
+  .words { position:absolute; left:var(--space-8); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-family:var(--font-serif); font-size:100px; line-height:.95; font-weight:600; letter-spacing:-.01em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 4px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap"><link rel="stylesheet" href="../../tokens.css"><link rel="stylesheet" href="../../components.css"></head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      surface-inverse 272x232 slab bleeding off the right edge (the harbor at night) · tools action 112x152 bled off the top · member action (teal) 112x96 · member surface-sunken (sand) 112x64 · approved 48x16 once, the one status that means "this wording is safe" · about 35% of 960x288
+  arrangement one deep slab with satellites stacked in a column at left, space-4 gutters, bottoms on one line space-6 above the edge
+  pattern     half-discs from "a harbor: calm water, a sheltered edge": rows of space-6 half-rounds in sand and teal cut into the bottom of the slab, like moored hulls, thinning upward
+  scales      sides in space-2 multiples; gutters space-4; pitch space-8; corners radius-md; half-disc radius space-3
+-->
+<rect class="tools blk" x="16" y="-16" width="112" height="152" rx="6"/>
+<g data-theme="member">
+<rect class="teal blk" x="16" y="152" width="112" height="56" rx="6"/>
+<rect class="sand blk" x="16" y="224" width="112" height="40" rx="6"/>
+</g>
+<rect class="deep blk" x="144" y="32" width="352" height="232" rx="6"/>
+<rect class="ok" x="160" y="48" width="48" height="16" rx="4"/>
+<g data-theme="member">
+<path class="sand" d="M168 248a12 12 0 0 1 24 0Z"/><path class="sand" d="M200 248a12 12 0 0 1 24 0Z"/><path class="teal" d="M232 248a12 12 0 0 1 24 0Z"/><path class="sand" d="M264 248a12 12 0 0 1 24 0Z"/><path class="sand" d="M296 248a12 12 0 0 1 24 0Z"/><path class="teal" d="M328 248a12 12 0 0 1 24 0Z"/><path class="sand" d="M360 248a12 12 0 0 1 24 0Z"/><path class="sand" d="M392 248a12 12 0 0 1 24 0Z"/><path class="sand" d="M424 248a12 12 0 0 1 24 0Z"/>
+<path class="sand" d="M184 216a12 12 0 0 1 24 0Z"/><path class="teal" d="M248 216a12 12 0 0 1 24 0Z"/><path class="sand" d="M312 216a12 12 0 0 1 24 0Z"/><path class="sand" d="M376 216a12 12 0 0 1 24 0Z"/><path class="teal" d="M408 216a12 12 0 0 1 24 0Z"/>
+<path class="sand" d="M216 184a12 12 0 0 1 24 0Z"/><path class="sand" d="M344 184a12 12 0 0 1 24 0Z"/>
+<path class="teal" d="M280 152a12 12 0 0 1 24 0Z"/>
+</g>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Harbor<br>Health</h1>
+<p class="tag">One approved answer, in every channel. Fictional brand, illustrative data.</p>
+</div>
+</div>
+</body>
+</html>

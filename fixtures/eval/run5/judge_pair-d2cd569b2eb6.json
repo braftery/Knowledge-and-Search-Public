@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:28-05:00",
+  "input_sha256": "d2cd569b2eb61228da9921eff2ad8f293aa1284efbcf39464c369af2e0855586",
+  "input_ref": "duplicates:P19",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "on the number you just confirmed",
+        "b": "on the number on file"
+      }
+    ],
+    "reason": "Both describe the same callback, but A uses the number confirmed during the call while B uses the stored number on file; if these differ, the two statements cannot both be true.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2hxAsDhYnmGPrGzkr5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 735,
+    "output_tokens": 285
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

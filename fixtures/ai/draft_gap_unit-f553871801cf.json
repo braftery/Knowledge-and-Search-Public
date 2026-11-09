@@ -1,0 +1,24 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:17:22-05:00",
+  "input_sha256": "f553871801cf7a1f6390f1c5e5f84617903cd1807ce544fc6f54873e59b415b3",
+  "input_ref": "c0",
+  "output": {
+    "title": "Which Rx pricing disclaimer to read and when",
+    "type": "faq",
+    "draft_text": "Q: What is the Rx pricing disclaimer I have to read?\n\nA: Before you say any dollar amount, read the pricing disclaimer word for word. Do not shorten it.\n\nRead this disclaimer exactly as written:\n\n\"The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records I can see today. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment.\"\n\nSource: [approved disclaimer unit ID, e.g., U-RX-EDU-001-09].",
+    "placeholders": [
+      "[approved disclaimer unit ID, e.g., U-RX-EDU-001-09]"
+    ],
+    "author_checklist": [
+      "Confirm which disclaimer wording is the official script. U-RX-EDU-001-09 (labeled Legal) and U-RX-EDU-002-07 use different wording ('based on' vs. 'using'; 'Your actual cost' vs. 'What you pay'). Legal should confirm the correct version, and the other unit should be retired or corrected.",
+      "Confirm the quoted disclaimer text in this draft matches the approved Legal version exactly, word for word.",
+      "Consider linking to or reusing the existing approved units instead of publishing a third copy of the disclaimer text. A third copy could drift out of sync.",
+      "Confirm the timing rule from U-RX-EDU-001-08 still applies: read the disclaimer before any dollar amount, word for word, without shortening.",
+      "Confirm with the pharmacy team whether advocates need guidance when the quote is not for a 30-day supply or not at a preferred retail pharmacy. The approved units do not address this, so do not add guidance unless it is documented.",
+      "Decide the owning knowledge base: pharmacy (advocate-facing FAQ) or shared-legal (where the Legal disclaimer is maintained)."
+    ],
+    "suggested_kb": "pharmacy"
+  }
+}

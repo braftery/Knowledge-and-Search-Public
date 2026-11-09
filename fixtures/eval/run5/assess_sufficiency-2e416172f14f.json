@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:06-05:00",
+  "input_sha256": "2e416172f14f51ff8d87afe2f529990f76fe207c152f5579fd9cbfc41bcb09dd",
+  "input_ref": "search:Q27",
+  "output": {
+    "answer_unit_id": "E-SOP-06",
+    "reason": "E-SOP-06 says to record the diagnosis code on the intake form before saving it. That fully answers whether a Dx code is required on the specialty intake form."
+  },
+  "response_id": "msg_011Cgm2gVzjYuSmdcyn18jua",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1768,
+    "output_tokens": 77
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

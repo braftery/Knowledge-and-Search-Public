@@ -1,0 +1,41 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:04-05:00",
+  "input_sha256": "138adfe75006e8463f8cd7c119ba9a78b639ff041873ed9e56b946a7ca04c703",
+  "input_ref": "duplicates:T02",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "The figure I give is an estimate",
+        "b": "Prices on this page are estimates"
+      },
+      {
+        "a": "taken from the plan records I can see today",
+        "b": "based on the plan information we have today"
+      },
+      {
+        "a": "What the member pays can change",
+        "b": "The amount you pay may differ"
+      },
+      {
+        "a": "the stage of coverage",
+        "b": "your stage of coverage"
+      },
+      {
+        "a": "The estimate is not a guarantee of payment.",
+        "b": "An estimate is not a guarantee of payment."
+      }
+    ],
+    "reason": "Both state the same 30-day supply, the same preferred retail pharmacy, the same factors that can change the cost, and the same no-guarantee disclaimer; they differ only in voice (agent speaking about the member versus a page addressing the member directly).",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgkzr7YAbNdHRbvs1tSMe",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 845,
+    "output_tokens": 271
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

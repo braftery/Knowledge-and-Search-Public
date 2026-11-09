@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:30-05:00",
+  "input_sha256": "dfa6c879921dec090dd8d60b4bae9025c7618492ff3497520b2c7654a577b607",
+  "input_ref": "search:Q23",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No unit says what may be left on a voicemail. E-CB-11 lists only what must not be left (medicine name, diagnosis, claim amount). E-CB-10 covers what is said before the member picks up, not voicemail content. Combining units is not allowed, so no single unit fully answers the question."
+  },
+  "response_id": "msg_011Cgm2L25en8eAVpCMoAESm",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1753,
+    "output_tokens": 402
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

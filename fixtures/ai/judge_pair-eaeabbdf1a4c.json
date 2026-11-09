@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:59:55-05:00",
+  "input_sha256": "eaeabbdf1a4c72895f4924bda6fa8f66197e240bf7ec5ff822351ce1fb168a4b",
+  "input_ref": "U-RX-EDU-001-15 vs U-RX-EDU-002-12",
+  "output": {
+    "relation": "exact",
+    "differing_phrases": [],
+    "reason": "The statement texts are word-for-word identical; only the titles differ, with A labeled '(Legal)', and that label does not change the content.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CggWVhVUc8pjVdP1aiTeT",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 758,
+    "output_tokens": 76
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

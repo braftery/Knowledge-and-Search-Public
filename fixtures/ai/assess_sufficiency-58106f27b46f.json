@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:09-05:00",
+  "input_sha256": "58106f27b46f0c2e0ac9bc2233289b78ef498be714dbb15a5c6fb54d3d97b180",
+  "input_ref": "Pharmacy advocate: greeting for an MA pharmacy education call",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-002-01",
+    "reason": "This unit fully covers the greeting for this call type. It explicitly mentions the pharmacy education line and the Medicare Advantage prescription context, and it lists every element of the opening. U-RX-EDU-001-02 gives sample wording but does not mention the pharmacy education line. U-RX-EDU-001-01 only gives delivery guidance."
+  }
+}

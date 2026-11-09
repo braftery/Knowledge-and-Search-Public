@@ -1,0 +1,31 @@
+role,question,note
+Pharmacy advocate,what do I say before I quote a cost,Answerable. The approved pricing disclaimer. Illustrative.
+Pharmacy advocate,rx price disclamer,Misspelling of the pricing disclaimer. Illustrative.
+Pharmacy advocate,how long does a part d prior auth take,No approved answer. Illustrative.
+Pharmacy advocate,Do specialty drugs stay at the specialty pharmacy?,Answerable from the specialty rule. Illustrative.
+Pharmacy advocate,When can I offer 90-day mail order for a maintenance drug?,Answerable only after Legal resolves the conflict. While it is open this should abstain. Illustrative.
+Pharmacy advocate,"formulary tier, can I quote a price before I verify the member?",Answerable from the unverified-caller rule. Illustrative.
+Pharmacy advocate,What closing line do I read at the end of an Rx education call?,Answerable from the shared closing. Illustrative.
+Pharmacy advocate,Can I talk about the drug and the price when a caregiver has no authorization on the account?,Held-out style caregiver question. Illustrative.
+Pharmacy advocate,whats the rx price disclamer for a 30 day preffered retail fill,Misspelled pricing question. Illustrative.
+Pharmacy advocate,how many pairs of eyeglasses does this plan cover each year,No approved answer in these guides. Illustrative.
+Insurance advocate,what do I say before I quote a cost,Scope test. Pharmacy pricing should not be the answer. Illustrative.
+Insurance advocate,What do I say before I quote a medical cost?,Answerable from the benefits cost disclaimer. Illustrative.
+Insurance advocate,Does a specialist visit on a Harbor Medicare Advantage HMO need a referral?,Answerable from the referral rule. Illustrative.
+Insurance advocate,What is the MOOP for this MA plan?,No approved answer. Illustrative.
+Insurance advocate,Do specialty drugs stay at the specialty pharmacy?,Scope test. The specialty rule is in pharmacy. Illustrative.
+Insurance advocate,What closing line do I read at the end of an Rx education call?,Shared closing. Both advocate roles can receive it. Illustrative.
+Insurance advocate,When can I offer 90-day mail order for a maintenance drug?,Scope test. Mail order is in pharmacy. Illustrative.
+Insurance advocate,how long does a part d prior auth take,No approved answer. Illustrative.
+Insurance advocate,whats the moop on this ma plan,Misspelled benefits question with no approved answer. Illustrative.
+Insurance advocate,does this MA plan include a dental allowance,No approved answer. Illustrative.
+Member,How much will my prescription cost?,Member wording only. Illustrative.
+Member,Is the price I see a guarantee?,Member wording only. Illustrative.
+Member,Does my specialist visit need a referral?,Member wording for the referral rule. Illustrative.
+Member,Do specialty drugs go through mail order?,Member wording only. Illustrative.
+Member,Where do I get a specialty drug?,Member wording only. Illustrative.
+Member,Is an estimate a guarantee of payment?,Member wording only. Illustrative.
+Member,How long does a prior authorization take?,No approved member answer. Illustrative.
+Member,What is the most I would pay this year?,No approved member answer. Illustrative.
+Member,Can someone else ask about my medicine?,Member wording only. Illustrative.
+Member,What do I say before I quote a drug price?,Scope test. Advocate script must not be returned. Illustrative.

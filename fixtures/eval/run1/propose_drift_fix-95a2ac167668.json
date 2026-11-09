@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:01-05:00",
+  "input_sha256": "95a2ac167668db7aabdb42df6ee59e7c5a9dfa20a6669c33956b53ea527e864f",
+  "input_ref": "drift:DR01",
+  "output": {
+    "change": "cosmetic",
+    "summary": "The only change is a comma added after \"two identifiers.\" It is punctuation only. The rule still requires two identifiers drawn from the same three options (member ID, date of birth, address on file), so the meaning is unchanged.",
+    "proposed_text": "Confirm the caller's identity with two identifiers chosen from the member ID, the date of birth, and the address on file."
+  },
+  "response_id": "msg_011Cgm2NRKhJJGN9cYS53bbz",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 522,
+    "output_tokens": 134
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

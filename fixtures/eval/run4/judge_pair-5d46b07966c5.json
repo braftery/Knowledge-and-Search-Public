@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:17-05:00",
+  "input_sha256": "5d46b07966c510b69aa5d41cd31a1578545107d5dfeec0b19630f617df11fe21",
+  "input_ref": "duplicates:P20",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "60 calendar days",
+        "b": "60 business days"
+      }
+    ],
+    "reason": "Both set the appeal filing deadline from the decision letter date, but 60 calendar days and 60 business days are different deadlines that cannot both be correct.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2cpizidajxTuH2A6fD",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 717,
+    "output_tokens": 105
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

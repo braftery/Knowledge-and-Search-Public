@@ -1,0 +1,56 @@
+name: Model evals
+
+# Calls the model with the repository secret ANTHROPIC_API_KEY, saves every output, scores them, and commits
+# the outputs and the report to the branch it ran on. The key is never written to disk or to the log.
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "What to run"
+        type: choice
+        options: [both, record_evals, app_fixtures]
+        default: both
+      runs:
+        description: "Runs per eval input (variance)"
+        default: "5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: evals-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Record saved answers the app would otherwise call live
+        if: inputs.job != 'record_evals'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/run_evals.py --app-fixtures
+      - name: Record eval outputs
+        if: inputs.job != 'app_fixtures'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/run_evals.py --record --runs "${{ inputs.runs }}"
+      - name: Score
+        if: always()
+        run: python scripts/run_evals.py --score
+      - name: Commit outputs and report
+        if: always()
+        run: |
+          git config user.name "eval-runner"
+          git config user.email "eval-runner@users.noreply.github.com"
+          for path in fixtures data/eval/results.json docs/eval-report.md; do if [ -e "$path" ]; then git add "$path"; fi; done
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Eval run: saved model outputs and scores (illustrative data)"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

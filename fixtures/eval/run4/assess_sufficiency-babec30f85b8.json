@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:03-05:00",
+  "input_sha256": "babec30f85b802ca0c17b5bdc42095fd8a04f23bb67940cda5be37284a395e84",
+  "input_ref": "search:Q43",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units states how long a standard prior authorization decision takes. E-CB-15 mentions prior authorization deadlines, but it only says a missed callback does not extend them; it gives no decision timeframe."
+  },
+  "response_id": "msg_011Cgm2bszRLv2iaDjbvhFf6",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1811,
+    "output_tokens": 88
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

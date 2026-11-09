@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:58-05:00",
+  "input_sha256": "7b028a9717b7f7238d12d2d09eac31da232df97e67aa7cb04c1d049ca01486c5",
+  "input_ref": "duplicates:T09",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "within two days",
+        "b": "within two business days"
+      }
+    ],
+    "reason": "Both statements set the timeframe for the call summary to appear in the portal, but two calendar days and two business days give different deadlines (for example, after a Friday call), so the promised timing differs.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgkzv823hDvjw3piyDAen",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 722,
+    "output_tokens": 232
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

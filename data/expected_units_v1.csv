@@ -1,0 +1,18 @@
+# Hand-labeled units for script v1. Written after the first model run. Illustrative. Not used to change a prompt.
+span_text,type
+"Thanks for calling Harbor Health Member Services. My name is [first name]. I see you are calling about a prescription question on your Medicare Advantage plan. This call may be monitored or recorded. How can I help you today?",procedure
+"If the IVR already captured the drug name, do not make the member retell the whole story. Confirm the drug and the pharmacy, then move on.",procedure
+"Verify the member with two of these: member ID, date of birth, or the address on file.",procedure
+"If a caregiver is on the line, check the authorization on the account before you talk about the drug or the price.",procedure
+"If you cannot verify, offer to call the member back.",procedure
+"Do not quote a copay, a tier, or a coverage limit to an unverified caller, and do not say whether a drug is on the formulary.",policy
+"Before you say any dollar amount, read the next block word for word. Do not shorten it.",procedure
+"The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records I can see today. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment.",verbatim
+"You may say the estimate reflects the copay or coinsurance on the plan record.",procedure
+"You may not promise that the pharmacy will charge that amount.",procedure
+"For a maintenance drug, offer a 90-day mail-order supply only after the member has filled that same drug at a retail pharmacy two times in the current calendar year.",policy
+"Specialty drugs stay at Harbor Specialty Pharmacy and are not converted to mail order on this call.",policy
+"Read the next two sentences word for word, then stop.",procedure
+"Is there anything else I can help you with today? Thank you for calling Harbor Health. We appreciate you trusting us with your coverage.",verbatim
+"You may add, in your own words, that a summary of this call will appear in the member portal within two business days.",procedure
+"Do not add any price, tier, or network statement after the closing verbatim.",policy

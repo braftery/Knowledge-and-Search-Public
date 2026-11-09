@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:58-05:00",
+  "input_sha256": "1cbdb7fd109db9905a7403f88a335f13ca7bfffd1638c595f071ce2c9832a2a8",
+  "input_ref": "Pharmacy advocate: rx price disclamer",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "Two approved units (U-RX-EDU-001-09 and U-RX-EDU-002-07) give different wording for the Rx price disclaimer. U-RX-EDU-002-06 requires the disclaimer to be read word for word, so the exact text matters. Nothing shows which version is current, so neither can safely be chosen. The duplicate should be escalated to content owners to resolve."
+  }
+}

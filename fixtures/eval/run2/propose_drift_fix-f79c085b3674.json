@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:12-05:00",
+  "input_sha256": "f79c085b3674d85b21547270e701a5c21581f7ba2dda2e96598deaebce7448a0",
+  "input_ref": "drift:DR08",
+  "output": {
+    "change": "material",
+    "summary": "The decision deadline changed from 7 calendar days to 7 business days, which extends the actual time allowed for a standard prior authorization decision.",
+    "proposed_text": "A standard prior authorization decision is due 7 business days after Harbor receives a complete request."
+  },
+  "response_id": "msg_011Cgm2TjCcpVSy6Ff4sUicW",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 501,
+    "output_tokens": 96
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

@@ -1,0 +1,49 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:45-05:00",
+  "input_sha256": "2a527fa0bcce9cf585ebea870f2165cd055a65c5da40ec5ae2953f58554c1317",
+  "input_ref": "gaps:G06",
+  "output": {
+    "title": "Expedited Prior Authorization Decision Timeframe",
+    "type": "faq",
+    "draft_text": "Q: How long does an expedited prior authorization decision take?\n\nA: When a prior authorization request qualifies for expedited (urgent) review, a decision is made within [expedited decision timeframe, e.g., number of hours] of receiving [the request / all required clinical information]. A request typically qualifies for expedited review when [criteria for expedited review, e.g., prescriber attests that waiting for a standard decision could seriously jeopardize the member's life, health, or ability to regain maximum function].\n\nHow to request expedited review: [who can request expedited review, e.g., prescriber and/or member] can request it by [submission method(s), e.g., phone, fax, ePA portal], with [required documentation or attestation].\n\nWhen the clock starts: The timeframe begins [clock start point, e.g., when the request is received / when all required information is received]. If information is missing, [process and effect on timeframe when information is incomplete].\n\nIf the request does not qualify: If expedited review is not approved, the request is processed under the standard timeframe of [standard decision timeframe], and [notification process when expedited request is downgraded].\n\nHow the decision is communicated: The prescriber and member are notified by [notification method(s)] within [notification timeframe, if different from decision timeframe].\n\nIf the decision is late: [what happens if the decision timeframe is missed, if applicable].\n\nApplies to: [plan types / lines of business this timeframe applies to, e.g., commercial, Medicare Part D, Medicaid]. Timeframes may differ by plan type and state requirements; see [reference source or link].",
+    "placeholders": [
+      "[expedited decision timeframe, e.g., number of hours]",
+      "[the request / all required clinical information]",
+      "[criteria for expedited review, e.g., prescriber attests that waiting for a standard decision could seriously jeopardize the member's life, health, or ability to regain maximum function]",
+      "[who can request expedited review, e.g., prescriber and/or member]",
+      "[submission method(s), e.g., phone, fax, ePA portal]",
+      "[required documentation or attestation]",
+      "[clock start point, e.g., when the request is received / when all required information is received]",
+      "[process and effect on timeframe when information is incomplete]",
+      "[standard decision timeframe]",
+      "[notification process when expedited request is downgraded]",
+      "[notification method(s)]",
+      "[notification timeframe, if different from decision timeframe]",
+      "[what happens if the decision timeframe is missed, if applicable]",
+      "[plan types / lines of business this timeframe applies to, e.g., commercial, Medicare Part D, Medicaid]",
+      "[reference source or link]"
+    ],
+    "author_checklist": [
+      "Confirm the expedited prior authorization decision timeframe and its unit (hours vs. business/calendar days).",
+      "Confirm whether the timeframe differs by line of business (commercial, Medicare Part D, Medicaid) or by state, and list each applicable timeframe.",
+      "Confirm the criteria a request must meet to qualify for expedited review and who makes that determination.",
+      "Confirm who may request expedited review (prescriber, member, authorized representative) and the accepted submission channels.",
+      "Confirm when the timeframe clock starts and how missing or incomplete information affects it.",
+      "Confirm the standard (non-expedited) timeframe and the process and notification when an expedited request is downgraded.",
+      "Confirm how and when the prescriber and member are notified of the decision.",
+      "Confirm what happens if the decision is not made within the required timeframe (e.g., escalation or automatic outcome), if applicable.",
+      "Verify all timeframes against current regulatory requirements and internal policy documents, and cite the source.",
+      "Remove any placeholder sections that do not apply before approval."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2eCt2kfPsjHGXER5SL",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 620,
+    "output_tokens": 1256
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

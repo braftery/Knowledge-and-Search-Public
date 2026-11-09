@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:08-05:00",
+  "input_sha256": "e8385c9c74143eb0208cbde212a936da19c95fe19aa659b155f4289436cefda9",
+  "input_ref": "search:Q30",
+  "output": {
+    "answer_unit_id": "E-CB-16",
+    "reason": "E-CB-16 directly states the callback completion target: complete 90 percent of callbacks inside the promised window. The unit itself labels this figure as illustrative."
+  },
+  "response_id": "msg_011Cgm2gaNAS96qCXT22k2CP",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1801,
+    "output_tokens": 77
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

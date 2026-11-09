@@ -1,0 +1,194 @@
+{
+  "task": "extract_units",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:13:25-05:00",
+  "input_sha256": "1f69aa15a9a4ac1dee0b83126f9071a12c72e6c5d413a42bd8122a9ab79f13be",
+  "input_ref": "data/rx_education_script_v2.md",
+  "output": {
+    "units": [
+      {
+        "title": "Opening greeting (own words)",
+        "type": "procedure",
+        "text": "Open the call in your own words. Sample: thank the caller for calling Harbor Health, give your first name and say this is the pharmacy education line, confirm they are calling about a prescription on a Medicare Advantage plan, say the call may be monitored, and ask how you can help.",
+        "source_span": "Thanks for calling Harbor Health. This is [first name] on the pharmacy education line. You are calling about a prescription on a Medicare Advantage plan, and this call may be monitored. What can I help you with?",
+        "tags": [
+          "opening",
+          "greeting",
+          "call monitoring"
+        ],
+        "domain": "pharmacy education",
+        "audience": "advocate"
+      },
+      {
+        "title": "Skip long intro when IVR captured the drug",
+        "type": "procedure",
+        "text": "If the caller already told the IVR the drug, skip the long intro. Confirm the spelling of the drug and which pharmacy they want to use.",
+        "source_span": "Advocate note: Skip the long intro if they already told the IVR the drug. Just confirm spelling of the drug and which pharmacy they want to use.",
+        "tags": [
+          "opening",
+          "IVR",
+          "advocate note"
+        ],
+        "domain": "pharmacy education",
+        "audience": "advocate"
+      },
+      {
+        "title": "Verification requirements",
+        "type": "procedure",
+        "text": "Ask for the member ID plus either date of birth or address.",
+        "source_span": "Ask for the member ID plus either date of birth or address.",
+        "tags": [
+          "verification",
+          "member ID",
+          "identity"
+        ],
+        "domain": "pharmacy education",
+        "audience": "advocate"
+      },
+      {
+        "title": "Caregiver authorization required",
+        "type": "policy",
+        "text": "Caregivers need an authorization on the account before any drug or price talk.",
+        "source_span": "Caregivers need an authorization on the account before any drug or price talk.",
+        "tags": [
+          "verification",
+          "caregiver",
+          "authorization"
+        ],
+        "domain": "pharmacy education",
+        "audience": "both"
+      },
+      {
+        "title": "Unverified callers get callback offer only",
+        "type": "policy",
+        "text": "Unverified callers get a callback offer only.",
+        "source_span": "Unverified callers get a callback offer only.",
+        "tags": [
+          "verification",
+          "callback",
+          "unverified caller"
+        ],
+        "domain": "pharmacy education",
+        "audience": "advocate"
+      },
+      {
+        "title": "Read price disclaimer before any dollar figure",
+        "type": "procedure",
+        "text": "Read the price disclaimer word for word before giving any dollar figure.",
+        "source_span": "Read word for word before any dollar figure.",
+        "tags": [
+          "pricing",
+          "disclaimer",
+          "verbatim"
+        ],
+        "domain": "pharmacy education",
+        "audience": "advocate"
+      },
+      {
+        "title": "Price estimate disclaimer",
+        "type": "verbatim",
+        "text": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, using the plan records I can see today. What you pay can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment.",
+        "source_span": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, using the plan records I can see today. What you pay can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment.",
+        "tags": [
+          "pricing",
+          "disclaimer",
+          "legal",
+          "estimate"
+        ],
+        "domain": "pharmacy education",
+        "audience": "member"
+      },
+      {
+        "title": "Answering whether the estimate is the copay",
+        "type": "procedure",
+        "text": "If the member asks whether the quoted number is the copay, say it reflects what the plan record shows for copay or coinsurance. Do not promise the register price.",
+        "source_span": "Advocate note: If they ask whether that number is the copay, say it reflects what the plan record shows for copay or coinsurance. Do not promise the register price.",
+        "tags": [
+          "pricing",
+          "copay",
+          "coinsurance",
+          "advocate note"
+        ],
+        "domain": "pharmacy education",
+        "audience": "advocate"
+      },
+      {
+        "title": "Offer 90-day mail order on first fill for maintenance drugs",
+        "type": "policy",
+        "text": "For a maintenance drug, offer a 90-day mail-order supply on the first fill.",
+        "source_span": "For a maintenance drug, offer a 90-day mail-order supply on the first fill.",
+        "tags": [
+          "mail order",
+          "maintenance drug",
+          "90-day supply"
+        ],
+        "domain": "pharmacy education",
+        "audience": "advocate"
+      },
+      {
+        "title": "No retail fills required before mail order",
+        "type": "policy",
+        "text": "The member does not need any retail fills first before using 90-day mail order for a maintenance drug.",
+        "source_span": "The member does not need any retail fills first.",
+        "tags": [
+          "mail order",
+          "maintenance drug",
+          "retail fill"
+        ],
+        "domain": "pharmacy education",
+        "audience": "both"
+      },
+      {
+        "title": "Specialty drugs stay at Harbor Specialty Pharmacy",
+        "type": "policy",
+        "text": "Specialty drugs stay at Harbor Specialty Pharmacy and are not converted to mail order on this call.",
+        "source_span": "Specialty drugs stay at Harbor Specialty Pharmacy and are not converted to mail order on this call.",
+        "tags": [
+          "specialty pharmacy",
+          "mail order",
+          "specialty drugs"
+        ],
+        "domain": "pharmacy education",
+        "audience": "both"
+      },
+      {
+        "title": "Closing statement",
+        "type": "verbatim",
+        "text": "Is there anything else I can help you with today? Thank you for calling Harbor Health. We appreciate you trusting us with your coverage.",
+        "source_span": "Is there anything else I can help you with today? Thank you for calling Harbor Health. We appreciate you trusting us with your coverage.",
+        "tags": [
+          "closing",
+          "legal"
+        ],
+        "domain": "pharmacy education",
+        "audience": "member"
+      },
+      {
+        "title": "Call summary available in member portal",
+        "type": "policy",
+        "text": "A call summary shows in the member portal within two business days.",
+        "source_span": "A call summary shows in the member portal within two business days.",
+        "tags": [
+          "closing",
+          "member portal",
+          "call summary"
+        ],
+        "domain": "pharmacy education",
+        "audience": "both"
+      },
+      {
+        "title": "How to mention the call summary",
+        "type": "procedure",
+        "text": "Mention the portal call summary in your own words only, with no extra price or network comment.",
+        "source_span": "Add that in your own words only, with no extra price or network comment.",
+        "tags": [
+          "closing",
+          "call summary",
+          "advocate guidance"
+        ],
+        "domain": "pharmacy education",
+        "audience": "advocate"
+      }
+    ]
+  }
+}

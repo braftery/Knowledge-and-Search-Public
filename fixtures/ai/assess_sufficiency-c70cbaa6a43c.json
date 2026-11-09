@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:56-05:00",
+  "input_sha256": "c70cbaa6a43c595baa76da2ad311a19e3ceb84057010e49955bfd817ae32dad1",
+  "input_ref": "Pharmacy advocate: can i quote a copay before i verify the member",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the units says whether a copay may be quoted before verification. U-RX-EDU-001-04 covers how to verify a member but not when verification must happen relative to quoting. U-RX-EDU-001-06 covers callbacks when verification fails. U-RX-EDU-002-08 covers how to describe a quoted estimate, not its timing."
+  }
+}

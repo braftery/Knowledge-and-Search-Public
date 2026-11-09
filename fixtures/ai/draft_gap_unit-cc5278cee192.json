@@ -1,0 +1,37 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:19:28-05:00",
+  "input_sha256": "cc5278cee1925ecc75589090582ded96d1a095d6934722c914bf744425fcd469",
+  "input_ref": "c9",
+  "output": {
+    "title": "Does this Medicare Advantage plan include a dental allowance?",
+    "type": "faq",
+    "draft_text": "When a member asks whether their Medicare Advantage (MA) plan includes a dental allowance, open today's plan record and check the supplemental benefits section [confirm exact location of dental benefit in the plan record]. Keep the answer short.\n\nIf the plan record shows a dental allowance:\n\"Yes, your plan includes a dental allowance of [allowance amount] per [benefit period, e.g., calendar year / plan year / quarter]. It can be used for [covered dental services, e.g., preventive / comprehensive]. To use it, [how the allowance is accessed, e.g., prepaid card / provider bills plan / member submits for reimbursement]. [In-network requirement, if any, e.g., You need to see a dentist in the [dental network name] network.]\"\n\nIf the plan record shows no dental allowance:\n\"I don't see a dental allowance on your plan record today. [Approved next step or referral, e.g., standalone dental plan options or the plan's member services number].\"\n\nIf the record is unclear or the member asks how much is left:\n[Approved process for checking remaining allowance balance or escalating unclear dental benefits].\n\nUnused allowance: [whether unused allowance rolls over or expires at the end of the benefit period].\n\nBefore quoting any dollar amount for a dental service, [confirm whether a Legal verbatim disclaimer is required for dental estimates; the existing cost estimate disclaimer U-BEN-COST-001-02 covers in-network medical visits only].",
+    "placeholders": [
+      "[confirm exact location of dental benefit in the plan record]",
+      "[allowance amount]",
+      "[benefit period, e.g., calendar year / plan year / quarter]",
+      "[covered dental services, e.g., preventive / comprehensive]",
+      "[how the allowance is accessed, e.g., prepaid card / provider bills plan / member submits for reimbursement]",
+      "[In-network requirement, if any]",
+      "[dental network name]",
+      "[Approved next step or referral, e.g., standalone dental plan options or the plan's member services number]",
+      "[Approved process for checking remaining allowance balance or escalating unclear dental benefits]",
+      "[whether unused allowance rolls over or expires at the end of the benefit period]",
+      "[confirm whether a Legal verbatim disclaimer is required for dental estimates]"
+    ],
+    "author_checklist": [
+      "Confirm where advocates find the dental allowance on the plan record, and that it is plan-specific rather than standard across MA plans.",
+      "Confirm the allowance amount, or that it varies by plan and must be read from the record.",
+      "Confirm the benefit period and whether unused amounts roll over or expire.",
+      "Confirm which dental services the allowance covers and any exclusions.",
+      "Confirm how members access the allowance (card, direct billing, reimbursement) and any network requirements.",
+      "Confirm whether advocates can see a remaining allowance balance, and the escalation path if not.",
+      "Confirm with Legal whether a verbatim disclaimer is needed before quoting dental dollar amounts, since U-BEN-COST-001-02 applies only to in-network medical visits.",
+      "Confirm the approved next step for members whose plan has no dental allowance.",
+      "Align the tone and opening with U-BEN-COST-001-01 (short answer from today's plan record)."
+    ],
+    "suggested_kb": "benefits"
+  }
+}

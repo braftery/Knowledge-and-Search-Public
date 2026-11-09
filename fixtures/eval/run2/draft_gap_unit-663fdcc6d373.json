@@ -1,0 +1,51 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:25-05:00",
+  "input_sha256": "663fdcc6d373c99603a48384f86b1bfcbf5e4d01b347ebd131e8d7d6495ed047",
+  "input_ref": "gaps:G05",
+  "output": {
+    "title": "Typical wait time for a member callback",
+    "type": "faq",
+    "draft_text": "Question: How long does a member usually wait for a callback?\n\nAnswer: After a callback is requested, a member can usually expect a call back within [standard callback timeframe, e.g., number of business hours or business days]. Callbacks are made during [callback hours of operation and time zone]. If the request is submitted after [daily cutoff time] or on a [weekend/holiday], the timeframe begins on the next [business day].\n\nWait times may be longer when [conditions that extend wait times, e.g., peak enrollment periods or high call volume]. During these periods, the expected wait is [extended timeframe, if any].\n\nFor urgent issues, [priority/escalation path for urgent requests, if one exists] applies, with a callback expected within [urgent callback timeframe].\n\nThe callback will come from [phone number or caller ID the member will see]. If the member misses the call, [number of callback attempts] attempts will be made, and [what happens after missed attempts, e.g., voicemail left or the request is closed].\n\nIf the member has not received a callback within [timeframe after which to follow up], they should [follow-up steps, e.g., call the main line at [phone number] and reference their request number].",
+    "placeholders": [
+      "[standard callback timeframe, e.g., number of business hours or business days]",
+      "[callback hours of operation and time zone]",
+      "[daily cutoff time]",
+      "[weekend/holiday]",
+      "[business day]",
+      "[conditions that extend wait times, e.g., peak enrollment periods or high call volume]",
+      "[extended timeframe, if any]",
+      "[priority/escalation path for urgent requests, if one exists]",
+      "[urgent callback timeframe]",
+      "[phone number or caller ID the member will see]",
+      "[number of callback attempts]",
+      "[what happens after missed attempts, e.g., voicemail left or the request is closed]",
+      "[timeframe after which to follow up]",
+      "[follow-up steps, e.g., call the main line at [phone number] and reference their request number]",
+      "[phone number]"
+    ],
+    "author_checklist": [
+      "Confirm which callback program this covers (general member services, benefits, pharmacy, claims, etc.) and whether timeframes differ by team or request type.",
+      "Confirm the official standard callback timeframe and whether it is a service-level commitment or only a typical estimate.",
+      "Confirm whether timeframes are counted in business hours, business days, or calendar days.",
+      "Confirm callback hours of operation, time zone, and daily cutoff time.",
+      "Confirm whether wait times change during peak periods (e.g., open enrollment) and what extended timeframe, if any, should be communicated.",
+      "Confirm whether an urgent or priority callback path exists, who qualifies, and its timeframe. Remove that paragraph if no such path exists.",
+      "Confirm the phone number or caller ID members will see.",
+      "Confirm the number of callback attempts and what happens after missed attempts.",
+      "Confirm the follow-up process and contact number if a callback is not received.",
+      "Confirm whether any regulatory or contractual response-time requirements apply and should be referenced.",
+      "Remove any placeholder sections that do not apply before submitting for approval.",
+      "Choose the correct knowledge base: benefits is suggested, but move it to pharmacy if this applies to pharmacy callbacks."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2Ty6XVATvkX4kuoB9o",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 614,
+    "output_tokens": 1085
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

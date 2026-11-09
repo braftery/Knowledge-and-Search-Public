@@ -1,0 +1,49 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:52-05:00",
+  "input_sha256": "ec5cced5e06608be62c2da2754faa524bbc08f7b81572c3f902a8f726110e840",
+  "input_ref": "gaps:G02",
+  "output": {
+    "title": "Dollar Threshold for Escalating Specialty Pharmacy Cases to the Pharmacy Director",
+    "type": "policy",
+    "draft_text": "Question: What dollar amount sends a specialty case to the pharmacy director?\n\nAnswer: A specialty pharmacy case must be escalated to the pharmacy director for review when [the projected cost / the claim amount / the annual cost of therapy] for the specialty medication [meets or exceeds / exceeds] [dollar threshold amount].\n\nHow the amount is measured:\n- The threshold applies to [per-claim cost / per-fill cost / annualized cost of therapy / total cost over the authorization period].\n- The amount is calculated using [ingredient cost / allowed amount / plan-paid amount / billed amount], [including / excluding] member cost share.\n\nWhat to do when a case meets the threshold:\n1. Confirm the cost using [system or tool used to verify cost].\n2. Document the case in [case management system] and note the calculated amount.\n3. Route the case to the pharmacy director through [escalation method, e.g., queue, email, or form name].\n4. Tell the member or prescriber that the case is under additional review and that the expected turnaround is [number of business days / hours].\n\nExceptions:\n- [List any medications, plans, urgent or expedited cases, or other situations that are exempt from the threshold or follow a different path].\n\nIf the pharmacy director is unavailable, escalate to [backup approver or role].\n\nEffective date: [effective date]. Policy source: [policy name or document reference].",
+    "placeholders": [
+      "[the projected cost / the claim amount / the annual cost of therapy]",
+      "[meets or exceeds / exceeds]",
+      "[dollar threshold amount]",
+      "[per-claim cost / per-fill cost / annualized cost of therapy / total cost over the authorization period]",
+      "[ingredient cost / allowed amount / plan-paid amount / billed amount]",
+      "[including / excluding]",
+      "[system or tool used to verify cost]",
+      "[case management system]",
+      "[escalation method, e.g., queue, email, or form name]",
+      "[number of business days / hours]",
+      "[List any medications, plans, urgent or expedited cases, or other situations that are exempt from the threshold or follow a different path]",
+      "[backup approver or role]",
+      "[effective date]",
+      "[policy name or document reference]"
+    ],
+    "author_checklist": [
+      "Confirm the exact dollar threshold that triggers escalation to the pharmacy director.",
+      "Confirm whether the trigger is 'meets or exceeds' or 'exceeds' the threshold.",
+      "Confirm what the threshold is measured against: per claim, per fill, annualized therapy cost, or the authorization period.",
+      "Confirm which cost basis is used (ingredient cost, allowed amount, plan-paid, or billed) and whether member cost share is included.",
+      "Confirm the system or tool advocates use to verify the cost.",
+      "Confirm the escalation route (queue, form, or contact) and the documentation requirements.",
+      "Confirm the expected review turnaround time to communicate to members and prescribers.",
+      "Confirm any exceptions, such as expedited or urgent requests, specific plans or lines of business, or excluded drugs.",
+      "Confirm the backup approver when the pharmacy director is unavailable.",
+      "Confirm the effective date and the governing policy document, and check for state or regulatory turnaround requirements that may override internal timelines.",
+      "Verify with the pharmacy director or pharmacy operations leadership that the final content is accurate and current."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2j4jXuwQNtnuZavNJC",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 1169
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

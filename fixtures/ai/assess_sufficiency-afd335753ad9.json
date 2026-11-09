@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:14-05:00",
+  "input_sha256": "afd335753ad923886953459ed6902c7aab11eaaaf8da53c9760f532636d8103e",
+  "input_ref": "Pharmacy advocate: is the quoted rx price a garantee of payment",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-09",
+    "reason": "This unit fully answers the question: the quoted Rx price is an estimate and not a guarantee of payment. It also explains why the actual cost can change. U-RX-EDU-002-07 is nearly identical, but U-RX-EDU-001-09 is the version labeled Legal. U-WEB-FAQ-03 is generic and does not address Rx pricing specifically."
+  }
+}

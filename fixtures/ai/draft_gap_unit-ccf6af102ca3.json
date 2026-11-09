@@ -1,0 +1,27 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:17:34-05:00",
+  "input_sha256": "ccf6af102ca3d67bcccbd5fbab78df8c2d9f98e1921ab96e7d7502f1f5171241",
+  "input_ref": "c1",
+  "output": {
+    "title": "Quoting a copay before verifying the member",
+    "type": "faq",
+    "draft_text": "Q: Can I quote a copay before I verify the member?\n\nA: [Yes/No: whether a member-specific copay or coinsurance amount may be quoted before the member is verified]. [Policy source or reason for this rule].\n\nTo verify the member, confirm two of these: member ID, date of birth, or the address on file.\n\nIf you cannot verify the caller, offer to call the member back.\n\n[Whether general cost information that is not specific to the member may be shared with an unverified caller, and what it may include, or 'Not permitted'].\n\nAfter you quote the amount, if the member asks whether the number is the copay, say it reflects what the plan record shows for copay or coinsurance. Do not promise the register price.",
+    "placeholders": [
+      "[Yes/No: whether a member-specific copay or coinsurance amount may be quoted before the member is verified]",
+      "[Policy source or reason for this rule]",
+      "[Whether general cost information that is not specific to the member may be shared with an unverified caller, and what it may include, or 'Not permitted']"
+    ],
+    "author_checklist": [
+      "Confirm whether verification must be completed before any member-specific copay or coinsurance amount is quoted. No approved unit states this directly.",
+      "Identify the governing policy or privacy/compliance source for the rule and cite it.",
+      "Confirm whether general, non-member-specific cost or formulary information may be shared with unverified callers. If it may, define the limits.",
+      "Confirm the two-of-three verification standard (member ID, date of birth, address on file) still applies to copay inquiries, per U-RX-EDU-001-04.",
+      "Confirm the callback option in U-RX-EDU-001-06 applies when verification fails on a copay inquiry.",
+      "Confirm the estimate wording from U-RX-EDU-002-08 should be reused here, and link the related units.",
+      "Decide whether this belongs in the pharmacy KB or the shared-legal KB if the rule comes from a privacy policy."
+    ],
+    "suggested_kb": "pharmacy"
+  }
+}

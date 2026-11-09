@@ -1,0 +1,18 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:00-05:00",
+  "input_sha256": "849955f6e26a2473da72f57abd37d6362fb3c45ba1204355338e623b4969ddf8",
+  "input_ref": "U-RX-EDU-002-09 vs U-RX-EDU-002-10",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "offer a 90-day mail-order supply on the first fill",
+        "b": "does not need any retail fills first before using 90-day mail order"
+      }
+    ],
+    "reason": "Both say a maintenance drug can go to 90-day mail order without a prior retail fill, though A frames it as an instruction to proactively offer it while B states only the member's eligibility.",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:14:03-05:00",
+  "input_sha256": "c247d35e66de126fca5265c23fde274ba5dd25775c1023ababc91869ee4a6d26",
+  "input_ref": "explore member | Member: What is the most I would pay this year?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks for the yearly maximum out-of-pocket amount. Neither approved unit gives that amount. One is a cost estimate disclaimer and the other covers HMO specialist referrals."
+  },
+  "response_id": "msg_011CggvTGeEH8WNNDtsjJebJ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 577,
+    "output_tokens": 83
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:00:47-05:00",
+  "input_sha256": "34664f8632d7c01f4a9a35e377eddd23d8a04aa484c719dbe19b0dcdcf99ddb3",
+  "input_ref": "Pharmacy advocate: When can I offer 90-day mail order for a maintenance drug?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the units states when 90-day mail order can be offered for a maintenance drug. U-RX-EDU-001-13 only says specialty drugs are excluded from mail order conversion, which is a partial exclusion rather than the eligibility rule. The other units cover caller verification and price estimates."
+  },
+  "response_id": "msg_011CggWZiU88zX1UCuYfwJXW",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 603,
+    "output_tokens": 114
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

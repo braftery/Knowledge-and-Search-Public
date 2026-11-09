@@ -1,0 +1,51 @@
+{
+  "task": "label_clusters",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:17:08-05:00",
+  "input_sha256": "3f8f82723805f5d4a8c0c37cd56cf9a630c67996e6475654fbd1649a27b127ee",
+  "input_ref": "search_log abstentions",
+  "output": {
+    "clusters": [
+      {
+        "id": "c0",
+        "label": "Rx pricing disclaimer to read"
+      },
+      {
+        "id": "c1",
+        "label": "Quoting copay before verifying member"
+      },
+      {
+        "id": "c2",
+        "label": "When to offer 90 day mail order on maintenance drug"
+      },
+      {
+        "id": "c3",
+        "label": "Closing line for Rx education call"
+      },
+      {
+        "id": "c4",
+        "label": "Member website wording for drug price estimate"
+      },
+      {
+        "id": "c5",
+        "label": "Part D prior auth turnaround time"
+      },
+      {
+        "id": "c6",
+        "label": "MOOP on MA plan"
+      },
+      {
+        "id": "c7",
+        "label": "Insulin copay cap on PDP"
+      },
+      {
+        "id": "c8",
+        "label": "How to start a tiering exception"
+      },
+      {
+        "id": "c9",
+        "label": "MA plan dental allowance"
+      }
+    ]
+  }
+}

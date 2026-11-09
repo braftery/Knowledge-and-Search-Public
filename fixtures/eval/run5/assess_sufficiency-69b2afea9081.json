@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:48-05:00",
+  "input_sha256": "69b2afea9081ec27088f29623e658eb5e8736c45e66ace40990fbdc617ccf67f",
+  "input_ref": "search:Q01",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No approved unit explains how to verify a caller. E-CB-01 only says to offer a callback when the caller cannot be verified with two identifiers. It does not say which identifiers to use or how to check them. The other verification-related units cover only callbacks and restrictions for unverified callers."
+  },
+  "response_id": "msg_011Cgm2f6qB4oKLvJNQEWjPv",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1817,
+    "output_tokens": 191
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:45-05:00",
+  "input_sha256": "50223b32e8366ddf269131352aefd071652cd80b2a8d74a91b4b94645b7ddbc8",
+  "input_ref": "search:Q40",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "U-BEN-COST-001-05 covers only the first part: an HMO specialist visit needs a referral from the primary care doctor. No unit says how long a referral stays valid, so no single unit fully answers the question. Note that more than the stated maximum of three units were supplied."
+  },
+  "response_id": "msg_011Cgm2Rh3LRMhemES8xXoXY",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1867,
+    "output_tokens": 184
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

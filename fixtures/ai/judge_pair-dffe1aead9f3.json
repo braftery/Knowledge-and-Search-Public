@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:59:28-05:00",
+  "input_sha256": "dffe1aead9f3b3fab00352f65e6b0254e7292dfb499bf521534f8cbb61963e98",
+  "input_ref": "U-RX-EDU-001-09 vs U-BEN-COST-001-02",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [
+      {
+        "a": "an estimate for a 30-day supply at a preferred retail pharmacy",
+        "b": "an estimate for a covered in-network medical visit"
+      },
+      {
+        "a": "if the pharmacy, the days' supply, or your stage of coverage is different",
+        "b": "if the provider is out of network, if a referral is missing, or if your deductible status is different"
+      }
+    ],
+    "reason": "Although both are legal estimate disclaimers with shared boilerplate, A covers prescription drug pricing at a pharmacy while B covers medical visit costs, so they address different subjects rather than conflicting.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CggWTe4nevZyFM4UJW96Q",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 866,
+    "output_tokens": 213
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

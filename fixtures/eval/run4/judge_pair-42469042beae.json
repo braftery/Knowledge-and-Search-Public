@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:20-05:00",
+  "input_sha256": "42469042beaee577fe7b9aed0ec15ea171ba47ee73f5852406ef405e85a8d32e",
+  "input_ref": "duplicates:P26",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Statement A is a call-closing script offering further help and thanking the caller, while Statement B describes a scheduled callback arrangement, so they cover different subjects.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2d96ntjkUzQCT2zrik",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 745,
+    "output_tokens": 86
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

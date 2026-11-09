@@ -1,0 +1,50 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:33-05:00",
+  "input_sha256": "2a527fa0bcce9cf585ebea870f2165cd055a65c5da40ec5ae2953f58554c1317",
+  "input_ref": "gaps:G06",
+  "output": {
+    "title": "Expedited Prior Authorization Decision Timeframe",
+    "type": "faq",
+    "draft_text": "Q: How long does an expedited prior authorization decision take?\n\nA: When a prior authorization request qualifies for expedited (urgent) review, a decision is made within [expedited decision timeframe, e.g., number of hours] of receiving [the request / all required information, as the plan defines it]. For comparison, a standard (non-expedited) prior authorization decision is made within [standard decision timeframe].\n\nWho qualifies for expedited review: A request is reviewed on an expedited basis when [criteria for expedited review, e.g., prescriber attestation that waiting for a standard decision could seriously jeopardize the member's life, health, or ability to regain maximum function].\n\nWho can request expedited review: [who may request it, e.g., prescriber, member, authorized representative], by [submission channel(s), e.g., phone number, fax number, ePA portal].\n\nIf the request does not meet expedited criteria: [what happens, e.g., the request is processed under the standard timeframe and the member/prescriber is notified within [notification timeframe]].\n\nIf more information is needed: [whether and how the clock is paused or extended, and any extension limit].\n\nHow the decision is communicated: The decision is communicated to [the prescriber and/or member] by [notification method] within [notification timeframe].\n\nIf no decision is made within the timeframe: [what the advocate should do or tell the member, e.g., escalation path or contact].\n\nIf the expedited request is denied: The member may [appeal options and expedited appeal timeframe].",
+    "placeholders": [
+      "[expedited decision timeframe, e.g., number of hours]",
+      "[the request / all required information, as the plan defines it]",
+      "[standard decision timeframe]",
+      "[criteria for expedited review]",
+      "[who may request it]",
+      "[submission channel(s)]",
+      "[what happens if the request does not meet expedited criteria]",
+      "[notification timeframe]",
+      "[whether and how the clock is paused or extended, and any extension limit]",
+      "[the prescriber and/or member]",
+      "[notification method]",
+      "[escalation path or contact if no decision is made within the timeframe]",
+      "[appeal options and expedited appeal timeframe]"
+    ],
+    "author_checklist": [
+      "Confirm the expedited prior authorization decision timeframe and whether it is measured in hours or business/calendar days.",
+      "Confirm when the clock starts (receipt of request vs. receipt of all required clinical information).",
+      "Confirm the standard prior authorization timeframe for comparison.",
+      "Confirm the criteria that qualify a request for expedited review and who makes that determination.",
+      "Confirm who may request expedited review and the accepted submission channels (phone, fax, ePA).",
+      "Confirm the process when a request is downgraded from expedited to standard, including notification requirements.",
+      "Confirm whether timeframes can be extended or paused for missing information, and any limits.",
+      "Confirm how and to whom decisions are communicated, and the notification timeframe.",
+      "Confirm whether timeframes differ by line of business (e.g., Commercial, Medicare Part D, Medicaid) or by state regulation, and split the unit if needed.",
+      "Confirm the escalation path if a decision is not made within the required timeframe.",
+      "Confirm appeal options and expedited appeal timeframes after a denial.",
+      "Confirm the regulatory or contractual source for each timeframe and cite it.",
+      "Remove any section that does not apply and verify no placeholder remains before approval."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2Z3CEYSgpgfwTtwaNJ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 620,
+    "output_tokens": 1156
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

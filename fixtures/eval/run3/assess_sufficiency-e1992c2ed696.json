@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:49-05:00",
+  "input_sha256": "e1992c2ed69650f4cd9eebb5d9cdaa815b057970aa35d45bd4a05e66f491c0c0",
+  "input_ref": "search:Q36",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question has two parts. E-SOP-06 answers the first: record the prescriber name, the medicine name, and the diagnosis code on the intake form. No approved unit states a refrigerated shipping fee. Because units cannot be combined and no single unit answers both parts, no unit fully answers the question."
+  },
+  "response_id": "msg_011Cgm2WRJB4kfMoUvbnX8rs",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1863,
+    "output_tokens": 116
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

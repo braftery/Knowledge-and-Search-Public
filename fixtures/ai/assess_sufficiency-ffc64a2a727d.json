@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:01:15-05:00",
+  "input_sha256": "ffc64a2a727d4317a89b1243b5e89c9de54f320ccc5951f4297fad2ba8baddbb",
+  "input_ref": "Insurance advocate: do specialty drugs stay at the specialty pharmacy",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units covers specialty drugs or specialty pharmacy dispensing. One is a closing statement, and the other two are about visit cost estimates and their disclaimer."
+  },
+  "response_id": "msg_011CggWbrPvSrAeo2VeBZBEn",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 689,
+    "output_tokens": 77
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

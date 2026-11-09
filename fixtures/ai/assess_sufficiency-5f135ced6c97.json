@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:34-05:00",
+  "input_sha256": "5f135ced6c9724ea6aef33dd51a14229caaf94cbbe2e8d115bb8cd32dc7183c9",
+  "input_ref": "Pharmacy advocate: what is the MOOP on this MA plan",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks for the plan's maximum out-of-pocket (MOOP) amount. None of the approved units gives a MOOP figure or says how to find it. They cover a greeting script, a pricing estimate disclaimer, and how to answer copay questions."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:29-05:00",
+  "input_sha256": "61c6e2f93da14b8a0ef5a23414d632b7442e69eeed0f9c105698c20a286c595e",
+  "input_ref": "Pharmacy advocate: how long does a part d prior auth take",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units covers Part D prior authorization timeframes. All three deal only with call greetings and intro handling."
+  }
+}

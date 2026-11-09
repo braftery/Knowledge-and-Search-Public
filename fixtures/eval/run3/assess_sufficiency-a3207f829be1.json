@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:54-05:00",
+  "input_sha256": "a3207f829be13a460280a956b0bc934c65892c1e079c72076e9f4de438966ec4",
+  "input_ref": "search:Q44",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units says whether specialty drugs must be filled at Harbor Specialty Pharmacy. The available units cover callbacks, closing statements, cost estimates and HMO referrals, not where specialty drugs are filled."
+  },
+  "response_id": "msg_011Cgm2WoRhaEnHQVo6LfkVp",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1843,
+    "output_tokens": 95
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

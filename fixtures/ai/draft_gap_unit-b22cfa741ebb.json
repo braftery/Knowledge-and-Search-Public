@@ -1,0 +1,26 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:17:54-05:00",
+  "input_sha256": "b22cfa741ebbcac52c1e624fdeb106afef1d97ae31ef9c938ed6d2cdc3c727b9",
+  "input_ref": "c3",
+  "output": {
+    "title": "Closing line for the Rx education call",
+    "type": "procedure",
+    "draft_text": "How to close the Rx education call:\n\n1. Optional: In your own words, you may tell the member that a summary of this call will appear in the member portal within two business days. If you use this, say it before the closing sentences.\n2. Read the two closing sentences word for word:\n   \"[closing sentence 1, exact approved wording]\"\n   \"[closing sentence 2, exact approved wording]\"\n3. Stop. Do not add anything after the closing sentences.\n\nThis closing applies to [which Rx education call types or scripts this closing applies to].",
+    "placeholders": [
+      "[closing sentence 1, exact approved wording]",
+      "[closing sentence 2, exact approved wording]",
+      "[which Rx education call types or scripts this closing applies to]"
+    ],
+    "author_checklist": [
+      "Confirm the exact verbatim wording of both closing sentences from the approved Rx education script source.",
+      "Confirm that the optional portal summary mention (U-RX-EDU-001-16) should come before the closing sentences. This draft infers that order from the 'read closing word for word, then stop' instruction (U-RX-EDU-001-14).",
+      "Confirm the two-business-day portal summary timeframe is still current. It appears in U-RX-EDU-001-16 and U-RX-EDU-002-13.",
+      "Confirm which Rx education call types or scripts (for example, EDU-001 and EDU-002) use this closing.",
+      "Decide whether this unit should link to or replace U-RX-EDU-001-14 to avoid duplicate guidance.",
+      "Verify nothing else is required at close, such as a disclosure, survey offer, or call-back number, before approval."
+    ],
+    "suggested_kb": "pharmacy"
+  }
+}

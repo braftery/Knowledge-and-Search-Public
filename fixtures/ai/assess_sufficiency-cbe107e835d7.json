@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:20-05:00",
+  "input_sha256": "cbe107e835d76b8577447c0205845690021ca53054fca11ea3596eed9d8c866b",
+  "input_ref": "Pharmacy advocate: How long does a Part D prior authorization take?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units covers Part D prior authorization timelines. All three address IVR call handling or caregiver account authorization, which is a different kind of authorization."
+  }
+}

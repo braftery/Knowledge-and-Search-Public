@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:21-05:00",
+  "input_sha256": "a4f71c920349fa2b18ba6f0a36c416fae499ff17622375c0069850dd953c959a",
+  "input_ref": "Insurance advocate: where is the member website wording for the drug price estimate",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units answers this. They cover what to say on a call about medical visit costs and referrals. None gives the member website wording for a drug price estimate."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:55:47-05:00",
+  "input_sha256": "12ab2badf52bc573614380c721bd643449dea9e7475bbf3e945467eb657eba93",
+  "input_ref": "duplicates:T07",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "escalate the intake to the specialty supervisor on the same business day",
+        "b": "hold the file at the desk and do not escalate to the specialty supervisor"
+      }
+    ],
+    "reason": "Both address a missing prescriber signature, but A requires same-day escalation to the specialty supervisor while B prohibits escalation and says to hold the file at the desk.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CgkzyXBudw2wz31sxCuc4",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 734,
+    "output_tokens": 142
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

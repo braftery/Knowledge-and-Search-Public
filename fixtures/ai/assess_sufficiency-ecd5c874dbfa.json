@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:54:19-05:00",
+  "input_sha256": "ecd5c874dbfa51e2ea55091a4aff5b998895cdaff9eee926ffef8c83e64b58af",
+  "input_ref": "explore member | Member: Does my specialist visit need a referral?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "U-BEN-COST-001-05 covers only Harbor Medicare Advantage HMO plans, and the question doesn't say which plan the member has, so no unit fully answers it. U-BEN-COST-001-02 only mentions referrals as a cost factor, and U-RX-EDU-001-05 is unrelated. The member's plan type is needed before an approved unit can apply."
+  },
+  "response_id": "msg_011CggyX1rw9nCrQR9zDgBDF",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 641,
+    "output_tokens": 515
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

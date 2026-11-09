@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: harbor-knowledge
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false

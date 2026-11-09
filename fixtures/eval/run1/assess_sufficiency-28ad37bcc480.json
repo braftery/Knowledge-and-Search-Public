@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:24-05:00",
+  "input_sha256": "28ad37bcc48028b79b6eaa7c73b2259245accf3351e098151f58c503ecbd8440",
+  "input_ref": "search:Q05",
+  "output": {
+    "answer_unit_id": "E-SOP-09",
+    "reason": "E-SOP-09 gives the specialty cost wording itself: the cost is an estimate for the supply and pharmacy on today's plan record, it can change with supply, pharmacy or coverage stage, and it is not a guarantee of payment. E-SOP-08 only says to read that wording word for word and does not state it. E-SOP-10 and the U-RX disclaimers describe a 30-day preferred retail supply, which does not fit a specialty quote. Note that twenty units were supplied instead of the expected three or fewer."
+  },
+  "response_id": "msg_011Cgm2KLyg3k98Yz5ovJrza",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2110,
+    "output_tokens": 650
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

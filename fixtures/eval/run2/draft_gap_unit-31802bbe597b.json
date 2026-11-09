@@ -1,0 +1,42 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:20-05:00",
+  "input_sha256": "31802bbe597bad67202e072f366e30645e68238000e798211a4f333208d69650",
+  "input_ref": "gaps:G01",
+  "output": {
+    "title": "Shipping Fee for Refrigerated Specialty Medication Packages",
+    "type": "faq",
+    "draft_text": "Q: How much is the shipping fee for a refrigerated specialty package?\n\nA: Refrigerated (cold-chain) specialty medication packages are shipped by [specialty pharmacy name] using [shipping method/carrier, e.g., overnight delivery]. The shipping fee for a refrigerated specialty package is [fee amount, or state that there is no charge].\n\nWhat to tell the member:\n- Standard refrigerated shipping cost: [fee amount or no charge].\n- Whether the fee depends on the member's plan: [yes/no; if yes, describe which plans or benefit tiers differ].\n- Expedited or special delivery options (for example, Saturday or same-day delivery), if offered: [available options and their fees].\n- How the fee is billed: [billed with the copay, charged separately, or waived].\n- Whether the fee counts toward the member's deductible or out-of-pocket maximum: [yes/no].\n\nIf the member's situation is not covered above, such as a replacement shipment after a delayed or temperature-damaged delivery, follow [escalation path or referral procedure, e.g., team or queue name].",
+    "placeholders": [
+      "[specialty pharmacy name]",
+      "[shipping method/carrier, e.g., overnight delivery]",
+      "[fee amount, or state that there is no charge]",
+      "[fee amount or no charge]",
+      "[yes/no; if yes, describe which plans or benefit tiers differ]",
+      "[available options and their fees]",
+      "[billed with the copay, charged separately, or waived]",
+      "[yes/no]",
+      "[escalation path or referral procedure, e.g., team or queue name]"
+    ],
+    "author_checklist": [
+      "Confirm whether a shipping fee applies to refrigerated specialty packages at all, or whether shipping is included at no charge.",
+      "Confirm the exact fee amount and the date it takes effect.",
+      "Confirm whether the fee varies by plan, benefit design, client, or delivery location (for example, rural areas, Alaska/Hawaii, or U.S. territories).",
+      "Confirm which carrier and shipping method are used for cold-chain packages.",
+      "Confirm whether expedited, weekend, or holiday delivery is available and what each costs.",
+      "Confirm how the fee is billed (with the copay, separately, or waived) and whether it applies to the deductible or out-of-pocket maximum.",
+      "Confirm the policy for reshipping packages that arrive delayed, damaged, or outside the required temperature range, and whether the member is charged.",
+      "Confirm the correct escalation path or team for exceptions and disputes about fees.",
+      "Have pharmacy operations or the specialty pharmacy owner review the content, and link the source documents."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2TkF8GoAWyiAzXpAh7",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 630,
+    "output_tokens": 926
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

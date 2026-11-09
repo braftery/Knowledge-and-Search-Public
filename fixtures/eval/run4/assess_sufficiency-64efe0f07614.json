@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:05-05:00",
+  "input_sha256": "64efe0f076144b8d1cb1548e6ac12ec1a266923a7d96d7a28a3f16ad53b647c0",
+  "input_ref": "search:Q46",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units mentions grievances. Several units say to offer a callback when the caller cannot be verified, but none says when to offer a callback for a grievance. Choosing one would mean assuming the verification rule applies to grievances, which no unit states."
+  },
+  "response_id": "msg_011Cgm2by5mNRCwyoPQuKEfH",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1736,
+    "output_tokens": 176
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,50 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:44-05:00",
+  "input_sha256": "7f2f77e53bef6fb97164ca49eaed84ed9599448447fabb7fa916164967eeef1c",
+  "input_ref": "gaps:G03",
+  "output": {
+    "title": "Deadline for a Prescriber to Schedule a Peer-to-Peer Review After a Denial",
+    "type": "faq",
+    "draft_text": "Q: How many days does a prescriber have to schedule a peer-to-peer review after a denial?\n\nA: After a prior authorization or coverage request is denied, the prescriber has [number of days] [calendar/business] days from [the date of the denial / the date the denial notice is issued / the date the denial notice is received] to request a peer-to-peer review.\n\nHow the prescriber requests it: The prescriber or their office should contact [department or team name] at [phone number] / [fax number] / [portal or other method] to schedule the review. They should have [required information, e.g., member ID, case or reference number, drug name] ready.\n\nWho conducts the review: The peer-to-peer discussion is held with [reviewer type, e.g., clinical pharmacist or medical director].\n\nIf the window has passed: If the prescriber misses the peer-to-peer deadline, [available options, e.g., submit a formal appeal or a new request], and the deadline for that option is [number of days] days from [triggering event].\n\nDoes a peer-to-peer affect the appeal deadline? [Yes/No - explain whether requesting a peer-to-peer pauses or extends the formal appeal timeframe.]\n\nExceptions: [Note any differences by plan type, line of business (e.g., Commercial, Medicare, Medicaid), state requirements, or urgent/expedited cases.]\n\nAdvocate tip: Tell the member or prescriber office the exact date the window closes, calculated from [triggering event], and document the call in [system name].",
+    "placeholders": [
+      "[number of days]",
+      "[calendar/business]",
+      "[the date of the denial / the date the denial notice is issued / the date the denial notice is received]",
+      "[department or team name]",
+      "[phone number]",
+      "[fax number]",
+      "[portal or other method]",
+      "[required information, e.g., member ID, case or reference number, drug name]",
+      "[reviewer type, e.g., clinical pharmacist or medical director]",
+      "[available options, e.g., submit a formal appeal or a new request]",
+      "[triggering event]",
+      "[Yes/No - explain whether requesting a peer-to-peer pauses or extends the formal appeal timeframe.]",
+      "[Note any differences by plan type, line of business (e.g., Commercial, Medicare, Medicaid), state requirements, or urgent/expedited cases.]",
+      "[system name]"
+    ],
+    "author_checklist": [
+      "Confirm the number of days allowed to request or schedule a peer-to-peer review after a denial.",
+      "Confirm whether the window is counted in calendar days or business days.",
+      "Confirm the event that starts the clock (denial date, notice issue date, or notice receipt date).",
+      "Confirm whether the deadline is to request the review or to complete it.",
+      "Confirm the contact method(s), phone/fax numbers, and portal for scheduling.",
+      "Confirm the information the prescriber must provide when scheduling.",
+      "Confirm who conducts peer-to-peer reviews.",
+      "Confirm options available if the peer-to-peer window is missed, and their deadlines.",
+      "Confirm whether requesting a peer-to-peer pauses or extends the formal appeal deadline.",
+      "Confirm any variations by line of business, plan type, state regulation, or expedited cases.",
+      "Confirm the documentation system advocates should use.",
+      "Identify the source policy or contract document supporting each fact and obtain approval from the pharmacy/utilization management owner."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2e2ibntGE6cih5MBNS",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 644,
+    "output_tokens": 1159
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T15:09:40-05:00",
+  "input_sha256": "b492e7c69c77e5e0b3eb2db73f2c1c16009fc558ad7f4db8d2625cb92fbac78f",
+  "input_ref": "dedup_variants.csv row 20",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "This estimate is not a guarantee of payment.",
+        "b": "This estimate is not always a guarantee of payment."
+      }
+    ],
+    "reason": "Statement A says the estimate is never a guarantee of payment, while Statement B implies it sometimes is, which changes the guarantee.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CggbpKdgiohBPHJq4QPxb",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 853,
+    "output_tokens": 170
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

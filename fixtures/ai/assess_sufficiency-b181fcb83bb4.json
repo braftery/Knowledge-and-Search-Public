@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:11-05:00",
+  "input_sha256": "b181fcb83bb4ca0f15e71b68b5f5759861388e3b7527da719aaadbe86be08737",
+  "input_ref": "Pharmacy advocate: formulary tier, can i give a price before verification",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-07",
+    "reason": "This unit answers the question directly. Before the caller is verified, do not quote a copay, a tier, or a coverage limit, and do not say whether a drug is on the formulary. The other two units only cover caregiver authorization."
+  }
+}

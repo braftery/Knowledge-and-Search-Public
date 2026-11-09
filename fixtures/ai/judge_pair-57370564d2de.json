@@ -1,0 +1,33 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:58:30-05:00",
+  "input_sha256": "57370564d2de6a32b4fcc5f0726d0abace0d4e816e846025b7203abde93e95c1",
+  "input_ref": "U-RX-EDU-001-02 vs U-RX-EDU-002-01",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "Thanks for calling Harbor Health Member Services",
+        "b": "say this is the pharmacy education line"
+      },
+      {
+        "a": "This call may be monitored or recorded.",
+        "b": "say the call may be monitored"
+      },
+      {
+        "a": "I see you are calling about a prescription question",
+        "b": "confirm they are calling about a prescription"
+      }
+    ],
+    "reason": "Both scripts cover the same opening greeting but identify the line differently (Member Services vs. the pharmacy education line) and B drops the recording disclosure, so an agent cannot follow both as written.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011CggWPWv4mpXivPHcLjWz6",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 847,
+    "output_tokens": 400
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:13:38-05:00",
+  "input_sha256": "45557be174b72c589f216164250b08bcbbdc4d553f3c8e4f1e763df9526694d0",
+  "input_ref": "explore | Member: Do specialty drugs go through mail order?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units say whether specialty drugs are filled through mail order. The units cover a cost estimate disclaimer, HMO specialist referrals, and why a pharmacy charge can differ, and none address specialty drug fulfillment."
+  },
+  "response_id": "msg_011CggvRS7gumMXxxciBLejz",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 686,
+    "output_tokens": 97
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

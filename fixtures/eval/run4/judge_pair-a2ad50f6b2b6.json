@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:22-05:00",
+  "input_sha256": "a2ad50f6b2b6eb21706b876a54a502c3b6124d49de8fd3c02367445809842721",
+  "input_ref": "duplicates:P27",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Statement A covers when a prior authorization decision summary appears in the member portal, while Statement B covers when a summary of the current call appears, so the different timeframes (3 vs. two business days) apply to different items and do not contradict each other.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2dBmnQD6eDQCf2uxs2",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 720,
+    "output_tokens": 232
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

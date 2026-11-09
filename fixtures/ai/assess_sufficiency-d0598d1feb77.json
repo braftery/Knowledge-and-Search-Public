@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:13:10-05:00",
+  "input_sha256": "d0598d1feb77731ebfd51b41fa9f9f1c7ea4c4d31bf0e0982f62a231ee45c0d2",
+  "input_ref": "explore | Member: How much will my prescription cost?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the units gives the cost of the member's prescription. U-BEN-COST-001-02 covers cost estimates for in-network medical visits, not prescriptions. U-BEN-COST-001-05 is about HMO referral rules. U-WEB-FAQ-04 explains why a pharmacy charge can differ but does not say what the prescription will cost."
+  },
+  "response_id": "msg_011CggvPKXWLCnZ4e8jLgB6U",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 682,
+    "output_tokens": 136
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

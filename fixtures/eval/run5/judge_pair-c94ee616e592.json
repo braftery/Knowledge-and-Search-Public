@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:55:39-05:00",
+  "input_sha256": "c94ee616e592ca0f44992102a70fa949ed35fc899a6c60c1e69be7544a7fa33f",
+  "input_ref": "duplicates:T03",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "Confirm the caller's identity",
+        "b": "Verify the member"
+      },
+      {
+        "a": "two identifiers chosen from the member ID, the date of birth, and the address on file",
+        "b": "two of these: member ID, date of birth, or the address on file"
+      }
+    ],
+    "reason": "Both require verifying identity with any two of the same three identifiers (member ID, date of birth, address on file); only the wording differs, though 'caller' versus 'member' could matter if a non-member is calling.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgkzy8nGfH8LCTz4wazAr",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 727,
+    "output_tokens": 322
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

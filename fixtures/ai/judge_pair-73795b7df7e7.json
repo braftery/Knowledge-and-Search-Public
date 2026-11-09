@@ -1,0 +1,18 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:35-05:00",
+  "input_sha256": "73795b7df7e78d4381af90d550abafb078a57571e5aaf9b4f76c1270214d2d5d",
+  "input_ref": "dedup_variants.csv row 10",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "preferred retail pharmacy",
+        "b": "out-of-network pharmacy"
+      }
+    ],
+    "reason": "Both disclaimers describe the same price-estimate situation, but they name different pharmacy types as the basis of the estimate, and they cannot both be the canonical basis.",
+    "confidence": "high"
+  }
+}

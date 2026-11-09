@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:01:11-05:00",
+  "input_sha256": "c0f9fc6c31063ba7618de30f5831f8051989200c9e151840759fc5fe4e7d4031",
+  "input_ref": "Pharmacy advocate: how long does a part d prior auth take",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks how long a Part D prior authorization takes. None of the approved units mention prior authorization or turnaround times. All three cover call handling: greeting delivery and using the drug name the IVR already captured."
+  },
+  "response_id": "msg_011CggWbVFgi5py5Zo2f5ipa",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 606,
+    "output_tokens": 86
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

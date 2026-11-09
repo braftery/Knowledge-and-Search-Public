@@ -1,0 +1,18 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:43-05:00",
+  "input_sha256": "254d7f38711d83ca756333f4d5f17a6559529fcd3cb9590567b03225380fe0ce",
+  "input_ref": "dedup_variants.csv row 12",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "",
+        "b": "If the member has met a $505 deductible, quote $0."
+      }
+    ],
+    "reason": "B adds a fixed $0 quote tied to a $505 deductible condition, which contradicts A's position that the quoted price is only an estimate that can vary with stage of coverage, since meeting the deductible does not by itself mean a $0 cost.",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:27-05:00",
+  "input_sha256": "52945e4ad9f7338e47f8717ebaddcf3b309e35a9dfafcf9795aeedc67c3f1060",
+  "input_ref": "Pharmacy advocate: OOP wording, does the estimate cover the copay or coinsurance",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-002-08",
+    "reason": "This unit fully answers the question: say the quoted estimate reflects what the plan record shows for copay or coinsurance, and do not promise the register price. U-RX-EDU-001-10 gives the same core wording but leaves out that caveat. U-RX-EDU-001-09 is the general pricing disclaimer and does not address copay or coinsurance."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:33-05:00",
+  "input_sha256": "53729cdef6feb2fd8ef7d1c5425ca8ffc6bc3dcd1a8d534579443883ce572a09",
+  "input_ref": "search:Q03",
+  "output": {
+    "answer_unit_id": "E-SOP-06",
+    "reason": "E-SOP-06 fully answers the question. It says to record the prescriber name, the medicine name, and the diagnosis code on the intake form before saving it."
+  },
+  "response_id": "msg_011Cgm2VG42xwcdwi7GWCcjM",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1903,
+    "output_tokens": 76
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

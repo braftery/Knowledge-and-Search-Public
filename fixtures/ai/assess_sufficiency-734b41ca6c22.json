@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:46:12-05:00",
+  "input_sha256": "734b41ca6c22cce94353e6c56846ac7fd795944885421ebd419867461afcd12d",
+  "input_ref": "short-partial | Pharmacy advocate: what do I say before I quote a cost",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the units says what to tell the member before quoting a cost. U-RX-EDU-001-05 is the closest, but it only covers checking caregiver authorization when a caregiver is on the line. It does not cover what to say before a price quote in general. The other two units cover greeting delivery and confirming the drug captured by the IVR."
+  },
+  "response_id": "msg_011Cgga2XLzbaEvCdEXYnw6z",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 586,
+    "output_tokens": 269
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

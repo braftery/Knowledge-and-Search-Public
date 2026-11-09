@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:54-05:00",
+  "input_sha256": "a611c038e782f722b85f16398e5c48075e8c1cbd4e89a522cc423fbd29a08a1f",
+  "input_ref": "duplicates:P05",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "I cannot tell you whether this medicine is right for you. Your prescriber makes that decision.",
+        "b": "Your prescriber makes that decision. I cannot tell you whether this medicine is right for you."
+      }
+    ],
+    "reason": "Both statements contain the same three sentences with the first two in swapped order, so the meaning and obligations are unchanged, though the reordering makes 'that decision' refer forward rather than back.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2SMZadjyw1g4HgotTf",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 759,
+    "output_tokens": 167
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

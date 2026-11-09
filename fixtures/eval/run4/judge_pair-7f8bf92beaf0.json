@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:12-05:00",
+  "input_sha256": "7f8bf92beaf08f76a91970c4d69d43d283d661c9dc89e07db25ff2f15b74c810",
+  "input_ref": "duplicates:P10",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "If a caregiver is on the line, check the authorization on the account",
+        "b": "Caregivers need an authorization on the account"
+      },
+      {
+        "a": "before you talk about the drug or the price",
+        "b": "before any drug or price talk"
+      }
+    ],
+    "reason": "Both require a caregiver authorization on the account before drug or price details are discussed; A states this as an instruction to the agent to check, and B states it as a requirement, with no change to who it applies to or the condition.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2cVrSXk6gS9cEQZKsP",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 718,
+    "output_tokens": 175
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,16 @@
+question,role,expected_unit,expected_before_resolution,why,heldout
+What do I say before I quote a drug price?,Pharmacy advocate,U-RX-PRICING-DISCLAIMER,U-RX-PRICING-DISCLAIMER,The approved answer is the verbatim pricing disclaimer on the pharmacy education script.,no
+whats the rx price disclamer for a 30 day preffered retail fill,Pharmacy advocate,U-RX-PRICING-DISCLAIMER,U-RX-PRICING-DISCLAIMER,Misspelled and shortened form of the same disclaimer question.,no
+"formulary tier, can I quote a price before I verify the member?",Pharmacy advocate,U-RX-VERIFY-BEFORE-QUOTE,U-RX-VERIFY-BEFORE-QUOTE,"Uses formulary and tier. The answer is the rule that an unverified caller does not get a price, tier, or formulary status.",no
+When can I offer 90-day mail order for a maintenance drug?,Pharmacy advocate,U-RX-MAIL-ORDER-TWO-RETAIL-FILLS,ABSTAIN,Script 1 requires two retail fills in the current calendar year before a 90-day mail-order supply.,no
+Do specialty drugs stay at the specialty pharmacy?,Pharmacy advocate,U-RX-SPECIALTY-PHARMACY,U-RX-SPECIALTY-PHARMACY,Both scripts say specialty drugs stay at Harbor Specialty Pharmacy and are not converted to mail order on this call.,no
+How long does a Part D prior authorization take?,Pharmacy advocate,ABSTAIN,ABSTAIN,No document states a prior authorization turnaround time.,no
+What is the MOOP for this MA plan?,Insurance advocate,ABSTAIN,ABSTAIN,No document states a maximum out of pocket.,no
+When can I offer 90-day mail order for a maintenance drug?,Insurance advocate,ABSTAIN,ABSTAIN,"Leak test. The mail-order unit belongs in the pharmacy knowledge base, which this role cannot read.",no
+Do specialty drugs stay at the specialty pharmacy?,Insurance advocate,ABSTAIN,ABSTAIN,"Leak test. The specialty pharmacy unit belongs in the pharmacy knowledge base, which this role cannot read.",no
+What closing line do I read at the end of an Rx education call?,Pharmacy advocate,U-RX-CLOSING,U-RX-CLOSING,The closing verbatim on the education script. Both advocate roles should receive this same shared-legal unit.,no
+What do I say before I quote a medical cost?,Insurance advocate,U-BEN-COST-DISCLAIMER,U-BEN-COST-DISCLAIMER,The approved answer is the verbatim cost-estimate disclaimer in the benefits cost guide.,no
+What closing line do I read at the end of an Rx education call?,Insurance advocate,U-RX-CLOSING,U-RX-CLOSING,Shared-legal unit. The Insurance advocate receives the same closing verbatim as the Pharmacy advocate.,no
+Does a specialist visit on a Harbor Medicare Advantage HMO need a referral?,Insurance advocate,U-BEN-SPECIALIST-REFERRAL,U-BEN-SPECIALIST-REFERRAL,Held out. Written before the model saw this question. The benefits guide says a specialist visit on this HMO needs a referral from the primary care doctor on file.,yes
+Can I talk about the drug and the price when a caregiver has no authorization on the account?,Pharmacy advocate,U-RX-CAREGIVER-AUTH,U-RX-CAREGIVER-AUTH,Held out. Written before the model saw this question. Script v1 says to check the authorization on the account before talking about the drug or the price.,yes
+How many days does a tiering exception decision take?,Pharmacy advocate,ABSTAIN,ABSTAIN,Held out. Written before the model saw this question. No sample document states a turnaround time for a tiering exception.,yes

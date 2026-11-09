@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:40-05:00",
+  "input_sha256": "94f1816ac851a7eaae88c12310d2ce6a5baf89a42161246c29afdfb29199e26b",
+  "input_ref": "search:Q18",
+  "output": {
+    "answer_unit_id": "E-SOP-04",
+    "reason": "E-SOP-04 directly answers the question. A caregiver who is not listed as an authorized caller may set a callback time only."
+  },
+  "response_id": "msg_011Cgm2VkxLmW4KPDvaz2ujr",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1789,
+    "output_tokens": 66
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

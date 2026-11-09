@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:02-05:00",
+  "input_sha256": "55a08ff371618e6d1deaeff829c544b93afaeb908d3236bb1f51940afc9125e1",
+  "input_ref": "duplicates:P23",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "8:00 a.m.",
+        "b": "9:00 a.m."
+      },
+      {
+        "a": "6:00 p.m.",
+        "b": "5:00 p.m."
+      }
+    ],
+    "reason": "Both statements set the weekday callback scheduling window but give different start and end times, so they cannot both be the correct rule.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2Sv9u14bPNgBPfsnaZ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 743,
+    "output_tokens": 124
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:13-05:00",
+  "input_sha256": "cf8326959cee0424f1619537774c694ec46b90d8fbe32aa08131871885a4be65",
+  "input_ref": "duplicates:P16",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "$35",
+        "b": "$45"
+      }
+    ],
+    "reason": "Both statements describe the same training example's in-network specialist copay but state different amounts, so they cannot both be true.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2ceFTENUefPX6GvVHy",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 701,
+    "output_tokens": 85
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

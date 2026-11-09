@@ -1,0 +1,45 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:01:35-05:00",
+  "input_sha256": "9eb5b6ca1884860378171402241b1105957594a32eebf2e49fcca62d04e3e2f1",
+  "input_ref": "c1",
+  "output": {
+    "title": "When to offer 90-day mail order on a maintenance drug",
+    "type": "procedure",
+    "draft_text": "Use this when a member calls about a maintenance medication and you are considering offering a 90-day mail order supply.\n\n1. Verify the caller first. If the caller cannot be verified, do not discuss or set up mail order. Offer a callback only (see U-RX-EDU-002-05).\n\n2. Confirm the drug qualifies.\n- The drug must be a maintenance medication, meaning [definition or list source for maintenance medications, e.g., the plan's maintenance drug list].\n- Specialty drugs do not qualify. They stay at Harbor Specialty Pharmacy and are not converted to mail order on this call (see U-RX-EDU-001-13).\n- [Any other excluded drug categories, e.g., controlled substances, if applicable].\n\n3. Confirm the member's eligibility.\n- The member's plan must include mail order coverage: [how to confirm in the system].\n- The member has been taking the medication for at least [minimum time on therapy or number of fills, if required].\n- [Any other eligibility conditions, e.g., stable dose, no pending prior authorization].\n\n4. Offer the option. Example wording: \"Because this is a medication you take regularly, you may be able to get a 90-day supply through our mail order pharmacy, [mail order pharmacy name].\"\n- Describe cost only as directed: [cost or copay comparison guidance for 90-day mail order versus 30-day retail].\n- Do not quote retail estimates from the pharmacy price page as mail order prices. Those estimates are for a 30-day supply at a preferred retail pharmacy (see U-WEB-FAQ-01).\n\n5. If the member accepts, follow [process to set up mail order, e.g., new prescription from prescriber or transfer of existing prescription]. Tell the member to expect delivery in about [number of days].\n\n6. If the member declines, document [documentation requirement] and continue the call.",
+    "placeholders": [
+      "[definition or list source for maintenance medications, e.g., the plan's maintenance drug list]",
+      "[Any other excluded drug categories, e.g., controlled substances, if applicable]",
+      "[how to confirm in the system]",
+      "[minimum time on therapy or number of fills, if required]",
+      "[Any other eligibility conditions, e.g., stable dose, no pending prior authorization]",
+      "[mail order pharmacy name]",
+      "[cost or copay comparison guidance for 90-day mail order versus 30-day retail]",
+      "[process to set up mail order, e.g., new prescription from prescriber or transfer of existing prescription]",
+      "[number of days]",
+      "[documentation requirement]"
+    ],
+    "author_checklist": [
+      "Confirm how advocates identify a maintenance medication, including the list or system source.",
+      "Confirm which drug categories, beyond specialty drugs, are excluded from 90-day mail order.",
+      "Confirm which plans include mail order coverage and how advocates check this.",
+      "Confirm whether a minimum time on therapy or number of prior fills is required before offering.",
+      "Confirm the name of the mail order pharmacy.",
+      "Confirm the approved cost or copay language for 90-day mail order versus retail.",
+      "Confirm the setup steps: new prescription versus transfer, and who contacts the prescriber.",
+      "Confirm the standard delivery timeframe.",
+      "Confirm documentation requirements for offers that are accepted and offers that are declined.",
+      "Confirm that the verification requirement and the specialty exclusion are consistent with U-RX-EDU-002-05 and U-RX-EDU-001-13.",
+      "Confirm whether advocates should offer mail order proactively or only when the member asks."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011CggWcHEA8hKxwvtR3FqjZ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 803,
+    "output_tokens": 1232
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:13-05:00",
+  "input_sha256": "2d271674362af8e16ff2297d11ff578b398dc068837faa4eb08e45e58e89edb5",
+  "input_ref": "search:Q39",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No single approved unit answers both parts of the question. E-SOP-01 covers who may quote a specialty cost on intake (only the Pharmacy advocate), but no unit gives a dollar amount that sends a case to the director."
+  },
+  "response_id": "msg_011Cgm2gz5Rm5ksJAHXUCC3k",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1972,
+    "output_tokens": 157
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

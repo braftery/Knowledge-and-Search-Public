@@ -1,0 +1,41 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:57-05:00",
+  "input_sha256": "8c20403132db4feb6b99ea5beb30b736169996f439c8abcd321c528c3af487fd",
+  "input_ref": "gaps:G09",
+  "output": {
+    "title": "Deadline for sending the specialty intake packet to Harbor Specialty Pharmacy",
+    "type": "faq",
+    "draft_text": "Question: How long do I have to send the specialty intake packet?\n\nAnswer: Send the finished intake packet to Harbor Specialty Pharmacy before the end of the same business day. (Source: approved unit U-KNOWN-FACT.)\n\nWhat \"same business day\" means: The same business day is counted from [the event that starts the deadline, e.g., the day the packet is completed]. The end of the business day is [cutoff time and time zone]. Business days are [definition of business days, e.g., which days of the week and which holidays are excluded].\n\nHow to send it: Send the packet using [approved submission method, e.g., fax, portal, or secure email], to [Harbor Specialty Pharmacy contact or destination].\n\nIf the packet is finished after the cutoff: [instructions for packets completed after the end-of-day cutoff].\n\nIf you miss the deadline: [escalation steps or contact for a missed same-day deadline].\n\nIf the packet is incomplete: [instructions for packets that are not yet finished, e.g., whether the clock starts and who to notify].",
+    "placeholders": [
+      "[the event that starts the deadline, e.g., the day the packet is completed]",
+      "[cutoff time and time zone]",
+      "[definition of business days, e.g., which days of the week and which holidays are excluded]",
+      "[approved submission method, e.g., fax, portal, or secure email]",
+      "[Harbor Specialty Pharmacy contact or destination]",
+      "[instructions for packets completed after the end-of-day cutoff]",
+      "[escalation steps or contact for a missed same-day deadline]",
+      "[instructions for packets that are not yet finished, e.g., whether the clock starts and who to notify]"
+    ],
+    "author_checklist": [
+      "Confirm that U-KNOWN-FACT (same business day deadline) is current and applies to all specialty intake packets, not a subset.",
+      "Confirm whether the existing approved unit should be updated or linked instead of creating a duplicate unit, since it appears to answer this question but did not surface in search.",
+      "Confirm what starts the same-business-day clock (packet completion, receipt of prescription, member call, or other).",
+      "Confirm the end-of-business-day cutoff time and the time zone that applies.",
+      "Confirm how business days are defined, including weekends and holidays.",
+      "Confirm the approved method and destination for sending the packet to Harbor Specialty Pharmacy.",
+      "Confirm the process for packets finished after the cutoff and for missed deadlines, including any escalation contact.",
+      "Confirm handling of incomplete packets.",
+      "Add search keywords such as 'how long', 'deadline', 'timeframe', and 'specialty intake packet' so advocates can find this unit."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2ewRswasda1ivVnETR",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 668,
+    "output_tokens": 1101
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

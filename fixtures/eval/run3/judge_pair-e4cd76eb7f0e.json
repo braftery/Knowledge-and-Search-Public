@@ -1,0 +1,41 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:02-05:00",
+  "input_sha256": "e4cd76eb7f0e747ad21f5430a824d4e2c61f7ee5dd3c971eb0ce534e06d8589f",
+  "input_ref": "duplicates:P03",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "The price I quote",
+        "b": "The figure I give"
+      },
+      {
+        "a": "based on the plan records",
+        "b": "taken from the plan records"
+      },
+      {
+        "a": "Your actual cost",
+        "b": "What the member pays"
+      },
+      {
+        "a": "your stage of coverage",
+        "b": "the stage of coverage"
+      },
+      {
+        "a": "This estimate",
+        "b": "The estimate"
+      }
+    ],
+    "reason": "Both statements describe the same 30-day preferred retail pharmacy estimate, the same factors that can change the cost, and the same no-guarantee disclaimer, so only the wording differs; the shift from second person to 'the member' still refers to the same person.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2X7sx3WzyrbCbTRAVF",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 845,
+    "output_tokens": 229
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

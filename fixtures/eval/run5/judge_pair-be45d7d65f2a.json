@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:29-05:00",
+  "input_sha256": "be45d7d65f2a0d1aa9b3b08ae3c246df2cc402f030ffddb0c6b94590d5d8372a",
+  "input_ref": "duplicates:P21",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "10 years",
+        "b": "7 years"
+      }
+    ],
+    "reason": "Both set the retention period for the same records from the same start date but specify different durations (10 years vs 7 years), which cannot both be the required policy.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2hzYjc6TFnMdWrktT6",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 713,
+    "output_tokens": 96
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:37-05:00",
+  "input_sha256": "b8c5ed955432a1a76961e8a6354c1e12ef7f1219ba900952c54156c9c8bd6839",
+  "input_ref": "Insurance advocate: what is the MOOP on this MA plan",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks for the plan's maximum out-of-pocket (MOOP) amount. The three approved units only cover how to open a visit cost answer, the legal cost-estimate disclaimer, and how to handle the \"is that all I pay?\" follow-up. None of them states or explains the MOOP for this Medicare Advantage plan."
+  }
+}

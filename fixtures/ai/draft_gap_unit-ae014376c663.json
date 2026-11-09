@@ -1,0 +1,47 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:02:01-05:00",
+  "input_sha256": "ae014376c663183938238258c08a2e8c06cca4c5938132d12e1365a0ec030733",
+  "input_ref": "c5",
+  "output": {
+    "title": "How long a Medicare Part D prior authorization takes",
+    "type": "faq",
+    "draft_text": "Question: How long does a Part D prior authorization take?\n\nAnswer (what to tell the member):\nOnce we receive the prior authorization request [and all required information from the prescriber], a standard request is usually decided within [standard decision timeframe]. If the prescriber indicates that waiting could seriously harm the member's health, the request can be handled as an expedited (fast) request, which is usually decided within [expedited decision timeframe].\n\nThe clock starts when [event that starts the review timeframe, e.g., receipt of the request or receipt of the prescriber's supporting statement]. If information is missing, [what happens to the timeframe when information is missing or requested from the prescriber].\n\nThe member will be notified of the decision by [notification method(s)] within [notification timeframe]. The prescriber will be notified by [prescriber notification method].\n\nHow to request an expedited review: [who can request an expedited review and how].\n\nIf the request is denied, the member can [next step, e.g., request a redetermination/appeal] within [appeal filing deadline]. See [link or name of the related knowledge unit on Part D appeals].\n\nAdvocate tips:\n- If the IVR already captured the drug name, do not make the member retell it. Confirm the drug spelling and the pharmacy, then move on.\n- To check the status of an existing request, [where or how the advocate looks up prior authorization status].\n- If the member needs the medication before a decision, [guidance on transition or temporary supply, if applicable].",
+    "placeholders": [
+      "[and all required information from the prescriber]",
+      "[standard decision timeframe]",
+      "[expedited decision timeframe]",
+      "[event that starts the review timeframe, e.g., receipt of the request or receipt of the prescriber's supporting statement]",
+      "[what happens to the timeframe when information is missing or requested from the prescriber]",
+      "[notification method(s)]",
+      "[notification timeframe]",
+      "[prescriber notification method]",
+      "[who can request an expedited review and how]",
+      "[next step, e.g., request a redetermination/appeal]",
+      "[appeal filing deadline]",
+      "[link or name of the related knowledge unit on Part D appeals]",
+      "[where or how the advocate looks up prior authorization status]",
+      "[guidance on transition or temporary supply, if applicable]"
+    ],
+    "author_checklist": [
+      "Confirm the standard and expedited decision timeframes against current CMS Part D coverage determination rules and the plan's own policy.",
+      "Confirm what event starts the review clock and how missing prescriber information affects it.",
+      "Confirm how and when the member and prescriber are notified of the decision.",
+      "Confirm who may request an expedited review and the process for doing so.",
+      "Confirm the appeal (redetermination) next step and filing deadline, and link the correct approved unit if one exists.",
+      "Confirm the system or tool advocates use to check prior authorization status.",
+      "Confirm whether transition or temporary supply guidance applies and what it says.",
+      "Confirm the answer is appropriate for both Pharmacy and Insurance advocates, or split it if their processes differ.",
+      "Have compliance or legal review the member-facing wording before approval."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011CggWeVb6snWbAdwVks87A",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 1179
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

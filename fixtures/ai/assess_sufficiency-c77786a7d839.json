@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-04T18:53:05-05:00",
+  "input_sha256": "c77786a7d8390dc0795b760ad195608fe08f8432c8afe6442310a2da5b07aa97",
+  "input_ref": "explore-fresh | Pharmacy advocate: How long does a Part D prior authorization take?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the three approved units covers Part D prior authorization timeframes. They cover caregiver authorization checks, callbacks when verification fails, and withholding coverage details from unverified callers. None says how long a prior authorization takes."
+  },
+  "response_id": "msg_011CginfUne9LzhQ1yHtUU4U",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 588,
+    "output_tokens": 93
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

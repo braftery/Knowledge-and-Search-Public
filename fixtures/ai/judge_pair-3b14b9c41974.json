@@ -1,0 +1,22 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:18-05:00",
+  "input_sha256": "3b14b9c41974bb540be823fe942b815edcc9ed649e724f1db438c64ccd2e2ea1",
+  "input_ref": "dedup_variants.csv row 5",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "based on the plan records",
+        "b": "using the plan records"
+      },
+      {
+        "a": "Your actual cost can change",
+        "b": "What you pay can change"
+      }
+    ],
+    "reason": "Only the wording differs; the amount basis, days' supply, pharmacy type, conditions for change, and no-guarantee statement are identical.",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:35-05:00",
+  "input_sha256": "14c09c19021916e313a3dec6f2ac5ba1f796b1bc7e8c784294781581727613f7",
+  "input_ref": "search:Q06",
+  "output": {
+    "answer_unit_id": "E-SOP-16",
+    "reason": "E-SOP-16 states the retention period directly: keep the intake form and the call note for 10 years from the date of the intake. The unit itself notes that this period is illustrative. None of the other units cover retention."
+  },
+  "response_id": "msg_011Cgm2VPVG2A29CgqCUd4b2",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1857,
+    "output_tokens": 91
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

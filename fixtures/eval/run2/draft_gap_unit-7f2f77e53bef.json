@@ -1,0 +1,48 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:23-05:00",
+  "input_sha256": "7f2f77e53bef6fb97164ca49eaed84ed9599448447fabb7fa916164967eeef1c",
+  "input_ref": "gaps:G03",
+  "output": {
+    "title": "Deadline for a Prescriber to Schedule a Peer-to-Peer Review After a Denial",
+    "type": "faq",
+    "draft_text": "Question: How many days does a prescriber have to schedule a peer-to-peer review after a denial?\n\nAnswer: After a prior authorization or coverage request is denied, the prescriber has [number of days] [calendar/business] days from [the date of the denial notice / the date the denial was issued / the date the prescriber received notice] to request and schedule a peer-to-peer review with [the reviewing pharmacist/medical director/clinical reviewer].\n\nHow to schedule: The prescriber (or [authorized office staff]) can request a peer-to-peer review by calling [phone number] or [other method, e.g., portal or fax], available [hours of operation]. The prescriber should have [required information, e.g., member ID, denial reference number, drug name] ready.\n\nIf the window has passed: If the prescriber misses the [number of days]-day window, [alternative path, e.g., the prescriber or member may submit a formal appeal/redetermination within [number of days] days of the denial].\n\nExceptions: [Any exceptions, e.g., different timeframes for expedited/urgent requests, specific plans, lines of business, or state requirements].\n\nWhat to tell the caller: Let the caller know the deadline is counted from [start event], and that requesting a peer-to-peer review [does/does not] extend or pause the deadline to file a formal appeal.",
+    "placeholders": [
+      "[number of days]",
+      "[calendar/business]",
+      "[the date of the denial notice / the date the denial was issued / the date the prescriber received notice]",
+      "[the reviewing pharmacist/medical director/clinical reviewer]",
+      "[authorized office staff]",
+      "[phone number]",
+      "[other method, e.g., portal or fax]",
+      "[hours of operation]",
+      "[required information, e.g., member ID, denial reference number, drug name]",
+      "[alternative path, e.g., the prescriber or member may submit a formal appeal/redetermination within [number of days] days of the denial]",
+      "[Any exceptions, e.g., different timeframes for expedited/urgent requests, specific plans, lines of business, or state requirements]",
+      "[start event]",
+      "[does/does not]"
+    ],
+    "author_checklist": [
+      "Confirm the number of days a prescriber has to request/schedule a peer-to-peer review after a denial.",
+      "Confirm whether the timeframe is calendar days or business days.",
+      "Confirm the event that starts the clock (denial date, notice date, or receipt date).",
+      "Confirm who conducts the peer-to-peer review and who may request it on the prescriber's behalf.",
+      "Confirm the contact method, phone number, and hours for scheduling.",
+      "Confirm the information the prescriber must provide when requesting.",
+      "Confirm the alternative process and deadline if the peer-to-peer window is missed.",
+      "Confirm whether timeframes differ for expedited/urgent requests, specific plans, lines of business (e.g., Medicare, Medicaid, commercial), or state regulations.",
+      "Confirm whether requesting a peer-to-peer review affects the formal appeal deadline.",
+      "Identify the source policy or contract document and cite it before approval.",
+      "Remove any sections or placeholders that do not apply."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2TrpWHmsNmmuZrkpnN",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 644,
+    "output_tokens": 1078
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

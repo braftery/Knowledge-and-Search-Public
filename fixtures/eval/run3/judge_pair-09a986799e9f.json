@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:10-05:00",
+  "input_sha256": "09a986799e9f42644ea245d3e8da758994d6a561cb535561e32ebe5c6b3e032b",
+  "input_ref": "duplicates:P24",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Both are cost-estimate disclaimers, but Statement A covers a 30-day prescription supply at a preferred retail pharmacy, while Statement B covers an in-network medical visit, so they address different situations.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2XtNPP4q3vtMBqXvsk",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 837,
+    "output_tokens": 232
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,36 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:28-05:00",
+  "input_sha256": "d4fa6745b8981f18cdb9b56e41e1e14c0b46be236d9d357214a4df622eb0c8b9",
+  "input_ref": "gaps:G11",
+  "output": {
+    "title": "What hours can we schedule a member callback?",
+    "type": "faq",
+    "draft_text": "Question: What hours can we schedule a callback?\n\nAnswer: Schedule member callbacks on weekdays (Monday through Friday) between 8:00 a.m. and 6:00 p.m. Eastern. (Source: approved unit U-KNOWN-FACT.)\n\nWhen scheduling:\n- Convert the member's preferred time to Eastern and confirm it falls within the 8:00 a.m. to 6:00 p.m. Eastern window. Members in other time zones may need an earlier or later local time.\n- Do not schedule callbacks on weekends.\n- Holidays: [whether callbacks can be scheduled on company-observed holidays, and the list of observed holidays].\n- Latest start time: [whether a callback may be booked to start right up to 6:00 p.m. Eastern or must end by then, and any required buffer].\n- If the member is only available outside these hours: [approved alternative, for example escalation path, voicemail, or secure message option].\n- How to book: [system or tool used to schedule the callback and any required fields].",
+    "placeholders": [
+      "[whether callbacks can be scheduled on company-observed holidays, and the list of observed holidays]",
+      "[whether a callback may be booked to start right up to 6:00 p.m. Eastern or must end by then, and any required buffer]",
+      "[approved alternative, for example escalation path, voicemail, or secure message option]",
+      "[system or tool used to schedule the callback and any required fields]"
+    ],
+    "author_checklist": [
+      "Check whether approved unit U-KNOWN-FACT already answers this question. If it does, consider improving its titles, keywords, or synonyms so searches like 'callback hours' find it, instead of publishing a duplicate unit.",
+      "Confirm U-KNOWN-FACT is still current: weekdays, 8:00 a.m. to 6:00 p.m. Eastern.",
+      "Confirm the holiday callback rule and the list of observed holidays.",
+      "Confirm whether 6:00 p.m. Eastern is the latest start time or the time by which callbacks must end.",
+      "Confirm the approved option for members who cannot take a call within these hours.",
+      "Confirm the scheduling system or tool and the required steps or fields.",
+      "Confirm these hours apply to all lines of business and member types, or note any exceptions.",
+      "Remove any placeholder line that cannot be confirmed rather than guessing."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2PoxzVeTwBP4FWgBik",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 664,
+    "output_tokens": 956
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

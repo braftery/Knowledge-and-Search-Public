@@ -1,0 +1,38 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:19:04-05:00",
+  "input_sha256": "8c20403132db4feb6b99ea5beb30b736169996f439c8abcd321c528c3af487fd",
+  "input_ref": "gaps:G09",
+  "output": {
+    "title": "Deadline for sending the specialty intake packet to Harbor Specialty Pharmacy",
+    "type": "faq",
+    "draft_text": "Q: How long do I have to send the specialty intake packet?\n\nA: Once the intake packet is finished, send it to Harbor Specialty Pharmacy before the end of the same business day (source: U-KNOWN-FACT).\n\n- The end of the business day means [cutoff time and time zone].\n- Send the packet by [submission method, such as fax, portal, or secure email] to [Harbor Specialty Pharmacy contact or destination].\n- If the packet is finished on a non-business day, send it by [deadline for packets finished on weekends or holidays].\n- If you cannot send the packet the same business day, [steps to take if the deadline is missed, including who to notify].\n- The packet counts as finished when [definition of a finished intake packet or required components].",
+    "placeholders": [
+      "[cutoff time and time zone]",
+      "[submission method, such as fax, portal, or secure email]",
+      "[Harbor Specialty Pharmacy contact or destination]",
+      "[deadline for packets finished on weekends or holidays]",
+      "[steps to take if the deadline is missed, including who to notify]",
+      "[definition of a finished intake packet or required components]"
+    ],
+    "author_checklist": [
+      "Confirm that U-KNOWN-FACT (send the finished packet to Harbor Specialty Pharmacy before the end of the same business day) answers this question, and whether this unit should merge with it or link to it instead of duplicating it.",
+      "Confirm that the same-business-day deadline applies to all specialty intake packets and not only to certain medications, plans, or pharmacies.",
+      "Confirm the clock starts when the packet is finished and not when the intake call or referral is received, and define what makes a packet finished.",
+      "Confirm the end-of-business-day cutoff time and which time zone applies.",
+      "Confirm the approved submission method and destination for Harbor Specialty Pharmacy.",
+      "Confirm how packets finished on weekends or holidays are handled.",
+      "Confirm the escalation or notification steps if the deadline is missed.",
+      "Remove any placeholder lines that cannot be confirmed from an approved source."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2k44dNDGAAmbp8XjjQ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 668,
+    "output_tokens": 887
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

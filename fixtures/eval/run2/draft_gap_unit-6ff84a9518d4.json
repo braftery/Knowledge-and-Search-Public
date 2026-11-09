@@ -1,0 +1,44 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:30-05:00",
+  "input_sha256": "6ff84a9518d4d1788b049abf5ba72672a2fcb98b014399ddccfa5c8df8aa3b55",
+  "input_ref": "gaps:G07",
+  "output": {
+    "title": "Which plans include a nurse callback?",
+    "type": "faq",
+    "draft_text": "Question: Which plans include a nurse callback?\n\nAnswer: A nurse callback is a service where [description of the service, e.g., a registered nurse calls the member back to discuss symptoms or care questions]. It is included with the following plans: [list of plan names that include nurse callback]. It is not included with: [list of plan names that do not include nurse callback, or 'all other plans'].\n\nHow a member requests a callback: [request method, e.g., phone number, member portal, or advocate referral]. Callbacks are available [hours and days of availability] and typically happen within [callback time frame] of the request.\n\nCost to the member: [cost or confirmation that there is no additional charge].\n\nEligibility notes: [any eligibility requirements or restrictions, e.g., dependents covered, age limits, or regional availability].\n\nIf a member's plan does not include a nurse callback, advocates should [alternative resource or next step, e.g., refer to a nurse line, telehealth benefit, or primary care provider].\n\nHow to confirm a member's plan: [where advocates verify plan details, e.g., member record system or benefits summary].",
+    "placeholders": [
+      "[description of the service]",
+      "[list of plan names that include nurse callback]",
+      "[list of plan names that do not include nurse callback, or 'all other plans']",
+      "[request method]",
+      "[hours and days of availability]",
+      "[callback time frame]",
+      "[cost or confirmation that there is no additional charge]",
+      "[any eligibility requirements or restrictions]",
+      "[alternative resource or next step]",
+      "[where advocates verify plan details]"
+    ],
+    "author_checklist": [
+      "Confirm that a nurse callback service exists and define what it includes.",
+      "Confirm the exact list of plans that include the nurse callback and those that do not.",
+      "Confirm how members or advocates request a callback, including any phone number or portal link.",
+      "Confirm hours of availability and expected callback time frame.",
+      "Confirm whether there is any cost to the member.",
+      "Confirm eligibility restrictions such as dependents, age, or geographic limits.",
+      "Confirm the recommended alternative for members whose plans do not include the service.",
+      "Confirm where advocates verify a member's plan benefits.",
+      "Confirm whether this content belongs in the benefits knowledge base or another knowledge base.",
+      "Remove any placeholder or section that does not apply before approval."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2UUCVXTdCTqw1M25GY",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 610,
+    "output_tokens": 792
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

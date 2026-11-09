@@ -1,0 +1,37 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:19:02-05:00",
+  "input_sha256": "f320833a4f9f2471dc7c517e6450a84995ee442abf5aa4957793a765161622d8",
+  "input_ref": "gaps:G08",
+  "output": {
+    "title": "When a call summary appears in the member portal",
+    "type": "faq",
+    "draft_text": "Question: When will the call summary show in the member portal?\n\nAnswer: A summary of this call will appear in the member portal within two business days. (Source: approved unit U-KNOWN-FACT. Advocates may say this to the member in their own words.)\n\nWhere to find it: The member can find the summary in the portal under [portal section or menu path where call summaries appear].\n\nIf the summary does not appear: If the summary is not in the portal after two business days, the member should [action the member should take, e.g., contact channel or phone number].\n\nScope: This timeframe applies to [call types or lines of business covered, e.g., pharmacy calls only or all member calls].\n\nExceptions: [any call types, member groups, or circumstances where a summary is not posted or takes longer, or 'None' if there are none].\n\nHow to say it to the member (example wording): \"You'll be able to see a summary of today's call in your member portal within two business days, under [portal section or menu path where call summaries appear].\"",
+    "placeholders": [
+      "[portal section or menu path where call summaries appear]",
+      "[action the member should take, e.g., contact channel or phone number]",
+      "[call types or lines of business covered, e.g., pharmacy calls only or all member calls]",
+      "[any call types, member groups, or circumstances where a summary is not posted or takes longer, or 'None' if there are none]"
+    ],
+    "author_checklist": [
+      "Confirm that the two-business-day timeframe from approved unit U-KNOWN-FACT applies to pharmacy advocate calls, not only to the line of business that unit was written for.",
+      "Confirm whether U-KNOWN-FACT should be linked or referenced rather than duplicated, to avoid conflicting versions if the timeframe changes.",
+      "Fill in the portal location where members find call summaries and verify the exact menu labels.",
+      "Fill in the escalation step and contact details for members whose summary has not appeared after two business days.",
+      "Confirm which call types or lines of business generate a portal summary.",
+      "Confirm any exceptions where a summary is not posted or is delayed, or state that there are none.",
+      "Confirm that the example member-facing wording is acceptable under communication and compliance standards.",
+      "Confirm that the pharmacy knowledge base is the right home, or move it to a shared knowledge base if the answer applies across lines of business.",
+      "Remove all square-bracket placeholders before submitting for approval."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2k3RvMSrN4DYY3QanP",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 658,
+    "output_tokens": 1004
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

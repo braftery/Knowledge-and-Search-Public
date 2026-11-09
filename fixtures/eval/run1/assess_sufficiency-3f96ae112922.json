@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:34-05:00",
+  "input_sha256": "3f96ae1129224eb1bc96caf08bcf966e540ba4a9f8f8e9225ee9156ebd8e6d55",
+  "input_ref": "search:Q35",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks for two timeframes, standard and expedited. E-PA-06 gives only the standard one (7 calendar days after a complete request). No approved unit gives the expedited decision time, and units may not be combined, so no single unit fully answers the question."
+  },
+  "response_id": "msg_011Cgm2LVp1E8QrYW2z7s4Kv",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1729,
+    "output_tokens": 100
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:46-05:00",
+  "input_sha256": "881f73d42b3bc6c14a6fdeb05199dfdf39f04d7754ba96f1d22577b4342a014a",
+  "input_ref": "search:Q41",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No single approved unit answers both parts of the question. E-CB-10 covers what Harbor Health says when calling back, but not how long the member will wait. E-CB-09 mentions only 'the window we agreed', with no length given. Units cannot be combined, so none fully answers it."
+  },
+  "response_id": "msg_011Cgm2RiuCCjgyZRpeJNLp4",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2079,
+    "output_tokens": 214
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

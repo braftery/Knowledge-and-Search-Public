@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:44-05:00",
+  "input_sha256": "c9c9b5dc2de5cae451d5f52e33b8935d46e35ee4584b68c97f37135a9851c93f",
+  "input_ref": "Insurance advocate: does this MA plan include a dental allowance",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks whether the Medicare Advantage plan includes a dental allowance. All three approved units cover how to quote the cost of a medical visit: the opening script, the legal disclaimer, and the follow-up handling. None of them mentions dental benefits or allowances, so no unit answers the question."
+  }
+}

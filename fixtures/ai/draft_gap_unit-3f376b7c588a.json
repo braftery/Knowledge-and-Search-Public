@@ -1,0 +1,38 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:18:22-05:00",
+  "input_sha256": "3f376b7c588a35d11478b1c4481804afd7b3eab29d1e4c526ceb220fdd22cbd7",
+  "input_ref": "c5",
+  "output": {
+    "title": "Part D prior authorization turnaround time",
+    "type": "faq",
+    "draft_text": "Q: How long does a Part D prior authorization take?\n\nA: Once we receive the complete request with the prescriber's supporting information, a standard Part D prior authorization decision is made within [standard decision timeframe, e.g., number of hours or days]. If the prescriber indicates that waiting could seriously harm the member's health, the request can be expedited, and a decision is made within [expedited decision timeframe]. The clock starts [when the timeframe begins, e.g., when the plan receives the request or the prescriber's supporting statement].\n\nWhat to tell the caller:\n- Confirm the drug name and spelling and which pharmacy they plan to use.\n- Check the status of the request in [system or tool used to look up prior authorization status].\n- If the request is missing information from the prescriber, explain that [what happens when the request is incomplete and how it affects the timeframe].\n- The member and prescriber are notified of the decision by [notification method, e.g., phone, letter, fax].\n- If a decision is not made within the required timeframe, [what happens if the deadline is missed].\n- If the request is denied, the member can [next step, e.g., request a redetermination] within [number of days to request an appeal].\n\nTo request an expedited review, the member or prescriber should [how to request an expedited review, e.g., phone number or fax].",
+    "placeholders": [
+      "[standard decision timeframe, e.g., number of hours or days]",
+      "[expedited decision timeframe]",
+      "[when the timeframe begins, e.g., when the plan receives the request or the prescriber's supporting statement]",
+      "[system or tool used to look up prior authorization status]",
+      "[what happens when the request is incomplete and how it affects the timeframe]",
+      "[notification method, e.g., phone, letter, fax]",
+      "[what happens if the deadline is missed]",
+      "[next step, e.g., request a redetermination]",
+      "[number of days to request an appeal]",
+      "[how to request an expedited review, e.g., phone number or fax]"
+    ],
+    "author_checklist": [
+      "Confirm the standard Part D prior authorization (coverage determination) decision timeframe that applies to Harbor Health Medicare Advantage plans.",
+      "Confirm the expedited decision timeframe and who can request expedited review (member, prescriber, or both).",
+      "Confirm when the decision clock starts (receipt of request vs. receipt of prescriber supporting statement).",
+      "Confirm how incomplete requests are handled and whether they change the timeframe.",
+      "Confirm the system advocates use to check prior authorization status.",
+      "Confirm how members and prescribers are notified of decisions.",
+      "Confirm what happens if the plan misses the decision deadline.",
+      "Confirm the denial next step, appeal name, and filing deadline, and whether an approved appeals unit exists to link instead.",
+      "Confirm the contact method (phone/fax/portal) for submitting or expediting requests.",
+      "Confirm whether Insurance advocates should use this unit or need a version in the benefits knowledge base, since both pharmacy and insurance advocates searched this question.",
+      "Have compliance/legal review the wording since decision timeframes may be regulated."
+    ],
+    "suggested_kb": "pharmacy"
+  }
+}

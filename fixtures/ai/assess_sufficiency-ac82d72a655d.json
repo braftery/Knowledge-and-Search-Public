@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:46:14-05:00",
+  "input_sha256": "ac82d72a655dc2257860b5f1c27c03521d460e2e3150fbd31abb74f280b271ae",
+  "input_ref": "short-partial | Insurance advocate: what do I say before I quote a cost",
+  "output": {
+    "answer_unit_id": "U-BEN-COST-001-01",
+    "reason": "U-BEN-COST-001-01 answers the question directly: before giving any dollar amount, say you are looking at today's plan record, then read the Legal verbatim block word for word. The other two units are about checking for a specialist referral before quoting, not about what to say."
+  },
+  "response_id": "msg_011Cgga2nwbgExGLaYxdUKFL",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 625,
+    "output_tokens": 114
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

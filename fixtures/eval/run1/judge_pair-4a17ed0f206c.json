@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:49-05:00",
+  "input_sha256": "4a17ed0f206cd94f9ffeb17ec9a63df688080e69f716bc7ab311ff4259420273",
+  "input_ref": "duplicates:P17",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "within two business days",
+        "b": "within two days"
+      }
+    ],
+    "reason": "Both statements describe the same portal-summary timing, but two business days and two calendar days are different guarantees, so members would be given inconsistent expectations.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2MXtZX5VEMXQGUWFsz",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 722,
+    "output_tokens": 217
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

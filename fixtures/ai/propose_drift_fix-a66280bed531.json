@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T16:34:38-05:00",
+  "input_sha256": "a66280bed531ff0b2d13dcb5f8c000d92e27666e41e1ace5d200232aa2d88f7a",
+  "input_ref": "v1-before-material | material drift",
+  "output": {
+    "change": "material",
+    "summary": "The supply duration in the estimate changed from a 30-day supply to a 31-day supply. This changes the quantity the quoted price is based on, so the change is material. The comma after \"supply\" appears in both the old and new source but not in the approved unit. The unit's existing punctuation is kept.",
+    "proposed_text": "The price I quote is an estimate for a 31-day supply at a preferred retail pharmacy, based on the plan records I can see today. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment."
+  },
+  "response_id": "msg_011CggiJ9PkxxQAafeu6KGTp",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 682,
+    "output_tokens": 205
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

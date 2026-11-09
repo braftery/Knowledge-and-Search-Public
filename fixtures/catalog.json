@@ -1,0 +1,31 @@
+{
+  "website_disclaimer": "Prices on this page are estimates for a 30-day supply at a preferred retail pharmacy, based on the plan information we have today. The amount you pay may differ if the pharmacy, the days' supply, or your stage of coverage is different. An estimate is not a guarantee of payment.",
+  "channels_revision": {
+    "find": "based on the plan records I can see today",
+    "replace": "based on the plan records available on this call",
+    "member_find": "based on the plan information we have today",
+    "member_replace": "based on the plan information available on this call",
+    "note": "This revision updates the advocate wording and the member wording together. Illustrative."
+  },
+  "drift_edit": {
+    "find": "30-day supply",
+    "replace": "31-day supply",
+    "material": {
+      "find": "30-day supply",
+      "replace": "31-day supply"
+    },
+    "cosmetic": {
+      "find": "supply at",
+      "replace": "supply, at"
+    }
+  },
+  "synonyms": {
+    "disclamer": "disclaimer",
+    "preffered": "preferred",
+    "garantee": "guarantee",
+    "rx": "prescription",
+    "moop": "maximum",
+    "oop": "pocket"
+  },
+  "synonym_origin": "seed"
+}

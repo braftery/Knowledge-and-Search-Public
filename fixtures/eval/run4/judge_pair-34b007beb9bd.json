@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:21-05:00",
+  "input_sha256": "34b007beb9bd8471778e38d9ab8cc797f7010bb70d719ca85755929c06df0245",
+  "input_ref": "duplicates:P28",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Statement A covers the turnaround time for a standard prior authorization decision, while Statement B covers the deadline for a member to file an appeal, so they address different subjects.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgm2dE6Bs2od551xc4AEd",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 723,
+    "output_tokens": 88
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

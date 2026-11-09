@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:45:51-05:00",
+  "input_sha256": "5973061f4c0dbc99e9567066caa74314f63fdf27555e789a5000e7af71333f5b",
+  "input_ref": "jump | Pharmacy advocate: How long does a Part D prior authorization take?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units gives a timeframe for Part D prior authorization. The units cover IVR intro handling, checking caregiver authorization, and how to deliver the greeting."
+  },
+  "response_id": "msg_011Cgga178RwsHSrHMXriQLa",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 594,
+    "output_tokens": 76
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

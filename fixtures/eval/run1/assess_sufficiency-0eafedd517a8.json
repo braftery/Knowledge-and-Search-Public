@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:42-05:00",
+  "input_sha256": "0eafedd517a8f09f9f8bee7b304ba3f4937cc0f2e4eefbb8783c7c6b4c5f0de2",
+  "input_ref": "search:Q48",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units says when an intake packet is sent to the specialty pharmacy. They cover callbacks, cost estimates, prior authorization, and portal summaries, but not intake packet timing."
+  },
+  "response_id": "msg_011Cgm2M4r7HsJXCDqQYwtxU",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2078,
+    "output_tokens": 83
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

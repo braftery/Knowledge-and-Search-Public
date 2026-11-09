@@ -1,0 +1,33 @@
+redact	Sam Okoro	My name is Sam Okoro and my daughter Lena calls
+redact	Lena	My name is Sam Okoro and my daughter Lena calls
+redact	Dana Rivera	Caller Dana Rivera asked about the copay
+redact	Rivera	Caller Dana Rivera asked about the copay
+redact	HBR-20418	Member ID HBR-20418 needs a refill
+redact	1951-03-14	Date of birth 1951-03-14
+redact	617-555-0148	Call me at 617-555-0148
+redact	dana.rivera@example.com	Email dana.rivera@example.com
+redact	14 Oak Street	The address is 14 Oak Street
+redact	123-45-6789	SSN 123-45-6789
+redact	Ana Morales	This is Ana Morales calling
+redact	Luis Ortega	I am Luis Ortega
+redact	Priya Shah	I'm Priya Shah
+redact	Jordan Hale	Name: Jordan Hale
+redact	Elena Brooks	My wife Elena Brooks is on the line
+redact	Mateo Cruz	My son Mateo Cruz needs the price
+redact	Noah Grant	The claim is for Noah Grant
+safe		Is atorvastatin covered at Harbor Preferred Pharmacy?
+safe		Harbor Medicare Advantage covers metformin at the preferred pharmacy.
+safe		What is the copay for apixaban at Harbor Specialty Pharmacy?
+safe		Mail order fills 90-day supplies only.
+safe		A 30-day supply at a preferred retail pharmacy is an estimate.
+safe		Is Lipitor the same as atorvastatin?
+safe		The plan is Harbor Medicare Advantage HMO.
+safe		Part D initial coverage applies to this fill.
+safe		How much will a specialist visit cost?
+safe		Can I get a 90-day supply by mail?
+safe		The out-of-pocket maximum is on the plan record.
+safe		Glucophage is another name for metformin.
+redact	6175550199	Dana R. called (617) 555 0199 about the price
+redact	Dana	Dana R. called (617) 555 0199 about the price
+safe		Initial coverage stage applies before the deductible is met.
+safe		Ask whether the member already paid the copay at the desk.

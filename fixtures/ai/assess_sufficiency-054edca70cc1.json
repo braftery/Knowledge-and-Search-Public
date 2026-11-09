@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:46:06-05:00",
+  "input_sha256": "054edca70cc1c71c2b4c14d484a9e92acb3ac0169b47b5dfb6ef3e5800303c8a",
+  "input_ref": "jump-revised | Pharmacy advocate: What do I say before I quote a drug price?",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-09",
+    "reason": "U-RX-EDU-001-09 is the legal disclaimer text to say when giving a drug price. It states that the price is an estimate, explains what can change it, and says it is not a guarantee. The other two units cover caller checks (caregiver authorization and unverified callers), not what to say before quoting a price."
+  },
+  "response_id": "msg_011Cgga28RbWm9TJyH2tU4Ge",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 667,
+    "output_tokens": 129
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

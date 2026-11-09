@@ -1,0 +1,22 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:06-05:00",
+  "input_sha256": "65804088516cfac13158dacaf1f54831530f3bc092233819cd88ddd3ef04bd5f",
+  "input_ref": "U-BEN-COST-001-07 vs U-BEN-COST-001-09",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [
+      {
+        "a": "",
+        "b": "The referral has to be on the account before you quote the specialist copay"
+      },
+      {
+        "a": "That $35 figure is illustrative.",
+        "b": "the illustrative training copay stays $35 only for that in-network example"
+      }
+    ],
+    "reason": "Both describe the same illustrative $35 in-network specialist copay, but B adds a referral precondition that A lacks, so they are not near-duplicates; the two can both be true, so they do not conflict.",
+    "confidence": "medium"
+  }
+}

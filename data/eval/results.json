@@ -1,0 +1,1137 @@
+{
+  "generated_at": "2026-11-05T23:28-05:00",
+  "model": "claude-opus-5-5",
+  "runs": 5,
+  "illustrative": true,
+  "note": "Illustrative, made-up data. Keys and test sets were written before any model run.",
+  "sets": {
+    "extraction": 3,
+    "search": 59,
+    "duplicates": 44,
+    "drift": 10,
+    "gaps": 11
+  },
+  "extraction": {
+    "documents": [
+      {
+        "file": "member_callback_policy.md",
+        "key_units": 16,
+        "leave_alone": 20,
+        "extra_units_per_run": [
+          11,
+          9,
+          10,
+          9,
+          13
+        ]
+      },
+      {
+        "file": "prior_authorization_faq.md",
+        "key_units": 16,
+        "leave_alone": 18,
+        "extra_units_per_run": [
+          6,
+          7,
+          9,
+          7,
+          8
+        ]
+      },
+      {
+        "file": "specialty_pharmacy_intake_sop.md",
+        "key_units": 16,
+        "leave_alone": 21,
+        "extra_units_per_run": [
+          6,
+          6,
+          6,
+          9,
+          6
+        ]
+      }
+    ],
+    "misses": [
+      {
+        "eval": "extraction",
+        "document": "member_callback_policy.md",
+        "kind": "extracted text that should be left alone",
+        "text": "A callback means a return phone call from Harbor Health to the member or the authorized caregiver.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "member_callback_policy.md",
+        "kind": "extracted text that should be left alone",
+        "text": "A window means the block of time the advocate promised for that return call.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "member_callback_policy.md",
+        "kind": "extracted text that should be left alone",
+        "text": "A desk note means the note on the member record that the next advocate can read.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "member_callback_policy.md",
+        "kind": "extracted text that should be left alone",
+        "text": "Which plans include a nurse callback is listed on the plan benefit grid. This policy does not name the plans.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "member_callback_policy.md",
+        "kind": "extracted text that should be left alone",
+        "text": "A missed callback is a return call the member does not answer during the promised window. This section is the retry and the portal message that follows it.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "member_callback_policy.md",
+        "kind": "extracted text that should be left alone",
+        "text": "The average number of minutes a member waits before a callback is reported in the monthly operations pack. This policy does not state that average.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "member_callback_policy.md",
+        "kind": "extracted text that should be left alone",
+        "text": "Version 1 took effect on 2026-03-16. Member Experience issued this policy for the pharmacy desk and the insurance desk. No earlier version is on file. The next scheduled review is 2027-03-16. The figures in this version are illustrative.",
+        "runs_extracted": 2
+      },
+      {
+        "eval": "extraction",
+        "document": "prior_authorization_faq.md",
+        "kind": "extracted text that should be left alone",
+        "text": "The FAQ applies to prior authorization questions on medicines Harbor's pharmacy benefit covers for Medicare Advantage members. It does not decide medical-benefit drugs, it does not set visit costs, and it does not replace the member's plan document when that document prints a fee or a filing window this page leaves out. Calls from prescriber offices are in scope when they reach the pharmacy queue.",
+        "runs_extracted": 3
+      },
+      {
+        "eval": "extraction",
+        "document": "prior_authorization_faq.md",
+        "kind": "extracted text that should be left alone",
+        "text": "In this FAQ, prior authorization means a review of a prescribed medicine before the pharmacy fills it.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "prior_authorization_faq.md",
+        "kind": "extracted text that should be left alone",
+        "text": "The number of days a prescriber has to schedule a peer-to-peer review after a denial is in the clinical operations memo. This FAQ does not state that number of days.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "prior_authorization_faq.md",
+        "kind": "extracted text that should be left alone",
+        "text": "Any fee charged to file an appeal is printed on the member's plan document. This FAQ does not state a fee.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "prior_authorization_faq.md",
+        "kind": "extracted text that should be left alone",
+        "text": "Pharmacy Knowledge last updated this FAQ on 2026-04-06, the effective date of version 1. No earlier version is on file. The next review is scheduled for 2027-04-06. Every figure in this FAQ is illustrative.",
+        "runs_extracted": 1
+      },
+      {
+        "eval": "extraction",
+        "document": "specialty_pharmacy_intake_sop.md",
+        "kind": "extracted text that should be left alone",
+        "text": "The SOP covers specialty medicines that Harbor Specialty Pharmacy ships for Harbor Medicare Advantage members, including injectables and high-touch oral products. Retail maintenance fills, medical visit estimates, and benefits appeals sit in other guides. Infusion chair scheduling and home nursing visits are outside this page. The page also does not set dollar limits that live on the specialty rate card.",
+        "runs_extracted": 3
+      },
+      {
+        "eval": "extraction",
+        "document": "specialty_pharmacy_intake_sop.md",
+        "kind": "extracted text that should be left alone",
+        "text": "Three groups are named on a specialty intake: the pharmacy advocate on the call, the specialty pharmacist, and the team lead. Member Experience and the quality program sit outside this SOP.",
+        "runs_extracted": 1
+      },
+      {
+        "eval": "extraction",
+        "document": "specialty_pharmacy_intake_sop.md",
+        "kind": "extracted text that should be left alone",
+        "text": "In this SOP, intake means the form that opens a specialty pharmacy case.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "specialty_pharmacy_intake_sop.md",
+        "kind": "extracted text that should be left alone",
+        "text": "In this SOP, a window means the return-call time already promised to the member.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "specialty_pharmacy_intake_sop.md",
+        "kind": "extracted text that should be left alone",
+        "text": "The shipping fee for a refrigerated specialty package is on the specialty rate card. This SOP does not state that fee.",
+        "runs_extracted": 5
+      },
+      {
+        "eval": "extraction",
+        "document": "specialty_pharmacy_intake_sop.md",
+        "kind": "extracted text that should be left alone",
+        "text": "The dollar amount that sends a specialty case to the pharmacy director is printed on the specialty rate card. This SOP does not state that amount.",
+        "runs_extracted": 5
+      }
+    ],
+    "units_found": {
+      "name": "Expected units found",
+      "items": 48,
+      "runs": 5,
+      "majority_correct": 48,
+      "majority_rate": 1.0,
+      "interval_95": [
+        0.926,
+        1.0
+      ],
+      "correct_every_run": 48,
+      "per_run_correct": [
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "consistency": {
+        "items": 48,
+        "same_every_run": 48,
+        "share": 1.0
+      }
+    },
+    "verbatim_exact": {
+      "name": "Verbatim copied character for character",
+      "items": 3,
+      "runs": 5,
+      "majority_correct": 3,
+      "majority_rate": 1.0,
+      "interval_95": [
+        0.438,
+        1.0
+      ],
+      "correct_every_run": 3,
+      "per_run_correct": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "consistency": {
+        "items": 3,
+        "same_every_run": 3,
+        "share": 1.0
+      }
+    },
+    "type_correct": {
+      "name": "Unit type correct",
+      "items": 48,
+      "runs": 5,
+      "majority_correct": 46,
+      "majority_rate": 0.958,
+      "interval_95": [
+        0.86,
+        0.988
+      ],
+      "correct_every_run": 40,
+      "per_run_correct": [
+        43,
+        47,
+        45,
+        44,
+        46
+      ],
+      "consistency": {
+        "items": 48,
+        "same_every_run": 41,
+        "share": 0.854
+      }
+    },
+    "left_alone": {
+      "name": "Context left alone (purpose, scope, history)",
+      "items": 59,
+      "runs": 5,
+      "majority_correct": 44,
+      "majority_rate": 0.746,
+      "interval_95": [
+        0.622,
+        0.839
+      ],
+      "correct_every_run": 41,
+      "per_run_correct": [
+        43,
+        44,
+        45,
+        44,
+        44
+      ],
+      "consistency": {
+        "items": 59,
+        "same_every_run": 54,
+        "share": 0.915
+      }
+    }
+  },
+  "search": {
+    "overall": {
+      "name": "Right answer, or right no-answer",
+      "items": 59,
+      "runs": 5,
+      "majority_correct": 45,
+      "majority_rate": 0.763,
+      "interval_95": [
+        0.64,
+        0.853
+      ],
+      "correct_every_run": 43,
+      "per_run_correct": [
+        45,
+        43,
+        45,
+        45,
+        45
+      ],
+      "consistency": {
+        "items": 59,
+        "same_every_run": 55,
+        "share": 0.932
+      }
+    },
+    "answerable": {
+      "name": "Answerable questions answered with the right unit",
+      "items": 41,
+      "runs": 5,
+      "majority_correct": 28,
+      "majority_rate": 0.683,
+      "interval_95": [
+        0.53,
+        0.804
+      ],
+      "correct_every_run": 26,
+      "per_run_correct": [
+        28,
+        26,
+        27,
+        28,
+        27
+      ],
+      "consistency": {
+        "items": 41,
+        "same_every_run": 38,
+        "share": 0.927
+      }
+    },
+    "abstain": {
+      "name": "Unanswerable questions answered no-answer",
+      "items": 18,
+      "runs": 5,
+      "majority_correct": 17,
+      "majority_rate": 0.944,
+      "interval_95": [
+        0.742,
+        0.99
+      ],
+      "correct_every_run": 17,
+      "per_run_correct": [
+        17,
+        17,
+        18,
+        17,
+        18
+      ],
+      "consistency": {
+        "items": 18,
+        "same_every_run": 17,
+        "share": 0.944
+      }
+    },
+    "by_trap_kind": {
+      "acronym": {
+        "name": "acronym",
+        "items": 9,
+        "runs": 5,
+        "majority_correct": 6,
+        "majority_rate": 0.667,
+        "interval_95": [
+          0.354,
+          0.879
+        ],
+        "correct_every_run": 6,
+        "per_run_correct": [
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "consistency": {
+          "items": 9,
+          "same_every_run": 8,
+          "share": 0.889
+        }
+      },
+      "misspelling": {
+        "name": "misspelling",
+        "items": 9,
+        "runs": 5,
+        "majority_correct": 7,
+        "majority_rate": 0.778,
+        "interval_95": [
+          0.453,
+          0.937
+        ],
+        "correct_every_run": 7,
+        "per_run_correct": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "consistency": {
+          "items": 9,
+          "same_every_run": 9,
+          "share": 1.0
+        }
+      },
+      "near_miss": {
+        "name": "near_miss",
+        "items": 10,
+        "runs": 5,
+        "majority_correct": 9,
+        "majority_rate": 0.9,
+        "interval_95": [
+          0.596,
+          0.982
+        ],
+        "correct_every_run": 9,
+        "per_run_correct": [
+          9,
+          9,
+          10,
+          9,
+          10
+        ],
+        "consistency": {
+          "items": 10,
+          "same_every_run": 9,
+          "share": 0.9
+        }
+      },
+      "other_role": {
+        "name": "other_role",
+        "items": 8,
+        "runs": 5,
+        "majority_correct": 8,
+        "majority_rate": 1.0,
+        "interval_95": [
+          0.676,
+          1.0
+        ],
+        "correct_every_run": 8,
+        "per_run_correct": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "consistency": {
+          "items": 8,
+          "same_every_run": 8,
+          "share": 1.0
+        }
+      },
+      "partial": {
+        "name": "partial",
+        "items": 7,
+        "runs": 5,
+        "majority_correct": 1,
+        "majority_rate": 0.143,
+        "interval_95": [
+          0.026,
+          0.513
+        ],
+        "correct_every_run": 0,
+        "per_run_correct": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "consistency": {
+          "items": 7,
+          "same_every_run": 6,
+          "share": 0.857
+        }
+      },
+      "plain": {
+        "name": "plain",
+        "items": 16,
+        "runs": 5,
+        "majority_correct": 14,
+        "majority_rate": 0.875,
+        "interval_95": [
+          0.64,
+          0.965
+        ],
+        "correct_every_run": 13,
+        "per_run_correct": [
+          14,
+          13,
+          14,
+          14,
+          13
+        ],
+        "consistency": {
+          "items": 16,
+          "same_every_run": 15,
+          "share": 0.938
+        }
+      }
+    },
+    "leaks": 0,
+    "misses": [
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "How do I verify a caller on a specialty pharmacy intake call?",
+        "role": "Pharmacy advocate",
+        "trap_kind": "plain",
+        "expected": "Confirm the caller's identity with two identifiers chosen from the member ID, the date of birth, and the address on file.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": false
+      },
+      {
+        "eval": "search",
+        "runs_right": "3 of 5",
+        "question": "What do I read before I quote a specialty drug cost?",
+        "role": "Pharmacy advocate",
+        "trap_kind": "plain",
+        "expected": "The specialty cost I quote is an estimate for the supply and the pharmacy on the plan record today. Your cost can change if the supply, the pharmacy, or your coverage stage is different. This estimate is not a guarantee of payment.",
+        "answers": [
+          "E-SOP-09",
+          "NO_ANSWER",
+          "E-SOP-09",
+          "E-SOP-09",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "What price will I pay at the pharmacy?",
+        "role": "Member",
+        "trap_kind": "plain",
+        "expected": "Prices on this page are estimates for a 30-day supply at a preferred retail pharmacy, based on the plan information we have today.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "mised calback second atempt",
+        "role": "Insurance advocate",
+        "trap_kind": "misspelling",
+        "expected": "If the advocate misses the window, make one more attempt within 2 business days.",
+        "answers": [
+          "E-CB-14",
+          "E-CB-14",
+          "E-CB-14",
+          "E-CB-14",
+          "E-CB-14"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "what can i leave on a voicemial",
+        "role": "Pharmacy advocate",
+        "trap_kind": "misspelling",
+        "expected": "Do not leave the medicine name, the diagnosis, or a claim amount on a voicemail.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "PCP referral needed before specialty Rx intake?",
+        "role": "Pharmacy advocate",
+        "trap_kind": "acronym",
+        "expected": "Check that a specialty referral from the prescriber is posted on the account before you open the intake form.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "OON visit cost estimate script",
+        "role": "Insurance advocate",
+        "trap_kind": "acronym",
+        "expected": "The cost I quote is an estimate for a covered in-network medical visit, based on the plan records I can see today. What you pay can change if the provider is out of network, if a referral is missing, or if your deductible status is different. This estimate is not a guarantee of payment.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "Rx price estimate for a 30 day supply",
+        "role": "Member",
+        "trap_kind": "acronym",
+        "expected": "Prices on this page are estimates for a 30-day supply at a preferred retail pharmacy, based on the plan information we have today.",
+        "answers": [
+          "U-RX-EDU-001-09",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "U-RX-EDU-001-09",
+          "U-RX-EDU-001-09"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "What is the standard prior authorization decision time, and the expedited one?",
+        "role": "Pharmacy advocate",
+        "trap_kind": "partial",
+        "expected": "A standard prior authorization decision is due 7 calendar days after Harbor receives a complete request.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "What do I record on the intake form, and what is the refrigerated shipping fee?",
+        "role": "Pharmacy advocate",
+        "trap_kind": "partial",
+        "expected": "Record the prescriber name, the medicine name, and the diagnosis code on the intake form before you save it.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "Can I appeal, and is there a fee to file one?",
+        "role": "Member",
+        "trap_kind": "partial",
+        "expected": "An appeal may be filed up to 60 calendar days after the date on the decision letter.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "3 of 5",
+        "question": "What hours do we call members back, and do we cover weekends?",
+        "role": "Insurance advocate",
+        "trap_kind": "partial",
+        "expected": "Schedule member callbacks on weekdays between 8:00 a.m. and 6:00 p.m. Eastern.",
+        "answers": [
+          "E-CB-06",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "E-CB-06",
+          "E-CB-06"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "Who can quote a specialty cost on intake, and what amount sends a case to the director?",
+        "role": "Pharmacy advocate",
+        "trap_kind": "partial",
+        "expected": "The Pharmacy advocate is the only role this SOP authorizes to quote a specialty cost on the intake call.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "Does a specialist visit need a referral, and how long is the referral good for?",
+        "role": "Insurance advocate",
+        "trap_kind": "partial",
+        "expected": "A specialist visit on a Harbor Medicare Advantage HMO needs a referral from the primary care doctor on file before the visit.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "0 of 5",
+        "question": "Will you say why you are calling when you call back, and how long will I wait?",
+        "role": "Member",
+        "trap_kind": "partial",
+        "expected": "We say that Harbor Health is returning your call. We do not give the medicine name, the diagnosis, or a claim amount until we verify you.",
+        "answers": [
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": true
+      },
+      {
+        "eval": "search",
+        "runs_right": "2 of 5",
+        "question": "Can I schedule a callback on a Saturday?",
+        "role": "Insurance advocate",
+        "trap_kind": "near_miss",
+        "expected": "no approved answer",
+        "answers": [
+          "E-CB-06",
+          "E-CB-06",
+          "NO_ANSWER",
+          "E-CB-06",
+          "NO_ANSWER"
+        ],
+        "right_unit_was_a_candidate": null
+      }
+    ]
+  },
+  "duplicates": {
+    "overall": {
+      "name": "Pairs labelled correctly",
+      "items": 44,
+      "runs": 5,
+      "majority_correct": 39,
+      "majority_rate": 0.886,
+      "interval_95": [
+        0.76,
+        0.95
+      ],
+      "correct_every_run": 38,
+      "per_run_correct": [
+        39,
+        39,
+        38,
+        38,
+        39
+      ],
+      "consistency": {
+        "items": 44,
+        "same_every_run": 43,
+        "share": 0.977
+      }
+    },
+    "by_kind": {
+      "conflict": {
+        "name": "conflict",
+        "items": 2,
+        "runs": 5,
+        "majority_correct": 2,
+        "majority_rate": 1.0,
+        "interval_95": [
+          0.342,
+          1.0
+        ],
+        "correct_every_run": 2,
+        "per_run_correct": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "consistency": {
+          "items": 2,
+          "same_every_run": 2,
+          "share": 1.0
+        }
+      },
+      "lookalike": {
+        "name": "lookalike",
+        "items": 4,
+        "runs": 5,
+        "majority_correct": 0,
+        "majority_rate": 0.0,
+        "interval_95": [
+          0.0,
+          0.49
+        ],
+        "correct_every_run": 0,
+        "per_run_correct": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "consistency": {
+          "items": 4,
+          "same_every_run": 4,
+          "share": 1.0
+        }
+      },
+      "near_duplicate": {
+        "name": "near_duplicate",
+        "items": 5,
+        "runs": 5,
+        "majority_correct": 5,
+        "majority_rate": 1.0,
+        "interval_95": [
+          0.566,
+          1.0
+        ],
+        "correct_every_run": 5,
+        "per_run_correct": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "consistency": {
+          "items": 5,
+          "same_every_run": 5,
+          "share": 1.0
+        }
+      },
+      "policy": {
+        "name": "policy",
+        "items": 12,
+        "runs": 5,
+        "majority_correct": 12,
+        "majority_rate": 1.0,
+        "interval_95": [
+          0.757,
+          1.0
+        ],
+        "correct_every_run": 12,
+        "per_run_correct": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "consistency": {
+          "items": 12,
+          "same_every_run": 12,
+          "share": 1.0
+        }
+      },
+      "procedure": {
+        "name": "procedure",
+        "items": 11,
+        "runs": 5,
+        "majority_correct": 11,
+        "majority_rate": 1.0,
+        "interval_95": [
+          0.741,
+          1.0
+        ],
+        "correct_every_run": 10,
+        "per_run_correct": [
+          11,
+          11,
+          10,
+          10,
+          11
+        ],
+        "consistency": {
+          "items": 11,
+          "same_every_run": 10,
+          "share": 0.909
+        }
+      },
+      "verbatim": {
+        "name": "verbatim",
+        "items": 10,
+        "runs": 5,
+        "majority_correct": 9,
+        "majority_rate": 0.9,
+        "interval_95": [
+          0.596,
+          0.982
+        ],
+        "correct_every_run": 9,
+        "per_run_correct": [
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "consistency": {
+          "items": 10,
+          "same_every_run": 10,
+          "share": 1.0
+        }
+      }
+    },
+    "confusion": [
+      {
+        "expected": "conflict",
+        "got": "conflict",
+        "count": 70
+      },
+      {
+        "expected": "different",
+        "got": "conflict",
+        "count": 25
+      },
+      {
+        "expected": "different",
+        "got": "different",
+        "count": 45
+      },
+      {
+        "expected": "duplicate",
+        "got": "conflict",
+        "count": 2
+      },
+      {
+        "expected": "duplicate",
+        "got": "duplicate",
+        "count": 78
+      }
+    ],
+    "false_merges_across_runs": 0,
+    "lookalikes_not_merged": {
+      "name": "Lookalikes never merged as duplicates",
+      "items": 4,
+      "runs": 5,
+      "majority_correct": 4,
+      "majority_rate": 1.0,
+      "interval_95": [
+        0.51,
+        1.0
+      ],
+      "correct_every_run": 4,
+      "per_run_correct": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "consistency": {
+        "items": 4,
+        "same_every_run": 4,
+        "share": 1.0
+      }
+    },
+    "misses": [
+      {
+        "eval": "duplicates",
+        "runs_right": "3 of 5",
+        "pair": "P11",
+        "kind": "procedure",
+        "expected": "duplicate",
+        "got": [
+          "duplicate",
+          "duplicate",
+          "conflict",
+          "conflict",
+          "duplicate"
+        ],
+        "a": "If you cannot verify, offer to call the member back.",
+        "b": "Offer a callback when you cannot verify the caller with two identifiers."
+      },
+      {
+        "eval": "duplicates",
+        "runs_right": "0 of 5",
+        "pair": "P25",
+        "kind": "verbatim",
+        "expected": "different",
+        "got": [
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict"
+        ],
+        "a": "The specialty cost I quote is an estimate for the supply and the pharmacy on the plan record today. Your cost can change if the supply, the pharmacy, or your coverage stage is different. This estimate is not a guarantee of payment.",
+        "b": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records I can see today. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment."
+      },
+      {
+        "eval": "duplicates",
+        "runs_right": "0 of 5",
+        "pair": "T08",
+        "kind": "lookalike",
+        "expected": "different",
+        "got": [
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict"
+        ],
+        "a": "If the advocate misses the window, make one more attempt within 2 business days.",
+        "b": "If the advocate misses the window, make one more attempt within 2 days."
+      },
+      {
+        "eval": "duplicates",
+        "runs_right": "0 of 5",
+        "pair": "T09",
+        "kind": "lookalike",
+        "expected": "different",
+        "got": [
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict"
+        ],
+        "a": "You may add, in your own words, that a summary of this call will appear in the member portal within two days.",
+        "b": "You may add, in your own words, that a summary of this call will appear in the member portal within two business days."
+      },
+      {
+        "eval": "duplicates",
+        "runs_right": "0 of 5",
+        "pair": "T10",
+        "kind": "lookalike",
+        "expected": "different",
+        "got": [
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict"
+        ],
+        "a": "The illustrative specialty intake copay at a preferred network pharmacy is $55.",
+        "b": "The illustrative specialty intake copay at a preferred network pharmacy is $65."
+      },
+      {
+        "eval": "duplicates",
+        "runs_right": "0 of 5",
+        "pair": "T11",
+        "kind": "lookalike",
+        "expected": "different",
+        "got": [
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict",
+          "conflict"
+        ],
+        "a": "The training example uses an in-network specialist copay of $45.",
+        "b": "The training example uses an in-network specialist copay of $35."
+      }
+    ]
+  },
+  "drift": {
+    "overall": {
+      "name": "Source edits classified correctly",
+      "items": 10,
+      "runs": 5,
+      "majority_correct": 10,
+      "majority_rate": 1.0,
+      "interval_95": [
+        0.722,
+        1.0
+      ],
+      "correct_every_run": 10,
+      "per_run_correct": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "consistency": {
+        "items": 10,
+        "same_every_run": 10,
+        "share": 1.0
+      }
+    },
+    "material_fix_matches_new_source": {
+      "matches": 25,
+      "total": 25
+    },
+    "misses": []
+  },
+  "gaps": {
+    "overall": {
+      "name": "Drafts with no invented facts and a placeholder where a source is needed",
+      "items": 11,
+      "runs": 5,
+      "majority_correct": 11,
+      "majority_rate": 1.0,
+      "interval_95": [
+        0.741,
+        1.0
+      ],
+      "correct_every_run": 11,
+      "per_run_correct": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "consistency": {
+        "items": 11,
+        "same_every_run": 11,
+        "share": 1.0
+      }
+    },
+    "misses": []
+  }
+}

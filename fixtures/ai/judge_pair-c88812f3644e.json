@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:58:34-05:00",
+  "input_sha256": "c88812f3644e66b9d7c59192956233a41f55a0c082b9c45bb35ec203883462da",
+  "input_ref": "U-RX-EDU-001-04 vs U-RX-EDU-002-03",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "two of these: member ID, date of birth, or the address on file",
+        "b": "the member ID plus either date of birth or address"
+      }
+    ],
+    "reason": "Statement A accepts any two of the three identifiers, including date of birth plus address without a member ID, while Statement B makes the member ID mandatory, so the verification condition differs.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CggWPrFuWs59A6zmVm4nV",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 713,
+    "output_tokens": 250
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

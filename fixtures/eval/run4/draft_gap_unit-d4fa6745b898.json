@@ -1,0 +1,39 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:57-05:00",
+  "input_sha256": "d4fa6745b8981f18cdb9b56e41e1e14c0b46be236d9d357214a4df622eb0c8b9",
+  "input_ref": "gaps:G11",
+  "output": {
+    "title": "Callback scheduling hours for member callbacks",
+    "type": "faq",
+    "draft_text": "Q: What hours can we schedule a callback?\n\nA: Schedule member callbacks on weekdays between 8:00 a.m. and 6:00 p.m. Eastern (source: approved unit U-KNOWN-FACT).\n\nAdditional details to confirm:\n- Holidays: On company holidays, callbacks [can / cannot] be scheduled. Observed holidays are [list of observed holidays or link to holiday calendar].\n- Weekends: If a member asks for a weekend callback, [instruction for weekend requests, e.g., offer the next available weekday slot].\n- Members in other time zones: Convert the member's preferred time to Eastern before scheduling. [Any additional guidance on time zone handling].\n- Requests outside the window: If a member asks for a callback outside 8:00 a.m. to 6:00 p.m. Eastern, [approved alternative or escalation path].\n- How to schedule: Book the callback in [system or tool name] by [steps to schedule a callback].",
+    "placeholders": [
+      "[can / cannot]",
+      "[list of observed holidays or link to holiday calendar]",
+      "[instruction for weekend requests, e.g., offer the next available weekday slot]",
+      "[Any additional guidance on time zone handling]",
+      "[approved alternative or escalation path]",
+      "[system or tool name]",
+      "[steps to schedule a callback]"
+    ],
+    "author_checklist": [
+      "Check whether approved unit U-KNOWN-FACT already fully answers this question. If it does, consider linking to or adding this question as an alternate phrasing of U-KNOWN-FACT instead of publishing a duplicate unit.",
+      "Confirm that the weekday 8:00 a.m. to 6:00 p.m. Eastern window in U-KNOWN-FACT is current and applies to insurance advocates.",
+      "Confirm whether callbacks can be scheduled on company holidays, and list the observed holidays or link to the holiday calendar.",
+      "Confirm the approved handling when a member requests a weekend callback.",
+      "Confirm guidance for members in other time zones.",
+      "Confirm the approved alternative or escalation path for requests outside the callback window.",
+      "Confirm the system or tool and the steps used to schedule a callback.",
+      "Remove any bullet in the draft that the source documents cannot support."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2f38BZ7PYdTv1Mw18L",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 664,
+    "output_tokens": 1055
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

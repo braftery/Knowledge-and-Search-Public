@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:17-05:00",
+  "input_sha256": "e0bc0ac33ba87788d4a0185113b7c6b1220b8ae4dd4e829f312792c3cc7b23cf",
+  "input_ref": "Pharmacy advocate: caregiver is on the line, can i discuss the drug and the price",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-05",
+    "reason": "This unit directly covers a caregiver on the line. You can discuss the drug and the price only after you confirm there is an authorization on the account. U-RX-EDU-002-04 says the same thing, but U-RX-EDU-001-05 matches the live-call situation and the step to take. U-WEB-FAQ-01 is about price estimates and is not relevant."
+  }
+}

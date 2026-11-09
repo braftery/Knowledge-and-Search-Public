@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:43-05:00",
+  "input_sha256": "0be09aebb947d267739e01111eae58b7ab6f895a045465ea28f24fa0a7dd9501",
+  "input_ref": "search:Q07",
+  "output": {
+    "answer_unit_id": "E-SOP-13",
+    "reason": "E-SOP-13 covers this exact case. When a member asks to move a specialty medicine to a retail pharmacy, decline the transfer and keep the fill at Harbor Specialty Pharmacy."
+  },
+  "response_id": "msg_011Cgm2aQMEPWWaX7etCoDxt",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1943,
+    "output_tokens": 93
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

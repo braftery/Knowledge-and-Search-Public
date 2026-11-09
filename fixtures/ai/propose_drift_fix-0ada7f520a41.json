@@ -1,0 +1,12 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:19:36-05:00",
+  "input_sha256": "0ada7f520a419a380e7f488f6ee1c7a0523ee71138f3bcfb1f03e9a4b68c00f8",
+  "input_ref": "cosmetic",
+  "output": {
+    "change": "cosmetic",
+    "summary": "The only difference is an added comma after \"30-day supply\". The supply length, pharmacy type, conditions, and disclaimer are unchanged, so the meaning is the same and the approved unit text can stay as is.",
+    "proposed_text": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records I can see today. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment."
+  }
+}

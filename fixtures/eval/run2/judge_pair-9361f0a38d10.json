@@ -1,0 +1,33 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:06-05:00",
+  "input_sha256": "9361f0a38d1041123a72acba51d54635821519952452a34d2bfa452b118ae4be",
+  "input_ref": "duplicates:P25",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "The specialty cost I quote",
+        "b": "The price I quote"
+      },
+      {
+        "a": "for the supply and the pharmacy on the plan record today",
+        "b": "for a 30-day supply at a preferred retail pharmacy, based on the plan records I can see today"
+      },
+      {
+        "a": "Your cost can change",
+        "b": "Your actual cost can change"
+      }
+    ],
+    "reason": "Both are cost-estimate disclaimers, but A bases specialty quotes on whatever supply and pharmacy are on the plan record, while B fixes the basis at a 30-day supply at a preferred retail pharmacy; that changes both the days' supply and the pharmacy type, so the two instructions cannot both apply to a specialty quote.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2SzzrTQajyt87xfXSM",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 497
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

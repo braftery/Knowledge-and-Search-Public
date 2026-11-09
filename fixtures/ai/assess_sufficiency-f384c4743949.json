@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:39-05:00",
+  "input_sha256": "f384c474394933be0e5587abc321fb2b32365fc377ec1c2f6aeaa019f30b782e",
+  "input_ref": "Pharmacy advocate: what is the insulin copay cap on a PDP",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units gives the insulin copay cap for a PDP. U-RX-EDU-001-07 covers not sharing coverage details with unverified callers. U-RX-EDU-001-10 covers saying an estimate reflects the plan copay. U-RX-EDU-001-11 covers not promising the pharmacy charge. None states a cap amount or how a cap applies to insulin."
+  }
+}

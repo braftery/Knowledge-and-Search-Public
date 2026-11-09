@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:11-05:00",
+  "input_sha256": "4fc36bc0ee8515404e2df1ca2b25cdb94cb8ce5c3b8690e7091474fa804e1211",
+  "input_ref": "duplicates:T10",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "$55",
+        "b": "$65"
+      }
+    ],
+    "reason": "Both statements describe the same specialty intake copay at a preferred network pharmacy but state different amounts ($55 vs. $65), which cannot both be true.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CgkzritRCpD1gx9mer733",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 719,
+    "output_tokens": 100
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

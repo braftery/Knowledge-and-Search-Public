@@ -1,0 +1,46 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:31-05:00",
+  "input_sha256": "663fdcc6d373c99603a48384f86b1bfcbf5e4d01b347ebd131e8d7d6495ed047",
+  "input_ref": "gaps:G05",
+  "output": {
+    "title": "Expected wait time for a member callback",
+    "type": "faq",
+    "draft_text": "Question: How long does a member usually wait for a callback?\n\nAnswer: When a member requests a callback, they can usually expect to hear back within [standard callback timeframe, e.g., number of business hours or days]. Callbacks are made during [callback hours of operation and time zone]. If the request is submitted [after hours / on a weekend / on a holiday], the timeframe starts on [when the clock starts, e.g., the next business day].\n\nCallback timing may be different for [request types or priority levels with different timeframes, e.g., urgent clinical or pharmacy issues], which are returned within [priority callback timeframe].\n\nWhen the callback is made, we will call the member at [phone number used, e.g., the number on file or the number given in the request]. If the member does not answer, we will [number of attempts and voicemail practice].\n\nIf the member has not received a callback within [timeframe after which the member should follow up], the advocate should [escalation or follow-up step, e.g., check the request status in system name, resubmit, or escalate to team]. Let the member know they can also reach us at [alternate contact phone number or channel] during [hours].\n\nAdvocate tip: Tell the member the expected timeframe when the callback is requested and confirm the best phone number to reach them.",
+    "placeholders": [
+      "[standard callback timeframe, e.g., number of business hours or days]",
+      "[callback hours of operation and time zone]",
+      "[after hours / on a weekend / on a holiday]",
+      "[when the clock starts, e.g., the next business day]",
+      "[request types or priority levels with different timeframes, e.g., urgent clinical or pharmacy issues]",
+      "[priority callback timeframe]",
+      "[phone number used, e.g., the number on file or the number given in the request]",
+      "[number of attempts and voicemail practice]",
+      "[timeframe after which the member should follow up]",
+      "[escalation or follow-up step, e.g., check the request status in system name, resubmit, or escalate to team]",
+      "[alternate contact phone number or channel]",
+      "[hours]"
+    ],
+    "author_checklist": [
+      "Confirm the standard callback timeframe, and whether it is measured in business or calendar time.",
+      "Confirm callback hours of operation and the time zone used.",
+      "Confirm how requests made after hours, on weekends, or on holidays are handled and when the timeframe starts.",
+      "Confirm whether some request types (for example, urgent, clinical, or pharmacy) have a different or priority callback timeframe.",
+      "Confirm which phone number is used for callbacks, how many attempts are made, and whether a voicemail is left.",
+      "Confirm the follow-up or escalation step and the system or team involved when a callback is missed.",
+      "Confirm the alternate contact number or channel and its hours.",
+      "Confirm whether this answer applies to all lines of business or needs separate versions, which determines the correct knowledge base.",
+      "Confirm whether any contractual, regulatory, or service-level commitments govern callback timing and must be cited or reviewed by legal or compliance.",
+      "Remove any placeholder sections that do not apply before approval."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2YtqwKwxLf3XZcyiHu",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 614,
+    "output_tokens": 1020
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

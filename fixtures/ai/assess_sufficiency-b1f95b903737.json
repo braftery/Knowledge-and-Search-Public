@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:46:17-05:00",
+  "input_sha256": "b1f95b903737f009d389af23d42681469c74102b4e3f10e647800858522c1177",
+  "input_ref": "short-partial | Insurance advocate: how long does a part d prior auth take",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks about Part D prior authorization timing. All three units cover how to answer visit cost questions. None addresses prior authorization or its timeframes."
+  },
+  "response_id": "msg_011Cgga2yHTgKnVd469jbsvR",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 615,
+    "output_tokens": 68
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

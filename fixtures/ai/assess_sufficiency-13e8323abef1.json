@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:05-05:00",
+  "input_sha256": "13e8323abef116fec97e5cfbc91a5a6ce247411751f8869c8e0bd30ca0ddb7fe",
+  "input_ref": "Pharmacy advocate: closing line for the rx education call",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No unit gives the actual closing line. U-RX-EDU-001-14 says to read the two closing sentences word for word but does not include them. The other two units cover only an optional portal summary mention, which is not the scripted closing."
+  }
+}

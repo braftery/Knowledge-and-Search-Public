@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-04T15:45:29-05:00",
+  "input_sha256": "92d1aa88d8a78f2cdc4310f19847d34aaf352873d0681382c5db0edab399ba98",
+  "input_ref": "explore-fresh | Member: Can my specialty drug come by mail?",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-13",
+    "reason": "This unit answers the question directly: specialty drugs stay at Harbor Specialty Pharmacy and are not moved to mail order. The other two units cover caregiver authorization and medical cost estimates, which are unrelated to the question."
+  },
+  "response_id": "msg_011CgiYMi7wvTczaisoZBHAU",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 637,
+    "output_tokens": 106
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

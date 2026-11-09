@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:16:53-05:00",
+  "input_sha256": "cb510c11723527e05b86a2593c4b32ac344c965176d7537312eaada0e48d4911",
+  "input_ref": "search:Q25",
+  "output": {
+    "answer_unit_id": "E-PA-16",
+    "reason": "E-PA-16 directly answers it: do not recommend a dose, and send clinical questions back to the prescriber. This applies whether or not an approval is pending."
+  },
+  "response_id": "msg_011Cgm2bBa4cQ8KJbkC36w6t",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1761,
+    "output_tokens": 76
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

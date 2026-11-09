@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:42-05:00",
+  "input_sha256": "ce697c4dd83f452ba5d6a74c99286de3f4ecd9c59f17ede958ca94de3f725bd8",
+  "input_ref": "Insurance advocate: how do i start a tiering exception",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units covers how to start a tiering exception. All three deal with quoting visit cost estimates: how to open the answer, the legal disclaimer, and handling follow-up questions. The question needs content on the tiering exception process, which isn't in the approved units."
+  }
+}

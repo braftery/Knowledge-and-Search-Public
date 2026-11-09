@@ -1,0 +1,18 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:24-05:00",
+  "input_sha256": "270469a7e3dbf24fc7fd283c9bd73187d9e94b97a523bd6075990009e988af17",
+  "input_ref": "dedup_variants.csv row 7",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "",
+        "b": "Thanks for your patience."
+      }
+    ],
+    "reason": "Statement B is identical to A except for an added courtesy closing that does not change any amount, days' supply, pharmacy type, guarantee, eligibility condition, or audience.",
+    "confidence": "high"
+  }
+}

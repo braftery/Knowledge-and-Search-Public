@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:01:04-05:00",
+  "input_sha256": "62d8a52b6d4a51d3cd32fe2723b9d893955d2c5313d9630f3a55256ad60e3a9d",
+  "input_ref": "Pharmacy advocate: do specialty drugs stay at the specialty pharmacy",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-13",
+    "reason": "This unit directly answers the question. It says specialty drugs stay at Harbor Specialty Pharmacy and are not converted to mail order on this call."
+  },
+  "response_id": "msg_011CggWb1stzmoF7btH4JjDv",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 605,
+    "output_tokens": 79
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

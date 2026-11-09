@@ -1,0 +1,30 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:21-05:00",
+  "input_sha256": "d5e299e09e894ced6f029769ee0dbe87ea6891e1c582aa39cd255cef729c18f7",
+  "input_ref": "dedup_variants.csv row 6",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "The price I quote is an estimate",
+        "b": "Prices on this page are estimates"
+      },
+      {
+        "a": "based on the plan records I can see today",
+        "b": "based on the plan information we have today"
+      },
+      {
+        "a": "Your actual cost can change",
+        "b": "The amount you pay may differ"
+      },
+      {
+        "a": "This estimate is not a guarantee of payment",
+        "b": "An estimate is not a guarantee of payment"
+      }
+    ],
+    "reason": "Both state that prices are estimates for a 30-day supply at a preferred retail pharmacy, list the same factors that can change the cost, and say the estimate is not a guarantee of payment; only the wording and delivery context (agent quote vs. web page) differ.",
+    "confidence": "high"
+  }
+}

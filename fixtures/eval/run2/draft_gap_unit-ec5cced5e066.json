@@ -1,0 +1,46 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:23-05:00",
+  "input_sha256": "ec5cced5e06608be62c2da2754faa524bbc08f7b81572c3f902a8f726110e840",
+  "input_ref": "gaps:G02",
+  "output": {
+    "title": "Dollar threshold for escalating a specialty pharmacy case to the pharmacy director",
+    "type": "policy",
+    "draft_text": "When a specialty pharmacy case exceeds the cost threshold, it must be escalated to the pharmacy director for review.\n\nThreshold: A specialty case is routed to the pharmacy director when [the cost measure, e.g., per-claim cost, monthly cost, or annualized cost of therapy] is [greater than / greater than or equal to] [dollar amount].\n\nWhat counts toward the threshold: [Describe which costs are included, e.g., ingredient cost only, total allowed amount, or plan-paid amount, and whether member cost share is included or excluded].\n\nHow to escalate:\n1. Confirm the case meets the threshold using [system or report used to verify cost].\n2. Document [required information, e.g., member ID, drug name, NDC, prescriber, cost calculation, clinical notes].\n3. Send the case to the pharmacy director through [escalation channel, e.g., queue name, form, or email address].\n4. Tell the member or provider [approved member-facing language about the review], including the expected decision time of [number of business days].\n\nExceptions: [List any drugs, drug classes, plan types, or urgent/expedited situations that follow a different threshold or route].\n\nIf the pharmacy director is unavailable: [backup approver or alternate route].\n\nIf you are unsure whether a case meets the threshold, [whom to contact, e.g., supervisor or clinical pharmacist].",
+    "placeholders": [
+      "[the cost measure, e.g., per-claim cost, monthly cost, or annualized cost of therapy]",
+      "[greater than / greater than or equal to]",
+      "[dollar amount]",
+      "[Describe which costs are included, e.g., ingredient cost only, total allowed amount, or plan-paid amount, and whether member cost share is included or excluded]",
+      "[system or report used to verify cost]",
+      "[required information, e.g., member ID, drug name, NDC, prescriber, cost calculation, clinical notes]",
+      "[escalation channel, e.g., queue name, form, or email address]",
+      "[approved member-facing language about the review]",
+      "[number of business days]",
+      "[List any drugs, drug classes, plan types, or urgent/expedited situations that follow a different threshold or route]",
+      "[backup approver or alternate route]",
+      "[whom to contact, e.g., supervisor or clinical pharmacist]"
+    ],
+    "author_checklist": [
+      "Confirm the exact dollar threshold from the governing pharmacy policy or delegation-of-authority document and cite the source.",
+      "Confirm which cost measure the threshold applies to (per claim, monthly, annualized) and what costs are included.",
+      "Confirm whether the threshold is inclusive (at or above) or exclusive (above).",
+      "Confirm whether the threshold differs by plan type, line of business, drug class, or client contract.",
+      "Confirm the escalation channel, required documentation, and the expected turnaround time.",
+      "Confirm the backup approver when the pharmacy director is unavailable.",
+      "Confirm the handling of urgent or expedited cases and any regulatory decision timeframes that apply.",
+      "Confirm the approved language advocates may use with members and providers.",
+      "Have the pharmacy director or a pharmacy policy owner review and approve the final content.",
+      "Set an effective date and a review date, because thresholds may change."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2Tmnt6CgnDEW4wPJKJ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 1122
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:54:54-05:00",
+  "input_sha256": "aef47d0893a28c30f6e5c30a1dfecc609a0b84472dff73d18e365e2456f4e8bf",
+  "input_ref": "explore member | Member: What do I say before I quote a drug price?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No approved unit gives the script for quoting a drug price. U-BEN-COST-001-02 is a disclaimer for in-network medical visit estimates, not drug prices. U-RX-EDU-001-05 covers caregiver authorization before sharing a price, not what to say. U-RX-EDU-001-13 is about specialty drugs and mail order."
+  },
+  "response_id": "msg_011CggyZtEPMwvjdWrRt8dzs",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 637,
+    "output_tokens": 220
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

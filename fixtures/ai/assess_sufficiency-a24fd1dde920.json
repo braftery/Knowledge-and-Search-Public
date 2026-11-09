@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:54:36-05:00",
+  "input_sha256": "a24fd1dde9205a9ad404f6baa7fc62c945b9285538b6dd4dcbf8cd056a54632b",
+  "input_ref": "explore member | Member: Is an estimate a guarantee of payment?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "Two units say an estimate is not a guarantee of payment, but one covers medical visit costs and the other covers pharmacy prices. The question does not say which kind of estimate it means, so neither unit clearly fits on its own, and combining them is not allowed."
+  },
+  "response_id": "msg_011CggyYSSKkfW7rTWHaPaLy",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 714,
+    "output_tokens": 365
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

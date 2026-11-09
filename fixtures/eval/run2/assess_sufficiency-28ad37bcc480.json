@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:35-05:00",
+  "input_sha256": "28ad37bcc48028b79b6eaa7c73b2259245accf3351e098151f58c503ecbd8440",
+  "input_ref": "search:Q05",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No single unit fully answers this, and the input is unreliable. I received about 20 units instead of up to three, and several conflict ($55 vs $65 copay, escalate vs hold for a missing signature). E-SOP-08 says to read the specialty cost wording word for word before any dollar amount, but it does not give that wording. E-SOP-09 gives a specialty estimate script but does not say it must be read first. E-SOP-10 is a competing 30-day retail version in the same SOP. Answering would require combining units and choosing between conflicting scripts, so I chose none."
+  },
+  "response_id": "msg_011Cgm2QRdrC7q9VempEqM77",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2110,
+    "output_tokens": 899
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

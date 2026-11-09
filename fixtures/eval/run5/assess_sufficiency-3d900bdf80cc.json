@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:58-05:00",
+  "input_sha256": "3d900bdf80cc738bd62aa6b0ac4746598562ed38cce4862120f71fd6dbe0ff60",
+  "input_ref": "search:Q10",
+  "output": {
+    "answer_unit_id": "E-CB-05",
+    "reason": "E-CB-05 tells the advocate to place the callback only to the phone number the member confirmed during this conversation. That fully answers the question."
+  },
+  "response_id": "msg_011Cgm2fyDZ7FmVBDy9TYG6x",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1808,
+    "output_tokens": 69
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

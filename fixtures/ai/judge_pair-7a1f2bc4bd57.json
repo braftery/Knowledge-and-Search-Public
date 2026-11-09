@@ -1,0 +1,22 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:14:16-05:00",
+  "input_sha256": "7a1f2bc4bd57c2e564f1fa1c2c06f06bcbcc979a5eb770e6ec15d08938efb72c",
+  "input_ref": "dedup_variants.csv row 4",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "based on",
+        "b": "based upon"
+      },
+      {
+        "a": "can change",
+        "b": "may change"
+      }
+    ],
+    "reason": "The only differences are synonymous wording choices; the amount basis, days' supply, pharmacy type, guarantee disclaimer, and audience are identical.",
+    "confidence": "high"
+  }
+}

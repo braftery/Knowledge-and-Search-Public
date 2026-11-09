@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:32-05:00",
+  "input_sha256": "e4eed8871101cb0a1e6d1de0e666224935a427f3e8316fa93cf5b49cab39ebca",
+  "input_ref": "Pharmacy advocate: What closing line do I read at the end of an Rx education call?",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-15",
+    "reason": "This unit gives the full closing line for an Rx education call, and its text matches U-RX-EDU-002-12 word for word. I chose the version marked Legal as the controlling source. U-RX-EDU-001-14 only says to read the closing word for word and does not give the wording itself."
+  }
+}

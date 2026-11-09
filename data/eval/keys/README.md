@@ -1,0 +1,1 @@
+The answer keys in this folder were written on November 5, 2026, before any model run on these documents. Every figure in the three documents is illustrative, and Harbor Health is fictional. Never edit a key row after any model output exists. If a row is wrong, add a correction row with a note naming the date and the row it corrects.

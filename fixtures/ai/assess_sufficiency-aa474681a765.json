@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:17:04-05:00",
+  "input_sha256": "aa474681a765fa8ed37a9c033e2dcd1ad0c95b4c9117cff37ddc60db41fd1322",
+  "input_ref": "Insurance advocate: do specialty drugs stay at the specialty pharmacy",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units addresses whether specialty drugs stay at the specialty pharmacy. Two units are generic closing statements and the third covers how to open a visit cost answer."
+  }
+}

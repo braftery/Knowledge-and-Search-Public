@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:05-05:00",
+  "input_sha256": "72ea8fd007f6fda38e0d2b08aae364f62afa297f2e7c53d83ae5d3524e19e878",
+  "input_ref": "duplicates:P30",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Statement A covers when to offer a grievance callback after a supervisor request about a medical benefit, while Statement B covers a general callback when a medical claim question needs a document not on screen, so they address different situations.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011Cgm2T89iijy1HgJ7z2FHW",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 722,
+    "output_tokens": 211
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

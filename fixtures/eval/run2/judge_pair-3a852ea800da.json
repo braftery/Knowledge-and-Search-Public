@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:37-05:00",
+  "input_sha256": "3a852ea800da5b252e43e59d5e5cad91397248a327298ace9f9caacd99831cf1",
+  "input_ref": "duplicates:T06",
+  "output": {
+    "relation": "conflict",
+    "differing_phrases": [
+      {
+        "a": "only after that drug has been filled at a retail pharmacy two times in the current calendar year",
+        "b": "on the first fill. The member does not need any retail fills first."
+      }
+    ],
+    "reason": "Statement A requires two retail fills in the current calendar year before a 90-day mail-order supply can be offered, while Statement B allows the 90-day mail-order supply on the first fill with no retail fills, so the eligibility conditions cannot both be true.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CgkztfBj8uwx1PBrYAdCa",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 755,
+    "output_tokens": 171
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

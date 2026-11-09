@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-04T15:45:19-05:00",
+  "input_sha256": "e66eb53cc684237fe16f6db5c7c8b3d447005fc89f022160f440b9118d4e4084",
+  "input_ref": "explore-fresh | Pharmacy advocate: How long does a Part D prior authorization take?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units mention how long a Part D prior authorization takes. They only cover call handling steps: skipping the intro, checking caregiver authorization, and offering a callback."
+  },
+  "response_id": "msg_011CgiYLzZdJH74pvqoSPKUQ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 593,
+    "output_tokens": 76
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

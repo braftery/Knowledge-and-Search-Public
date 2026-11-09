@@ -1,0 +1,20 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:59:16-05:00",
+  "input_sha256": "940447c6bdcaa523335a086b53db168cd1da72bd9b1263fea57865793a78880a",
+  "input_ref": "U-RX-EDU-001-09 vs U-WEB-FAQ-04",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [],
+    "reason": "Statement A is a legal disclaimer setting the basis of a quoted estimate (30-day supply, preferred retail pharmacy, no payment guarantee), while Statement B is a member FAQ explaining why a pharmacy charge may differ; the two are compatible but serve different purposes and do not carry the same obligations.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011CggWSqPQTANAU8eaHXedp",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 281
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

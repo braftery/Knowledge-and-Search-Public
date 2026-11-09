@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:41-05:00",
+  "input_sha256": "540d4ad2322c23d26ad5f0cecf22f71f089e2482a5423e8c5d10ab14f01f5519",
+  "input_ref": "drift:DR09",
+  "output": {
+    "change": "material",
+    "summary": "The source changed 'cannot' to the contraction 'can't'. The meaning is the same, but this unit reproduces the source verbatim and reads like a disclaimer, so the exact wording likely matters. I'm treating it as a required-wording change; the unit should be updated to match.",
+    "proposed_text": "I can't tell you whether this medicine is right for you."
+  },
+  "response_id": "msg_011Cgm2iwTj4WDD2w6TiRErQ",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 463,
+    "output_tokens": 325
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T13:59:41-05:00",
+  "input_sha256": "dda9fa4823e829f888fce1a5fc6bdac0f9a08e0502c7b810f4e094f4995e9003",
+  "input_ref": "U-RX-EDU-001-11 vs U-BEN-COST-001-04",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [
+      {
+        "a": "the pharmacy will charge",
+        "b": "the clinic will bill"
+      },
+      {
+        "a": "estimated amount",
+        "b": "quoted amount"
+      }
+    ],
+    "reason": "Both prohibit promising a final cost, but A covers pharmacy charges and B covers clinic billing, so they apply to different settings and can both be true.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011CggWUkk9Z8MWL5Su6TiDx",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 722,
+    "output_tokens": 308
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

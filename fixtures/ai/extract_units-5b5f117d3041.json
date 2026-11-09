@@ -1,0 +1,245 @@
+{
+  "task": "extract_units",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:13:05-05:00",
+  "input_sha256": "5b5f117d3041a7066786571a1726a15849a2e03b544e658cdfab9b6cd41f92ab",
+  "input_ref": "data/rx_education_script.md",
+  "output": {
+    "units": [
+      {
+        "title": "Greeting delivery guidance",
+        "type": "procedure",
+        "text": "Deliver the greeting in your own words and keep it short.",
+        "source_span": "Greeting. Say this in your own words, and keep it short.",
+        "tags": [
+          "opening",
+          "greeting",
+          "call-flow"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Sample greeting wording",
+        "type": "procedure",
+        "text": "Sample greeting (may be said in your own words): Thanks for calling Harbor Health Member Services. My name is [first name]. I see you are calling about a prescription question on your Medicare Advantage plan. This call may be monitored or recorded. How can I help you today?",
+        "source_span": "Thanks for calling Harbor Health Member Services. My name is [first name]. I see you are calling about a prescription question on your Medicare Advantage plan. This call may be monitored or recorded. How can I help you today?",
+        "tags": [
+          "opening",
+          "greeting",
+          "recording-notice",
+          "script"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Use IVR-captured drug name",
+        "type": "procedure",
+        "text": "If the IVR already captured the drug name, do not make the member retell the whole story. Confirm the drug and the pharmacy, then move on.",
+        "source_span": "Advocate note: If the IVR already captured the drug name, do not make the member retell the whole story. Confirm the drug and the pharmacy, then move on.",
+        "tags": [
+          "advocate-note",
+          "ivr",
+          "opening",
+          "call-handling"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Member verification requirement",
+        "type": "procedure",
+        "text": "Verify the member with two of these: member ID, date of birth, or the address on file.",
+        "source_span": "Verify the member with two of these: member ID, date of birth, or the address on file.",
+        "tags": [
+          "verification",
+          "authentication",
+          "identity"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Caregiver authorization check",
+        "type": "procedure",
+        "text": "If a caregiver is on the line, check the authorization on the account before you talk about the drug or the price.",
+        "source_span": "If a caregiver is on the line, check the authorization on the account before you talk about the drug or the price.",
+        "tags": [
+          "verification",
+          "caregiver",
+          "authorization",
+          "privacy"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Callback when verification fails",
+        "type": "procedure",
+        "text": "If you cannot verify the caller, offer to call the member back.",
+        "source_span": "If you cannot verify, offer to call the member back.",
+        "tags": [
+          "verification",
+          "callback",
+          "unverified-caller"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "No coverage details to unverified callers",
+        "type": "policy",
+        "text": "Do not quote a copay, a tier, or a coverage limit to an unverified caller, and do not say whether a drug is on the formulary.",
+        "source_span": "Do not quote a copay, a tier, or a coverage limit to an unverified caller, and do not say whether a drug is on the formulary.",
+        "tags": [
+          "verification",
+          "privacy",
+          "copay",
+          "tier",
+          "formulary",
+          "unverified-caller"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Read pricing disclaimer before any dollar amount",
+        "type": "procedure",
+        "text": "Before you say any dollar amount, read the pricing disclaimer word for word. Do not shorten it.",
+        "source_span": "Before you say any dollar amount, read the next block word for word. Do not shorten it.",
+        "tags": [
+          "pricing",
+          "disclaimer",
+          "verbatim-required"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Pricing estimate disclaimer (Legal)",
+        "type": "verbatim",
+        "text": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records I can see today. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment.",
+        "source_span": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, based on the plan records I can see today. Your actual cost can change if the pharmacy, the days' supply, or your stage of coverage is different. This estimate is not a guarantee of payment.",
+        "tags": [
+          "pricing",
+          "disclaimer",
+          "legal",
+          "verbatim",
+          "estimate"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "member"
+      },
+      {
+        "title": "Answering \"is that my copay?\"",
+        "type": "procedure",
+        "text": "Members often ask \"is that my copay?\" after the pricing disclaimer. You may say the estimate reflects the copay or coinsurance on the plan record.",
+        "source_span": "Advocate note: Members often ask \"is that my copay?\" after this line. You may say the estimate reflects the copay or coinsurance on the plan record.",
+        "tags": [
+          "advocate-note",
+          "pricing",
+          "copay",
+          "coinsurance"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Do not promise pharmacy charge",
+        "type": "procedure",
+        "text": "You may not promise that the pharmacy will charge the estimated amount.",
+        "source_span": "You may not promise that the pharmacy will charge that amount.",
+        "tags": [
+          "advocate-note",
+          "pricing",
+          "copay",
+          "no-guarantee"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "90-day mail-order eligibility for maintenance drugs",
+        "type": "policy",
+        "text": "For a maintenance drug, offer a 90-day mail-order supply only after the member has filled that same drug at a retail pharmacy two times in the current calendar year.",
+        "source_span": "For a maintenance drug, offer a 90-day mail-order supply only after the member has filled that same drug at a retail pharmacy two times in the current calendar year.",
+        "tags": [
+          "mail-order",
+          "maintenance-drug",
+          "90-day-supply",
+          "eligibility"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Specialty drugs not converted to mail order",
+        "type": "policy",
+        "text": "Specialty drugs stay at Harbor Specialty Pharmacy and are not converted to mail order on this call.",
+        "source_span": "Specialty drugs stay at Harbor Specialty Pharmacy and are not converted to mail order on this call.",
+        "tags": [
+          "specialty-pharmacy",
+          "mail-order",
+          "specialty-drug"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Read closing word for word, then stop",
+        "type": "procedure",
+        "text": "Read the two closing sentences word for word, then stop.",
+        "source_span": "Read the next two sentences word for word, then stop.",
+        "tags": [
+          "closing",
+          "verbatim-required",
+          "call-flow"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "Closing statement (Legal)",
+        "type": "verbatim",
+        "text": "Is there anything else I can help you with today? Thank you for calling Harbor Health. We appreciate you trusting us with your coverage.",
+        "source_span": "Is there anything else I can help you with today? Thank you for calling Harbor Health. We appreciate you trusting us with your coverage.",
+        "tags": [
+          "closing",
+          "legal",
+          "verbatim"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "member"
+      },
+      {
+        "title": "Optional portal summary mention",
+        "type": "procedure",
+        "text": "You may add, in your own words, that a summary of this call will appear in the member portal within two business days.",
+        "source_span": "You may add, in your own words, that a summary of this call will appear in the member portal within two business days.",
+        "tags": [
+          "closing",
+          "member-portal",
+          "call-summary"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      },
+      {
+        "title": "No price, tier, or network statements after closing",
+        "type": "policy",
+        "text": "Do not add any price, tier, or network statement after the closing verbatim.",
+        "source_span": "Do not add any price, tier, or network statement after the closing verbatim.",
+        "tags": [
+          "closing",
+          "pricing",
+          "tier",
+          "network",
+          "compliance"
+        ],
+        "domain": "Pharmacy education, Medicare Advantage",
+        "audience": "advocate"
+      }
+    ]
+  }
+}

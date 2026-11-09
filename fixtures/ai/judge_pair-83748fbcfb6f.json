@@ -1,0 +1,25 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T15:09:37-05:00",
+  "input_sha256": "83748fbcfb6fdaa3b39ada2c2cb6a515e0bd68a6a44c09c5fc5c44fc21907b4a",
+  "input_ref": "dedup_variants.csv row 19",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "30-day supply",
+        "b": "thirty-day supply"
+      }
+    ],
+    "reason": "The only difference is writing the number as a numeral versus a word, so the days' supply, pharmacy type, and no-guarantee condition are identical.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cggbp8Xh8UcRTKB2dECcV",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 853,
+    "output_tokens": 107
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:13:41-05:00",
+  "input_sha256": "47ac4cd15d9f3b31447fd5eda9bd4091c162c184d738c5995a8aa65144d4670e",
+  "input_ref": "search:Q47",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units states how many identifiers an advocate needs to verify a member. E-CB-10 mentions verification but does not give a number."
+  },
+  "response_id": "msg_011Cgm2Lxsh3mXDM6nXvNsoM",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2074,
+    "output_tokens": 64
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

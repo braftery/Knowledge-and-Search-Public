@@ -1,0 +1,33 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:15:31-05:00",
+  "input_sha256": "f320833a4f9f2471dc7c517e6450a84995ee442abf5aa4957793a765161622d8",
+  "input_ref": "gaps:G08",
+  "output": {
+    "title": "When a call summary appears in the member portal",
+    "type": "faq",
+    "draft_text": "Question: When will the call summary show in the member portal?\n\nAnswer (advocate wording): \"A summary of today's call will appear in your member portal within two business days.\" (Source: approved unit U-KNOWN-FACT. Advocates may say this in their own words.)\n\nWhere to find it: The summary will be in [portal section or menu path where call summaries appear].\n\nIf it doesn't appear: If the summary is not in the portal after two business days, [next step for the member, such as calling back or using a portal contact option].\n\nScope: This timeframe applies to [call types or lines covered, such as all pharmacy calls or only certain call types].",
+    "placeholders": [
+      "[portal section or menu path where call summaries appear]",
+      "[next step for the member, such as calling back or using a portal contact option]",
+      "[call types or lines covered, such as all pharmacy calls or only certain call types]"
+    ],
+    "author_checklist": [
+      "Confirm that the two-business-day timeframe in U-KNOWN-FACT applies to calls handled by Pharmacy advocates.",
+      "Decide whether to expand U-KNOWN-FACT or link to it so the two units stay consistent.",
+      "Confirm where in the member portal call summaries appear, and fill in the location placeholder.",
+      "Confirm what members should do if no summary appears after two business days.",
+      "Confirm whether any call types do not produce a portal summary, and update the scope placeholder.",
+      "Confirm the knowledge base. Pharmacy is suggested because the question came from a Pharmacy advocate, but a shared knowledge base may fit better if this applies to all lines."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2Ud543faRRZ6UahCvH",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 658,
+    "output_tokens": 799
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

@@ -1,0 +1,366 @@
+{
+  "task": "extract_units",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:55:09-05:00",
+  "input_sha256": "4a50f2b237952cae3f49e89bd426cf6148d85f48529349d086bf5d2284fc4bd5",
+  "input_ref": "extraction:member_callback_policy",
+  "output": {
+    "units": [
+      {
+        "title": "Policy scope: service line and question types",
+        "type": "policy",
+        "text": "The policy covers callbacks on the Harbor Medicare Advantage service line for pharmacy questions and for medical benefit questions.",
+        "source_span": "The policy covers callbacks on the Harbor Medicare Advantage service line for pharmacy questions and for medical benefit questions.",
+        "tags": [
+          "callback",
+          "scope",
+          "medicare-advantage",
+          "pharmacy",
+          "benefits"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Policy scope: advocates covered",
+        "type": "policy",
+        "text": "It covers the advocate who is ending the first call and the advocate who places the return call.",
+        "source_span": "It covers the advocate who is ending the first call and the advocate who places the return call.",
+        "tags": [
+          "callback",
+          "scope"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Topics outside this policy",
+        "type": "policy",
+        "text": "It does not set drug prices, visit copays beyond the training example in the procedures section, appeal deadlines, or prior authorization clocks. Those stay in the pharmacy and benefits guides.",
+        "source_span": "It does not set drug prices, visit copays beyond the training example in the procedures section, appeal deadlines, or prior authorization clocks. Those stay in the pharmacy and benefits guides.",
+        "tags": [
+          "callback",
+          "scope",
+          "exclusions"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Weekend and holiday coverage excluded",
+        "type": "policy",
+        "text": "Weekend coverage and holiday coverage are outside this version of the page.",
+        "source_span": "Weekend coverage and holiday coverage are outside this version of the page.",
+        "tags": [
+          "callback",
+          "scope",
+          "weekend",
+          "holiday"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Definition: callback",
+        "type": "policy",
+        "text": "A callback means a return phone call from Harbor Health to the member or the authorized caregiver.",
+        "source_span": "A callback means a return phone call from Harbor Health to the member or the authorized caregiver.",
+        "tags": [
+          "callback",
+          "definition"
+        ],
+        "domain": "callbacks",
+        "audience": "both"
+      },
+      {
+        "title": "Definition: window",
+        "type": "policy",
+        "text": "A window means the block of time the advocate promised for that return call.",
+        "source_span": "A window means the block of time the advocate promised for that return call.",
+        "tags": [
+          "callback",
+          "definition",
+          "window"
+        ],
+        "domain": "callbacks",
+        "audience": "both"
+      },
+      {
+        "title": "Definition: desk note",
+        "type": "policy",
+        "text": "A desk note means the note on the member record that the next advocate can read.",
+        "source_span": "A desk note means the note on the member record that the next advocate can read.",
+        "tags": [
+          "callback",
+          "definition",
+          "desk-note"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Offer callback when caller cannot be verified",
+        "type": "policy",
+        "text": "Offer a callback when you cannot verify the caller with two identifiers.",
+        "source_span": "Offer a callback when you cannot verify the caller with two identifiers.",
+        "tags": [
+          "callback",
+          "eligibility",
+          "verification"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Offer callback when claim document is not on screen",
+        "type": "policy",
+        "text": "Offer a callback when a medical claim question needs a document that is not on the screen.",
+        "source_span": "Offer a callback when a medical claim question needs a document that is not on the screen.",
+        "tags": [
+          "callback",
+          "eligibility",
+          "claims"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Grievance callback condition",
+        "type": "policy",
+        "text": "Offer a grievance callback only after the member asks to speak with a supervisor about a medical benefit.",
+        "source_span": "Offer a grievance callback only after the member asks to speak with a supervisor about a medical benefit.",
+        "tags": [
+          "callback",
+          "grievance",
+          "supervisor",
+          "benefits"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Nurse callback plans listed on plan benefit grid",
+        "type": "policy",
+        "text": "Which plans include a nurse callback is listed on the plan benefit grid. This policy does not name the plans.",
+        "source_span": "Which plans include a nurse callback is listed on the plan benefit grid. This policy does not name the plans.",
+        "tags": [
+          "callback",
+          "nurse-callback",
+          "plan-benefit-grid"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Document callback reason and window in desk note",
+        "type": "procedure",
+        "text": "Write the callback reason and the promised window in the desk note before you end the conversation.",
+        "source_span": "Write the callback reason and the promised window in the desk note before you end the conversation.",
+        "tags": [
+          "callback",
+          "desk-note",
+          "documentation"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Call only the confirmed phone number",
+        "type": "procedure",
+        "text": "Place the callback only to the phone number the member confirmed during this conversation.",
+        "source_span": "Place the callback only to the phone number the member confirmed during this conversation.",
+        "tags": [
+          "callback",
+          "phone-number",
+          "verification"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Callback scheduling hours (illustrative)",
+        "type": "policy",
+        "text": "Schedule member callbacks on weekdays between 8:00 a.m. and 6:00 p.m. Eastern. These hours are illustrative.",
+        "source_span": "Schedule member callbacks on weekdays between 8:00 a.m. and 6:00 p.m. Eastern. These hours are illustrative.",
+        "tags": [
+          "callback",
+          "scheduling",
+          "hours",
+          "illustrative"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Training example specialist copay (illustrative)",
+        "type": "policy",
+        "text": "The training example uses an in-network specialist copay of $45. That figure is illustrative.",
+        "source_span": "The training example uses an in-network specialist copay of $45. That figure is illustrative.",
+        "tags": [
+          "training",
+          "copay",
+          "illustrative"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Read callback block word for word",
+        "type": "procedure",
+        "text": "Read the callback block word for word before you end the call.",
+        "source_span": "Read the callback block word for word before you end the call.",
+        "tags": [
+          "callback",
+          "script",
+          "compliance"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Callback promise legal script",
+        "type": "verbatim",
+        "text": "Harbor Health will call you back on the number you just confirmed. Please keep that phone with you during the window we agreed.",
+        "source_span": "Harbor Health will call you back on the number you just confirmed. Please keep that phone with you during the window we agreed.",
+        "tags": [
+          "callback",
+          "verbatim",
+          "legal",
+          "script"
+        ],
+        "domain": "callbacks",
+        "audience": "member"
+      },
+      {
+        "title": "What the callback says before verification",
+        "type": "faq",
+        "text": "Q: Will you say why you are calling before I pick up? A: We say that Harbor Health is returning your call. We do not give the medicine name, the diagnosis, or a claim amount until we verify you.",
+        "source_span": "Will you say why you are calling before I pick up? We say that Harbor Health is returning your call. We do not give the medicine name, the diagnosis, or a claim amount until we verify you.",
+        "tags": [
+          "callback",
+          "privacy",
+          "verification",
+          "faq"
+        ],
+        "domain": "callbacks",
+        "audience": "both"
+      },
+      {
+        "title": "No sensitive details on voicemail",
+        "type": "policy",
+        "text": "Do not leave the medicine name, the diagnosis, or a claim amount on a voicemail.",
+        "source_span": "Do not leave the medicine name, the diagnosis, or a claim amount on a voicemail.",
+        "tags": [
+          "callback",
+          "voicemail",
+          "privacy"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Optional mention of portal call summary",
+        "type": "procedure",
+        "text": "You may add, in your own words, that a summary of this call will appear in the member portal within two days.",
+        "source_span": "You may add, in your own words, that a summary of this call will appear in the member portal within two days.",
+        "tags": [
+          "callback",
+          "portal",
+          "advocate-guidance"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Definition: missed callback",
+        "type": "policy",
+        "text": "A missed callback is a return call the member does not answer during the promised window.",
+        "source_span": "A missed callback is a return call the member does not answer during the promised window.",
+        "tags": [
+          "callback",
+          "missed-callback",
+          "definition"
+        ],
+        "domain": "callbacks",
+        "audience": "both"
+      },
+      {
+        "title": "Retry a missed callback within 2 business days",
+        "type": "procedure",
+        "text": "If the advocate misses the window, make one more attempt within 2 business days.",
+        "source_span": "If the advocate misses the window, make one more attempt within 2 business days.",
+        "tags": [
+          "callback",
+          "missed-callback",
+          "retry"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "After failed second attempt: portal message and close task",
+        "type": "procedure",
+        "text": "If the second attempt also fails, send a portal message on the same day and close the callback task.",
+        "source_span": "If the second attempt also fails, send a portal message on the same day and close the callback task.",
+        "tags": [
+          "callback",
+          "missed-callback",
+          "portal",
+          "task-closure"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Missed callback does not extend deadlines",
+        "type": "policy",
+        "text": "A missed callback does not extend a prior authorization deadline or an appeal deadline.",
+        "source_span": "A missed callback does not extend a prior authorization deadline or an appeal deadline.",
+        "tags": [
+          "callback",
+          "missed-callback",
+          "prior-authorization",
+          "appeals",
+          "deadlines"
+        ],
+        "domain": "callbacks",
+        "audience": "both"
+      },
+      {
+        "title": "Callback completion target (illustrative)",
+        "type": "policy",
+        "text": "The desk target is to complete 90 percent of callbacks inside the promised window. This figure is illustrative.",
+        "source_span": "The desk target is to complete 90 percent of callbacks inside the promised window. This figure is illustrative.",
+        "tags": [
+          "callback",
+          "measures",
+          "target",
+          "illustrative"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      },
+      {
+        "title": "Average callback wait reported elsewhere",
+        "type": "policy",
+        "text": "The average number of minutes a member waits before a callback is reported in the monthly operations pack. This policy does not state that average.",
+        "source_span": "The average number of minutes a member waits before a callback is reported in the monthly operations pack. This policy does not state that average.",
+        "tags": [
+          "callback",
+          "measures",
+          "wait-time",
+          "operations-pack"
+        ],
+        "domain": "callbacks",
+        "audience": "advocate"
+      }
+    ]
+  },
+  "response_id": "msg_011Cgkzu4TTHcFjaSUtDv6Lc",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2196,
+    "output_tokens": 3991
+  },
+  "prompt_sha256": "3320ede3ff9d2327c1071897f0136857465e3d642591266e1e337d3fc6ac2df5"
+}

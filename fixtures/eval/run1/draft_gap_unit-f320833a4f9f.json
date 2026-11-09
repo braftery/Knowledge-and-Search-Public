@@ -1,0 +1,33 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:26-05:00",
+  "input_sha256": "f320833a4f9f2471dc7c517e6450a84995ee442abf5aa4957793a765161622d8",
+  "input_ref": "gaps:G08",
+  "output": {
+    "title": "When a call summary appears in the member portal",
+    "type": "faq",
+    "draft_text": "Question: When will the call summary show in the member portal?\n\nAnswer: You may tell the member, in your own words, that a summary of this call will appear in the member portal within two business days.\n\nWhere to find it: The member can find the summary in the portal under [portal section or menu where call summaries appear].\n\nIf it does not appear: If the summary has not appeared after two business days, [next step for the member or advocate, such as who to contact or how to request the summary].\n\nSource: The two-business-day timeframe comes from approved unit U-KNOWN-FACT.",
+    "placeholders": [
+      "[portal section or menu where call summaries appear]",
+      "[next step for the member or advocate, such as who to contact or how to request the summary]"
+    ],
+    "author_checklist": [
+      "Check whether approved unit U-KNOWN-FACT already answers this question. If it does, consider retagging it or adding search terms so pharmacy advocates can find it, rather than publishing a duplicate unit.",
+      "Confirm that the two-business-day timeframe in U-KNOWN-FACT also applies to pharmacy calls, not only to other call types.",
+      "Confirm where in the member portal call summaries appear, and replace the placeholder.",
+      "Confirm the escalation or next step when a summary has not appeared after two business days, and replace the placeholder.",
+      "Confirm any exceptions to the timeframe, such as call types, holidays, or system outages, or confirm that none exist.",
+      "Keep the wording guidance from the source: advocates should share the timeframe in their own words and should not read it verbatim.",
+      "Confirm the correct knowledge base. Pharmacy is suggested because the question came from a pharmacy advocate, but the content may belong in a shared location."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2Pbc6m5XFQE11iNcvh",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 658,
+    "output_tokens": 995
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

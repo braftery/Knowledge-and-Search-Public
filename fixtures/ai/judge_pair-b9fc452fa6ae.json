@@ -1,0 +1,33 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:00:20-05:00",
+  "input_sha256": "b9fc452fa6ae73ce385f27043e81295801a60bdc1335259ca0d27a9a1449f6f9",
+  "input_ref": "U-RX-EDU-002-07 vs U-WEB-FAQ-02",
+  "output": {
+    "relation": "distinct",
+    "differing_phrases": [
+      {
+        "a": "The price I quote is an estimate for a 30-day supply at a preferred retail pharmacy, using the plan records I can see today.",
+        "b": ""
+      },
+      {
+        "a": "This estimate is not a guarantee of payment.",
+        "b": ""
+      },
+      {
+        "a": "What you pay can change",
+        "b": "The amount you pay may differ"
+      }
+    ],
+    "reason": "B repeats only A's sentence about cost factors and drops A's 30-day supply, preferred retail pharmacy, and no-guarantee terms, so they are not equivalent, but nothing in B contradicts A.",
+    "confidence": "medium"
+  },
+  "response_id": "msg_011CggWX1E6MRs7qJWWUaD52",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 799,
+    "output_tokens": 490
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

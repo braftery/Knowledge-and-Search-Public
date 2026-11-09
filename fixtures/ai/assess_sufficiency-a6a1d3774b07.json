@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-04T15:45:21-05:00",
+  "input_sha256": "a6a1d3774b07cd419c7084164705eb1ba12a4f3fad343de47b4c061c071da811",
+  "input_ref": "explore-fresh | Member: What will my doctor visit cost?",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "None of the approved units gives the cost of a doctor visit. U-BEN-COST-001-02 is a disclaimer about cost estimates and contains no actual cost. U-BEN-COST-001-05 covers the referral requirement for HMO specialist visits. U-RX-EDU-001-05 covers caregiver authorization for drug information. None of them answers the question."
+  },
+  "response_id": "msg_011CgiYMANE1MCnAocPQuUYY",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 639,
+    "output_tokens": 140
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

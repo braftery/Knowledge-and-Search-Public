@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:16:31-05:00",
+  "input_sha256": "020d5adcce40f702d211aad64883a0bfaf0c9d07d650a570d972c3bccb787d5c",
+  "input_ref": "Insurance advocate: how long does a part d prior auth take",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "The question asks how long a Part D prior authorization takes. None of the approved units cover that. All three are about quoting visit costs and the required cost-estimate disclaimer."
+  }
+}

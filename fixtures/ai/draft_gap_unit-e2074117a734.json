@@ -1,0 +1,45 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T14:02:17-05:00",
+  "input_sha256": "e2074117a7344fa0b762f3058599bf8ef92b607f1387636a180f2fa50df1bace",
+  "input_ref": "c6",
+  "output": {
+    "title": "Answering \"What is the MOOP on this Medicare Advantage plan?\"",
+    "type": "faq",
+    "draft_text": "Question: What is the maximum out-of-pocket (MOOP) amount on this Medicare Advantage (MA) plan?\n\nAdvocate answer: \"The maximum out-of-pocket amount, or MOOP, is the most you would pay in a plan year for [types of covered services counted toward the MOOP] before the plan pays 100% of covered costs for the rest of that year. Based on the plan records I can see today, the MOOP on your plan is [in-network MOOP amount] for in-network services [and [combined in-network and out-of-network MOOP amount] for in-network and out-of-network services combined, if applicable to the plan type]. So far this plan year, you have paid [amount applied toward MOOP to date] toward that amount.\"\n\nWhat counts toward the MOOP: [list of cost types that count toward the MOOP, for example deductibles, copays, coinsurance for covered services].\n\nWhat does not count toward the MOOP: [list of cost types that do not count toward the MOOP, including how Part D prescription drug costs are treated].\n\nPrescription drug questions: If the member asks whether their prescription costs count toward the MOOP, say: \"[approved explanation of how prescription drug costs relate to the MOOP and any separate drug out-of-pocket limit].\" For drug pricing questions, use the approved price estimate disclaimer.\n\nWhere to find it: Advocates can find the MOOP in [system or screen name where the MOOP and year-to-date amount are shown].\n\nIf the MOOP is not shown or the member disputes the amount: [approved escalation or referral steps, for example transfer queue or document to reference].\n\nReset: The MOOP applies per [plan year or calendar year period] and resets on [reset date].",
+    "placeholders": [
+      "[types of covered services counted toward the MOOP]",
+      "[in-network MOOP amount]",
+      "[combined in-network and out-of-network MOOP amount]",
+      "[amount applied toward MOOP to date]",
+      "[list of cost types that count toward the MOOP, for example deductibles, copays, coinsurance for covered services]",
+      "[list of cost types that do not count toward the MOOP, including how Part D prescription drug costs are treated]",
+      "[approved explanation of how prescription drug costs relate to the MOOP and any separate drug out-of-pocket limit]",
+      "[system or screen name where the MOOP and year-to-date amount are shown]",
+      "[approved escalation or referral steps, for example transfer queue or document to reference]",
+      "[plan year or calendar year period]",
+      "[reset date]"
+    ],
+    "author_checklist": [
+      "Confirm whether the MOOP amount should be quoted from the member's plan record or whether advocates should be directed to a specific source document (e.g., Evidence of Coverage or Summary of Benefits).",
+      "Confirm which plan types have only an in-network MOOP versus a combined in-network and out-of-network MOOP, and remove the combined sentence where not applicable.",
+      "Confirm exactly which cost types count and do not count toward the MOOP.",
+      "Confirm with Benefits and Pharmacy how Part D prescription drug costs relate to the MA MOOP and whether a separate drug out-of-pocket limit should be explained; obtain approved wording.",
+      "Confirm whether advocates can see and quote the member's year-to-date amount applied toward the MOOP, and in which system/screen.",
+      "Confirm whether a disclaimer is required when quoting MOOP or year-to-date amounts; have Legal review (nearby units U-RX-EDU-001-09 and U-RX-EDU-002-07 cover drug price estimates only).",
+      "Confirm the MOOP reset period and date.",
+      "Confirm the escalation path when the MOOP is not displayed or the member disputes it.",
+      "Confirm whether one unit should serve both Pharmacy and Insurance advocates or whether a pharmacy-specific variant is needed, and confirm the correct knowledge base.",
+      "Note that nearby units U-RX-EDU-001-09 and U-RX-EDU-002-07 appear to be near-duplicates; flag for consolidation if appropriate."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011CggWfNpbTaVK7GYcEQjav",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 1690
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

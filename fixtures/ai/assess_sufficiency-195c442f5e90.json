@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T19:54:23-05:00",
+  "input_sha256": "195c442f5e902e004fcedd6932508c35bdc3956f70df944d86caed2dac122ae5",
+  "input_ref": "explore member | Member: Do specialty drugs go through mail order?",
+  "output": {
+    "answer_unit_id": "U-RX-EDU-001-13",
+    "reason": "This unit directly answers the question. It says specialty drugs stay at Harbor Specialty Pharmacy and are not moved to mail order."
+  },
+  "response_id": "msg_011CggyXhoHN4HgBRdvgnDDK",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 658,
+    "output_tokens": 76
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}

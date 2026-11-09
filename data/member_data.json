@@ -1,0 +1,203 @@
+{
+  "illustrative": true,
+  "note": "Illustrative, made-up data for a fictional Harbor Health plan. No real member, provider, or claims data.",
+  "plan": {
+    "name": "Harbor Medicare Advantage HMO",
+    "premium_monthly": 0,
+    "primary_care": 0,
+    "specialist": 35,
+    "urgent_care": 45,
+    "emergency": 110,
+    "out_of_network": "Not covered except emergency and urgent care",
+    "out_of_network_exceptions": ["emergency", "urgent_care"],
+    "medical_deductible": 0,
+    "out_of_pocket_maximum": 4500,
+    "part_d_deductible": 250,
+    "part_d_deductible_note": "Does not apply to tiers 1 and 2",
+    "nurse_line": "1-800-555-0199",
+    "nurse_line_note": "Illustrative nurse line. Not a real number."
+  },
+  "pharmacies": [
+    {"name": "Harbor Preferred Pharmacy", "network": "preferred", "city": "Harbor City"},
+    {"name": "Market Street Pharmacy", "network": "standard", "city": "Harbor City"},
+    {"name": "Northside Pharmacy", "network": "preferred", "city": "North Harbor"}
+  ],
+  "formulary": [
+    {"drug_id": "atorvastatin", "name": "Atorvastatin", "strength": "20 mg tablet", "tier": 1, "specialty": false, "insulin": false, "aliases": ["Lipitor", "atorvastin"]},
+    {"drug_id": "metformin", "name": "Metformin", "strength": "500 mg tablet", "tier": 1, "specialty": false, "insulin": false, "aliases": ["Glucophage", "metforman"]},
+    {"drug_id": "lisinopril", "name": "Lisinopril", "strength": "10 mg tablet", "tier": 1, "specialty": false, "insulin": false},
+    {"drug_id": "sertraline", "name": "Sertraline", "strength": "50 mg tablet", "tier": 2, "specialty": false, "insulin": false},
+    {"drug_id": "apixaban", "name": "Apixaban", "strength": "5 mg tablet", "tier": 3, "specialty": false, "insulin": false, "aliases": ["Eliquis"]},
+    {"drug_id": "insulin-glargine", "name": "Insulin glargine", "strength": "100 units/mL pen", "tier": 3, "specialty": false, "insulin": true},
+    {"drug_id": "adalimumab", "name": "Adalimumab", "strength": "40 mg/0.4 mL pen", "tier": 5, "specialty": true, "insulin": false}
+  ],
+  "prices": {
+    "1": {
+      "preferred_retail": {"30": 0, "90": 0},
+      "standard_retail": {"30": 10, "90": 30},
+      "mail_order": {"90": 0},
+      "specialty": {}
+    },
+    "2": {
+      "preferred_retail": {"30": 5, "90": 15},
+      "standard_retail": {"30": 15, "90": 45},
+      "mail_order": {"90": 10},
+      "specialty": {}
+    },
+    "3": {
+      "preferred_retail": {"30": 47, "90": 141},
+      "standard_retail": {"30": 47, "90": 141},
+      "mail_order": {"90": 94},
+      "specialty": {}
+    },
+    "insulin": {
+      "preferred_retail": {"30": 35, "90": 105},
+      "standard_retail": {"30": 35, "90": 105},
+      "mail_order": {"90": 105},
+      "specialty": {}
+    },
+    "5": {
+      "preferred_retail": {},
+      "standard_retail": {},
+      "mail_order": {},
+      "specialty": {"30": 612},
+      "coinsurance_note": "33% coinsurance, shown as $612."
+    }
+  },
+  "members": [
+    {
+      "member_id": "HBR-20418",
+      "name": "Dana R.",
+      "date_of_birth": "1951-03-14",
+      "coverage_stage": "Initial coverage",
+      "oop_spent": 1210,
+      "drug_deductible_met": false,
+      "drug_ids": ["atorvastatin", "metformin", "apixaban"],
+      "claims": [
+        {"date": "2026-10-02", "provider_type": "Primary care", "amount_billed": 180, "plan_paid": 180, "member_paid": 0, "status": "Paid"},
+        {"date": "2026-10-18", "provider_type": "Pharmacy", "drug": "apixaban", "amount_billed": 140, "plan_paid": 0, "member_paid": 140, "status": "Paid", "note": "Illustrative disputed charge for apixaban."},
+        {"date": "2026-09-12", "provider_type": "Pharmacy", "amount_billed": 47, "plan_paid": 0, "member_paid": 47, "status": "Paid"},
+        {"date": "2026-08-04", "provider_type": "Laboratory", "amount_billed": 96, "plan_paid": 96, "member_paid": 0, "status": "Paid"}
+      ],
+      "recent_contacts": [
+        {"date": "2026-10-28", "channel": "Phone", "summary": "Asked what a 30-day fill of a maintenance drug costs at a retail pharmacy."},
+        {"date": "2026-09-14", "channel": "Chat", "summary": "Asked whether the atorvastatin price on the site is a guarantee."},
+        {"date": "2026-08-02", "channel": "Phone", "summary": "Asked for the preferred pharmacy copay for metformin."}
+      ]
+    },
+    {
+      "member_id": "HBR-22841",
+      "name": "Luis M.",
+      "date_of_birth": "1958-07-22",
+      "coverage_stage": "Initial coverage",
+      "oop_spent": 2860,
+      "drug_deductible_met": true,
+      "drug_ids": ["adalimumab", "metformin"],
+      "claims": [
+        {"date": "2026-10-09", "provider_type": "Specialty pharmacy", "amount_billed": 1850, "plan_paid": 1238, "member_paid": 612, "status": "Paid"},
+        {"date": "2026-08-15", "provider_type": "Specialist", "amount_billed": 240, "plan_paid": 205, "member_paid": 35, "status": "Paid"},
+        {"date": "2026-06-02", "provider_type": "Primary care", "amount_billed": 150, "plan_paid": 150, "member_paid": 0, "status": "Paid"}
+      ],
+      "recent_contacts": [
+        {"date": "2026-10-21", "channel": "Phone", "summary": "Asked to move adalimumab from the specialty pharmacy to mail order."},
+        {"date": "2026-09-30", "channel": "Chat", "summary": "Asked where a specialty drug can be filled."},
+        {"date": "2026-07-18", "channel": "Phone", "summary": "Asked about the specialty pharmacy delivery window."}
+      ]
+    },
+    {
+      "member_id": "HBR-23107",
+      "name": "Grace T.",
+      "date_of_birth": "1949-11-02",
+      "coverage_stage": "Initial coverage",
+      "oop_spent": 640,
+      "drug_deductible_met": false,
+      "drug_ids": ["lisinopril", "atorvastatin", "sertraline"],
+      "claims": [
+        {"date": "2026-09-28", "provider_type": "Pharmacy", "amount_billed": 15, "plan_paid": 15, "member_paid": 0, "status": "Paid"},
+        {"date": "2026-07-19", "provider_type": "Primary care", "amount_billed": 160, "plan_paid": 160, "member_paid": 0, "status": "Paid"},
+        {"date": "2026-05-11", "provider_type": "Urgent care", "amount_billed": 210, "plan_paid": 165, "member_paid": 45, "status": "Paid"}
+      ],
+      "recent_contacts": [
+        {"date": "2026-10-16", "channel": "Phone", "summary": "Asked for a 90-day mail order of lisinopril on the first fill."},
+        {"date": "2026-09-03", "channel": "Website", "summary": "Looked up mail order for a maintenance drug."},
+        {"date": "2026-06-22", "channel": "Phone", "summary": "Asked how many retail fills are needed before mail order."}
+      ]
+    },
+    {
+      "member_id": "HBR-24055",
+      "name": "Ken W.",
+      "date_of_birth": "1954-01-19",
+      "coverage_stage": "Initial coverage",
+      "oop_spent": 980,
+      "drug_deductible_met": false,
+      "drug_ids": ["apixaban", "sertraline"],
+      "claims": [
+        {"date": "2026-10-22", "provider_type": "Pharmacy", "amount_billed": 47, "plan_paid": 0, "member_paid": 47, "status": "Pending"},
+        {"date": "2026-08-30", "provider_type": "Specialist", "amount_billed": 310, "plan_paid": 275, "member_paid": 35, "status": "Paid"},
+        {"date": "2026-04-16", "provider_type": "Primary care", "amount_billed": 140, "plan_paid": 140, "member_paid": 0, "status": "Paid"}
+      ],
+      "recent_contacts": [
+        {"date": "2026-10-30", "channel": "Phone", "summary": "Asked how long a Part D prior authorization decision takes."},
+        {"date": "2026-10-11", "channel": "Chat", "summary": "Asked for the status of a prior authorization."},
+        {"date": "2026-08-19", "channel": "Phone", "summary": "Asked which drugs on the list need a prior authorization."}
+      ]
+    },
+    {
+      "member_id": "HBR-25112",
+      "name": "Maria S.",
+      "date_of_birth": "1946-05-30",
+      "coverage_stage": "Initial coverage",
+      "oop_spent": 1540,
+      "drug_deductible_met": true,
+      "drug_ids": ["lisinopril", "atorvastatin", "metformin"],
+      "claims": [
+        {"date": "2026-10-12", "provider_type": "Specialist", "amount_billed": 420, "plan_paid": 385, "member_paid": 35, "status": "Paid"},
+        {"date": "2026-08-01", "provider_type": "Primary care", "amount_billed": 175, "plan_paid": 175, "member_paid": 0, "status": "Paid"},
+        {"date": "2026-05-20", "provider_type": "Laboratory", "amount_billed": 88, "plan_paid": 88, "member_paid": 0, "status": "Paid"}
+      ],
+      "recent_contacts": [
+        {"date": "2026-10-25", "channel": "Phone", "summary": "Asked what a cardiology visit will cost and whether a referral is required."},
+        {"date": "2026-09-08", "channel": "Chat", "summary": "Asked how to request a specialist referral."},
+        {"date": "2026-07-29", "channel": "Phone", "summary": "Asked for the in-network specialist copay."}
+      ]
+    },
+    {
+      "member_id": "HBR-26390",
+      "name": "Robert A.",
+      "date_of_birth": "1944-12-08",
+      "coverage_stage": "Initial coverage",
+      "oop_spent": 3920,
+      "drug_deductible_met": true,
+      "drug_ids": ["metformin", "insulin-glargine"],
+      "claims": [
+        {"date": "2026-09-25", "provider_type": "Emergency", "amount_billed": 2400, "plan_paid": 2290, "member_paid": 110, "status": "Paid"},
+        {"date": "2026-07-07", "provider_type": "Specialist", "amount_billed": 360, "plan_paid": 325, "member_paid": 35, "status": "Paid"},
+        {"date": "2026-03-18", "provider_type": "Primary care", "amount_billed": 155, "plan_paid": 155, "member_paid": 0, "status": "Paid"}
+      ],
+      "recent_contacts": [
+        {"date": "2026-10-18", "channel": "Phone", "summary": "Asked for this year's maximum out-of-pocket amount."},
+        {"date": "2026-09-20", "channel": "Website", "summary": "Checked how much of the out-of-pocket maximum is already met."},
+        {"date": "2026-06-11", "channel": "Phone", "summary": "Asked which costs count toward the out-of-pocket maximum."}
+      ]
+    },
+    {
+      "member_id": "HBR-27004",
+      "name": "Ann P.",
+      "date_of_birth": "1956-09-27",
+      "coverage_stage": "Initial coverage",
+      "oop_spent": 2100,
+      "drug_deductible_met": true,
+      "drug_ids": ["adalimumab", "lisinopril"],
+      "claims": [
+        {"date": "2026-10-05", "provider_type": "Specialty pharmacy", "amount_billed": 1900, "plan_paid": 1288, "member_paid": 612, "status": "Paid"},
+        {"date": "2026-06-28", "provider_type": "Primary care", "amount_billed": 165, "plan_paid": 165, "member_paid": 0, "status": "Paid"},
+        {"date": "2026-04-09", "provider_type": "Urgent care", "amount_billed": 190, "plan_paid": 145, "member_paid": 45, "status": "Paid"}
+      ],
+      "recent_contacts": [
+        {"date": "2026-10-27", "channel": "Phone", "summary": "Transferred from the main line with a specialty pharmacy question."},
+        {"date": "2026-09-15", "channel": "Chat", "summary": "Asked whether adalimumab can be filled at a retail pharmacy."},
+        {"date": "2026-08-06", "channel": "Phone", "summary": "Asked for the specialty pharmacy phone number."}
+      ]
+    }
+  ]
+}

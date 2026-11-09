@@ -1,0 +1,42 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:19:06-05:00",
+  "input_sha256": "f46ff4fc5b6c3d4c6dc30b11fee2b139f85bbd323283131915da8eb8d7c1ea2c",
+  "input_ref": "gaps:G10",
+  "output": {
+    "title": "Can a caregiver who is not an authorized caller set up a callback?",
+    "type": "faq",
+    "draft_text": "Q: Can a caregiver who is not authorized set up a callback?\n\nA: Yes, but only a callback. A caregiver who is not listed as an authorized caller may set a callback time only. The approved source does not permit any other action for this caller.\n\nWhat to do:\n1. Confirm whether the caregiver is listed as an authorized caller by [method or system used to verify authorized callers].\n2. If the caregiver is not listed, explain that you can schedule a callback but cannot [actions or information that are restricted for unauthorized callers].\n3. Collect only [information the advocate may collect from the caregiver to schedule the callback, for example callback phone number and preferred time].\n4. Schedule the callback within [allowed callback window or scheduling rules] and document it in [system or field where callback requests are recorded].\n5. If the caregiver asks how to become an authorized caller, explain [process for adding an authorized caller].\n6. The callback will be placed to [who receives the callback, for example the member or the caregiver's number] by [team or role responsible for the callback].",
+    "placeholders": [
+      "[method or system used to verify authorized callers]",
+      "[actions or information that are restricted for unauthorized callers]",
+      "[information the advocate may collect from the caregiver to schedule the callback, for example callback phone number and preferred time]",
+      "[allowed callback window or scheduling rules]",
+      "[system or field where callback requests are recorded]",
+      "[process for adding an authorized caller]",
+      "[who receives the callback, for example the member or the caregiver's number]",
+      "[team or role responsible for the callback]"
+    ],
+    "author_checklist": [
+      "Confirm the core rule matches U-KNOWN-FACT: an unauthorized caregiver may set a callback time only.",
+      "Confirm that 'callback time only' means no other account, prescription, or member information may be shared or changed for this caller.",
+      "Confirm how advocates verify whether a caller is listed as authorized.",
+      "Confirm what details the advocate may collect from an unauthorized caregiver to schedule the callback.",
+      "Confirm who the callback is placed to and which team or role places it.",
+      "Confirm any callback scheduling window or limits.",
+      "Confirm where the callback request must be documented.",
+      "Confirm the process for adding a caregiver as an authorized caller, or remove step 5 if out of scope.",
+      "Confirm this unit applies to the pharmacy line and whether it should also be shared with other lines of business.",
+      "Remove any placeholder steps that do not apply before approval."
+    ],
+    "suggested_kb": "pharmacy"
+  },
+  "response_id": "msg_011Cgm2k4mHmokdhtJXpYv4m",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 666,
+    "output_tokens": 1151
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

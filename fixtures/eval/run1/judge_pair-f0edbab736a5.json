@@ -1,0 +1,41 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:05-05:00",
+  "input_sha256": "f0edbab736a53a1b3df9eb782f633fcfa8c89fc7fb9245d0f1c573bbf42e9b52",
+  "input_ref": "duplicates:T01",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "The figure I give",
+        "b": "The price I quote"
+      },
+      {
+        "a": "taken from the plan records",
+        "b": "based on the plan records"
+      },
+      {
+        "a": "What the member pays can change",
+        "b": "Your actual cost can change"
+      },
+      {
+        "a": "the stage of coverage",
+        "b": "your stage of coverage"
+      },
+      {
+        "a": "The estimate is not a guarantee",
+        "b": "This estimate is not a guarantee"
+      }
+    ],
+    "reason": "Both state the same 30-day preferred retail estimate, the same variables that can change cost, and the same no-guarantee disclaimer; only the phrasing and voice differ (third-person member versus second-person you), and the audience is the same member.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011Cgkzr6B4DNECasQaF2y1k",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 845,
+    "output_tokens": 242
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

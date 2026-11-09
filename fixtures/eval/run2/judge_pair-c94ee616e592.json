@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:54:34-05:00",
+  "input_sha256": "c94ee616e592ca0f44992102a70fa949ed35fc899a6c60c1e69be7544a7fa33f",
+  "input_ref": "duplicates:T03",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "Confirm the caller's identity with two identifiers chosen from",
+        "b": "Verify the member with two of these:"
+      },
+      {
+        "a": "the member ID, the date of birth, and the address on file",
+        "b": "member ID, date of birth, or the address on file"
+      }
+    ],
+    "reason": "Both require two identifiers from the same three options (member ID, date of birth, address on file) to verify identity, differing only in wording.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CgkztSCdGKRoJ3b4ca4A9",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 727,
+    "output_tokens": 160
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

@@ -1,0 +1,19 @@
+{
+  "task": "propose_drift_fix",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:18:37-05:00",
+  "input_sha256": "e3b218702ea28e70375a3c9c87bd10e6c67d3e8789862bc393687a3563952f75",
+  "input_ref": "drift:DR05",
+  "output": {
+    "change": "cosmetic",
+    "summary": "The only edit is a hyphen added to \"primary care\", making it \"primary-care\". This is punctuation only. The referral requirement, plan type, and timing condition are all unchanged, so the unit text stays as approved.",
+    "proposed_text": "A specialist visit on a Harbor Medicare Advantage HMO needs a referral from the primary care doctor on file before the visit."
+  },
+  "response_id": "msg_011Cgm2ikK1aSiKYavme418s",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 540,
+    "output_tokens": 140
+  },
+  "prompt_sha256": "2f9df60cc0e6fec91a1c2188cea84dd12fab90d654878f42c59204a09456ef9c"
+}

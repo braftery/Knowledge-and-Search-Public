@@ -1,0 +1,11 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:15:45-05:00",
+  "input_sha256": "841ed5fd34905c0fa5fd9503ae41e8a148984290c1c0a7c9f5690bed694b83a2",
+  "input_ref": "Pharmacy advocate: whats the rx pricing disclamer i have to read",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "Two approved units give the pricing disclaimer with different wording: U-RX-EDU-001-09 says 'based on' and 'Your actual cost', while U-RX-EDU-002-07 says 'using' and 'What you pay'. U-RX-EDU-001-08 requires reading the disclaimer word for word, so picking one version would be a guess. The conflict should go to the content owner to confirm the single authoritative text."
+  }
+}

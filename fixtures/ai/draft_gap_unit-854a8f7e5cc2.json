@@ -1,0 +1,45 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T12:18:41-05:00",
+  "input_sha256": "854a8f7e5cc2fabdde0816878296e733b2c8b13b6f80d7867476118d61355092",
+  "input_ref": "c6",
+  "output": {
+    "title": "Maximum out-of-pocket (MOOP) amount on a Medicare Advantage plan",
+    "type": "faq",
+    "draft_text": "Question: What is the MOOP on this Medicare Advantage plan?\n\nAnswer (may be said in your own words):\nThe maximum out-of-pocket amount, or MOOP, is the most you would pay in a plan year for [types of covered services that count toward the MOOP]. For your plan, [plan name], the in-network MOOP for [plan year] is [in-network MOOP amount]. [If applicable: The combined in-network and out-of-network MOOP is [combined MOOP amount].]\n\nCosts that count toward the MOOP include [list of cost types that count, for example copays, coinsurance, deductibles]. Costs that do not count include [list of cost types that do not count, including premiums if applicable]. Prescription drug costs [do / do not] count toward this MOOP: [explanation of how Part D drug costs relate to the MOOP].\n\nOnce you reach the MOOP, [what the member pays for covered services for the rest of the plan year].\n\nSo far this plan year, you have [amount applied toward MOOP] applied toward your MOOP, based on the plan records I can see today. [Note on how current the accumulator information is, for example claims processing lag.]\n\nYou can also find your MOOP in your [document name, for example Evidence of Coverage or Summary of Benefits], [section or page reference], or by [other member self-service option].\n\nAdvocate notes:\n- Look up the member's MOOP and year-to-date amount in [system or screen name].\n- If you are a Pharmacy advocate and cannot view medical accumulators, [routing or warm transfer instructions, including queue or phone number].\n- If the member asks whether a specific drug cost counts toward the MOOP, [approved response or routing].",
+    "placeholders": [
+      "[types of covered services that count toward the MOOP]",
+      "[plan name]",
+      "[plan year]",
+      "[in-network MOOP amount]",
+      "[combined MOOP amount]",
+      "[list of cost types that count, for example copays, coinsurance, deductibles]",
+      "[list of cost types that do not count, including premiums if applicable]",
+      "[do / do not]",
+      "[explanation of how Part D drug costs relate to the MOOP]",
+      "[what the member pays for covered services for the rest of the plan year]",
+      "[amount applied toward MOOP]",
+      "[note on how current the accumulator information is, for example claims processing lag]",
+      "[document name, for example Evidence of Coverage or Summary of Benefits]",
+      "[section or page reference]",
+      "[other member self-service option]",
+      "[system or screen name]",
+      "[routing or warm transfer instructions, including queue or phone number]",
+      "[approved response or routing]"
+    ],
+    "author_checklist": [
+      "Confirm whether the MOOP amount varies by plan or product and how advocates locate the correct amount for the member's specific plan.",
+      "Confirm the in-network MOOP and, for plans with out-of-network coverage, the combined MOOP for the current plan year.",
+      "Confirm which cost types count and do not count toward the MOOP.",
+      "Confirm how prescription drug (Part D) costs relate to the MOOP and approve the exact wording for Pharmacy advocates.",
+      "Confirm what the member pays after the MOOP is reached.",
+      "Confirm the system or screen where advocates can see the MOOP and year-to-date accumulator, and whether Pharmacy advocates have access.",
+      "Confirm the routing or transfer process when a Pharmacy advocate cannot answer MOOP questions.",
+      "Confirm whether a disclaimer about accumulator timing or accuracy is required, similar to the pricing estimate disclaimer (U-RX-EDU-001-09), and obtain Legal review if needed.",
+      "Confirm the member-facing document name and section where the MOOP is published.",
+      "Confirm whether this unit should be shared with the pharmacy knowledge base, since both Pharmacy and Insurance advocates asked this question."
+    ],
+    "suggested_kb": "benefits"
+  }
+}

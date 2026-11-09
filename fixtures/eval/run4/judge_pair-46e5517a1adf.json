@@ -1,0 +1,29 @@
+{
+  "task": "judge_pair",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T22:55:23-05:00",
+  "input_sha256": "46e5517a1adf583cb6cc93008a32eee7caae69e9695a627de19e98d889642770",
+  "input_ref": "duplicates:T05",
+  "output": {
+    "relation": "near_duplicate",
+    "differing_phrases": [
+      {
+        "a": "Offer a 90-day mail-order supply for a maintenance drug only after",
+        "b": "For a maintenance drug, offer a 90-day mail-order supply only after"
+      },
+      {
+        "a": "that drug has been filled at a retail pharmacy",
+        "b": "the member has filled that same drug at a retail pharmacy"
+      }
+    ],
+    "reason": "Both set the same rule: a 90-day mail-order supply for a maintenance drug is offered only after two retail fills of that drug in the current calendar year; B only reorders the sentence and names the member explicitly where A uses the passive voice.",
+    "confidence": "high"
+  },
+  "response_id": "msg_011CgkzwuZkaYqhLRWdrjoci",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 767,
+    "output_tokens": 320
+  },
+  "prompt_sha256": "9e5a384a8f39bb537f0a78e654778f2120775a1e9276d89cd75851965f1616f8"
+}

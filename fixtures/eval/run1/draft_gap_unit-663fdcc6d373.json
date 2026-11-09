@@ -1,0 +1,46 @@
+{
+  "task": "draft_gap_unit",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:14:16-05:00",
+  "input_sha256": "663fdcc6d373c99603a48384f86b1bfcbf5e4d01b347ebd131e8d7d6495ed047",
+  "input_ref": "gaps:G05",
+  "output": {
+    "title": "Expected Wait Time for a Member Callback",
+    "type": "faq",
+    "draft_text": "Q: How long does a member usually wait for a callback?\n\nA: After a callback is requested, a member can typically expect to hear back within [standard callback timeframe, e.g., number of business hours or business days]. Callbacks are made during [callback hours of operation and time zone].\n\nTimeframes may differ depending on [factors affecting callback time, e.g., request type, department handling the request, urgent vs. non-urgent status, call volume]. For [urgent or time-sensitive request types], the expected callback time is [urgent callback timeframe].\n\nWhen setting expectations with the member:\n- Confirm the best phone number and preferred time to reach them.\n- Tell them the expected callback window: [standard callback timeframe].\n- Let them know how many attempts will be made: [number of callback attempts] and whether a voicemail will be left: [voicemail practice].\n\nIf the member has not received a callback within [escalation threshold timeframe], advise them to [next step, e.g., call back at the main number / ask for a supervisor / reference their case number], or escalate through [escalation path or team].\n\nIf the member's issue involves a deadline (for example, [examples of deadline-sensitive issues]), [instruction for handling deadline-sensitive callbacks].",
+    "placeholders": [
+      "[standard callback timeframe, e.g., number of business hours or business days]",
+      "[callback hours of operation and time zone]",
+      "[factors affecting callback time, e.g., request type, department handling the request, urgent vs. non-urgent status, call volume]",
+      "[urgent or time-sensitive request types]",
+      "[urgent callback timeframe]",
+      "[number of callback attempts]",
+      "[voicemail practice]",
+      "[escalation threshold timeframe]",
+      "[next step, e.g., call back at the main number / ask for a supervisor / reference their case number]",
+      "[escalation path or team]",
+      "[examples of deadline-sensitive issues]",
+      "[instruction for handling deadline-sensitive callbacks]"
+    ],
+    "author_checklist": [
+      "Confirm the official standard callback timeframe, and whether it is measured in business hours, business days, or calendar days.",
+      "Confirm the callback hours of operation and the time zone used.",
+      "Confirm whether callback timeframes differ by request type, department, or urgency, and list any such differences.",
+      "Confirm whether an expedited or urgent callback timeframe exists and which request types qualify.",
+      "Confirm how many callback attempts are made and whether voicemails are left, including any privacy restrictions on voicemail content.",
+      "Confirm the escalation threshold and the correct escalation path if a callback is missed.",
+      "Confirm how deadline-sensitive issues should be handled while a member waits for a callback.",
+      "Verify that any stated timeframes match contractual, regulatory, or service-level commitments, and that they are not presented as guarantees unless they are guaranteed.",
+      "Determine the correct knowledge base for this unit, since it may apply to member services broadly rather than only to benefits, and identify the owning team.",
+      "Remove any sections or placeholders that do not apply before approval."
+    ],
+    "suggested_kb": "benefits"
+  },
+  "response_id": "msg_011Cgm2Nxf7EVyt1Xi3Shjnk",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 614,
+    "output_tokens": 1032
+  },
+  "prompt_sha256": "f6b99fe9c797797b340826fe1c7400ce22714a4ee02105912bd90ff4e1d79bc8"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "assess_sufficiency",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-05T23:17:59-05:00",
+  "input_sha256": "28ad37bcc48028b79b6eaa7c73b2259245accf3351e098151f58c503ecbd8440",
+  "input_ref": "search:Q05",
+  "output": {
+    "answer_unit_id": null,
+    "reason": "No single unit fully answers the question. E-SOP-08 says to read the specialty cost wording word for word before giving any dollar amount, but it does not give that wording. E-SOP-09 gives specialty cost wording, but it does not say it must be read before quoting, so answering would mean combining the two. E-SOP-10, from the same SOP, gives conflicting wording for a 30-day retail supply, so it is unclear which wording is required. This should go to a content owner to resolve. Also, more than the expected three units were supplied."
+  },
+  "response_id": "msg_011Cgm2fafVekKgky5GVrryL",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2110,
+    "output_tokens": 729
+  },
+  "prompt_sha256": "dd85eabce05bc26f30d6c8fe78b6690c44fded7f09e83448e4ce3d6c76b73ca2"
+}
